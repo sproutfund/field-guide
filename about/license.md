@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Creative Commons License
+subtitle:
 description:
 section: about
 toc: true

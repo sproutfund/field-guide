@@ -1,8 +1,9 @@
 ---
 layout: voices-from-the-field
 title: Christine Marty
-description: Local Government Connecting Local Strengths
+subtitle: Local Government Connecting Local Strengths
 toc: true
+description:
 section: community-building
 group: voices-from-the-field
 status: <span class="badge badge-success">final draft</span>

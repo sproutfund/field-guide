@@ -1,7 +1,8 @@
 ---
 layout: docs
 title: Program Launch & Public Announcement
-description: Opportunity announcement strategies, templates, and instructions for getting the word out about the funding program.
+subtitle: Opportunity announcement strategies, templates, and instructions for getting the word out about the funding program.
+description:
 section: catalytic-funding
 group: cultivating-applicants
 toc: true

@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Final Thoughts
+subtitle:
 description:
 section: conclusion
 toc: true

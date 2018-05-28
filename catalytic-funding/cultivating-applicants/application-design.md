@@ -1,7 +1,8 @@
 ---
 layout: docs
 title: Application Design
-description: Developing the best set of application materials based on the program goals and submission method.
+subtitle: Developing the best set of application materials based on the program goals and submission method.
+description:
 section: catalytic-funding
 group: cultivating-applicants
 redirect_from: /catalytic-funding/cultivating-applicants/

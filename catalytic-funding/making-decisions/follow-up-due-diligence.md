@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Finalist Follow-Up & Due Diligence
+subtitle:
 description:
 section: catalytic-funding
 group: making-decisions

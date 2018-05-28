@@ -1,6 +1,8 @@
 ---
 layout: docs
 title: Old CBFG Resources List
+subtitle:
+
 description:
 section: resources
 toc: true

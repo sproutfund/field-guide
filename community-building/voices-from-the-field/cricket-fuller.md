@@ -1,8 +1,9 @@
 ---
 layout: voices-from-the-field
 title: Cricket Fuller
-description: Clusters, Not Silos
+subtitle: Clusters, Not Silos
 toc: true
+description:
 section: community-building
 group: voices-from-the-field
 status: <span class="badge badge-success">final draft</span>

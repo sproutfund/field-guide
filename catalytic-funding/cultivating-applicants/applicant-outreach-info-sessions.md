@@ -1,7 +1,8 @@
 ---
 layout: docs
 title: Applicant Outreach & Info Sessions
-description: Outreach strategies to help communicate the program goals and share application materials.
+subtitle: Outreach strategies to help communicate the program goals and share application materials.
+description:
 section: catalytic-funding
 group: cultivating-applicants
 toc: true

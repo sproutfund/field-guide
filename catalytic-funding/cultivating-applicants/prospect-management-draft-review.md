@@ -1,7 +1,8 @@
 ---
 layout: docs
 title: Prospect Management & Draft Review
-description: Individual support strategies and skills to learn to better manage prospective applicants.
+subtitle: Individual support strategies and skills to learn to better manage prospective applicants.
+description:
 section: catalytic-funding
 group: cultivating-applicants
 toc: true

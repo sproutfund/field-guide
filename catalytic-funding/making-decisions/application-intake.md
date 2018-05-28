@@ -1,7 +1,8 @@
 ---
 layout: docs
 title: Application Intake
-description: Process for handling applications, after the deadline but before sending them for review.
+subtitle: Process for handling applications, after the deadline but before sending them for review.
+description:
 section: catalytic-funding
 group: making-decisions
 toc: true

@@ -1,7 +1,8 @@
 ---
 layout: docs
 title: Decisionmaker Recruitment
-description: Seat a committee of reviewers that represent the community and the audiences served by the funding program.
+subtitle: Seat a committee of reviewers that represent the community and the audiences served by the funding program.
+description:
 section: catalytic-funding
 group: making-decisions
 redirect_from: /catalytic-funding/making-decisions/

@@ -1,8 +1,9 @@
 ---
 layout: voices-from-the-field
 title: Adam Kenney
-description: Crafting Businesses and Supporting Makers
+subtitle: Crafting Businesses and Supporting Makers
 toc: true
+description:
 section: community-building
 group: voices-from-the-field
 status: <span class="badge badge-success">final draft</span>

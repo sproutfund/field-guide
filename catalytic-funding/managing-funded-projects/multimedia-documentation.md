@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Multimedia Documentation
+subtitle:
 description:
 section: catalytic-funding
 group: managing-funded-projects

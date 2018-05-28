@@ -1,9 +1,11 @@
 ---
 layout: experiences
-experience: Recruitment
-title: "👋 Recruitment: I want to recruit participants"
-description: "Gather new participants and audiences."
+icon: 👋
+title: "Recruitment: I want to recruit participants"
+subtitle: "Gather new participants and audiences."
+description:
 section: community-building
 group: experiences
+experience: Recruitment
 toc: true
 ---

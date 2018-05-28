@@ -1,7 +1,8 @@
 ---
-layout: docs
+layout: home
 title: Field Guide for Philanthropy & Civic Action
-description: Ideas and resources to seed innovation, make community-advised decisions, host participatory events, communicate effectively, and catalyze local change.
+subtitle: Ideas and resources to seed innovation, make community-advised decisions, host participatory events, communicate effectively, and catalyze local change.
+description:
 toc: true
 status: <span class="badge badge-danger">in development</span>
 ---
@@ -25,11 +26,7 @@ status: <span class="badge badge-danger">in development</span>
 
 #### [Program Design](/catalytic-funding/planning-preparing/program-design/)
 
-Take the time to develop a project understanding and approach before you dive into designing a new funding program. This will allow the key components of the program to be developed in a strategic way that informs the entire process. You’ll also consider any likely barriers to success before you encounter them during your implementation.
-
 #### [Fundraising](/catalytic-funding/planning-preparing/fundraising/)
-
-It is hard to know how much time and money to invest in program development before securing support. It's important to understand the program's fundraising potential before you commit to it. Fundraising always takes longer than you would like. Make certain to allow adequate time to raise money.
 
 ### Cultivating Applicants
 

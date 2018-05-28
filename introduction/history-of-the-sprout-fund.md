@@ -1,7 +1,8 @@
 ---
 layout: docs
 title: History of The Sprout Fund
-description: For nearly two decades, Sprout’s partnerships with regional and national foundations helped power Pittsburgh’s grassroots response to a wide range of social, environmental, and economic challenges.
+subtitle: For nearly two decades, Sprout’s partnerships with regional and national foundations helped power Pittsburgh’s grassroots response to a wide range of social, environmental, and economic challenges.
+description:
 section: introduction
 toc: true
 status: <span class="badge badge-success">final draft</span>

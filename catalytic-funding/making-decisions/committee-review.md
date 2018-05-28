@@ -1,7 +1,8 @@
 ---
 layout: docs
 title: Committee Review
-description: An overview of a standard committee-based review process along with suggestions for alternate ways to review funding applications.
+subtitle: An overview of a standard committee-based review process along with suggestions for alternate ways to review funding applications.
+description:
 section: catalytic-funding
 group: making-decisions
 toc: true

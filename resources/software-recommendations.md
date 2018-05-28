@@ -1,6 +1,8 @@
 ---
 layout: docs
 title: Software Recommendations
+subtitle:
+
 description:
 section: resources
 toc: true

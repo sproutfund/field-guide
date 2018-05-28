@@ -43,7 +43,7 @@
         <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 d-print-block col-print-12 px-print-0 py-print-0 bd-content" role="main">
           {% include docs/header_print.html %}
           <h1 class="bd-title" id="content">{{ page.title | smartify }}</h1>
-          <p class="bd-lead">{{ page.description | smartify }}</p>
+          <p class="bd-lead">{{ page.subtitle | smartify }}</p>
           {{ templates-downloads }}
         </main>
       </div>

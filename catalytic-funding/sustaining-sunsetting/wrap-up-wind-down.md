@@ -1,7 +1,8 @@
 ---
 layout: docs
 title: Wrap-up & Wind-down
-description: Steps to take when a funding program will no longer be available.
+subtitle: Steps to take when a funding program will no longer be available.
+description:
 section: catalytic-funding
 group: sustaining-sunsetting
 toc: true

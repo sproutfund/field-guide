@@ -1,7 +1,8 @@
 ---
 layout: docs
 title: Fundraising
-description: Raise the financial support to fully execute the funding program and related organizational expenses.
+subtitle: Raise the financial support to fully execute the funding program and related organizational expenses.
+description: "It is hard to know how much time and money to invest in program development before securing support. It's important to understand the program's fundraising potential before you commit to it. Fundraising always takes longer than you would like. Make certain to allow adequate time to raise money."
 section: catalytic-funding
 group: planning-preparing
 toc: true

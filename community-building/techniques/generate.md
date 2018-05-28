@@ -1,6 +1,7 @@
 ---
 layout: techniques
 title: Techniques to Generate
+subtitle:
 description:
 section: community-building
 group: techniques

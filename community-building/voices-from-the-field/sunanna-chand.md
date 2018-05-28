@@ -1,8 +1,9 @@
 ---
 layout: voices-from-the-field
 title: Sunanna Chand
-description: Engaging, Relevant, and Equitable Learning
+subtitle: Engaging, Relevant, and Equitable Learning
 toc: true
+description:
 section: community-building
 group: voices-from-the-field
 status: <span class="badge badge-success">final draft</span>

@@ -1,7 +1,8 @@
 ---
 layout: docs
 title: Denied Applicant Feedback
-description: Ways to provide suggestions to strengthen the proposal, despite it not being recommended for funding.
+subtitle: Ways to provide suggestions to strengthen the proposal, despite it not being recommended for funding.
+description:
 section: catalytic-funding
 group: making-decisions
 toc: true

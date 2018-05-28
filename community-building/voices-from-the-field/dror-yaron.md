@@ -1,8 +1,9 @@
 ---
 layout: voices-from-the-field
 title: Dror Yaron
-description: Sustained Relationships in Educational Technology
+subtitle: Sustained Relationships in Educational Technology
 toc: true
+description:
 section: community-building
 group: voices-from-the-field
 status: <span class="badge badge-success">final draft</span>

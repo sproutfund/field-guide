@@ -1,7 +1,8 @@
 ---
 layout: docs
 title: Meeting Facilitation
-description: How to use a meeting to build consensus around funding recommendations.
+subtitle: How to use a meeting to build consensus around funding recommendations.
+description:
 section: catalytic-funding
 group: making-decisions
 toc: true

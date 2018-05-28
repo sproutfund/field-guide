@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Funder Reporting
+subtitle:
 description:
 section: catalytic-funding
 group: sustaining-sunsetting

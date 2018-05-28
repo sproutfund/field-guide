@@ -1,9 +1,11 @@
 ---
 layout: experiences
-experience: Kick-Off
-title: "🏈 Kick-Off: I want to announce a new initiative"
-description: "Announce a new campaign."
+icon: 🏈
+title: "Kick-Off: I want to announce a new initiative"
+subtitle: "Announce a new campaign."
+description:
 section: community-building
 group: experiences
+experience: Kick-Off
 toc: true
 ---

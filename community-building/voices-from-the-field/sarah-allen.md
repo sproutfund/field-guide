@@ -1,8 +1,9 @@
 ---
 layout: voices-from-the-field
 title: Sarah Allen
-description: Across the Pond, A Festival of the Open Internet
+subtitle: Across the Pond, A Festival of the Open Internet
 toc: true
+description:
 section: community-building
 group: voices-from-the-field
 status: <span class="badge badge-success">final draft</span>

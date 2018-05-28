@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Credits & Acknowledgements
+subtitle:
 description:
 section: about
 redirect_from: /about/

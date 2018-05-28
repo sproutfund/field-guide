@@ -1,8 +1,9 @@
 ---
 layout: voices-from-the-field
 title: Nathan Darity
-description: Empowering Global Citizens
+subtitle: Empowering Global Citizens
 toc: true
+description:
 section: community-building
 group: voices-from-the-field
 status: <span class="badge badge-success">final draft</span>

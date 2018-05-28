@@ -1,7 +1,8 @@
 ---
 layout: docs
 title: Foreword
-description: Communities are better places to live, learn, and thrive because of the people and ideas supported by The Sprout Fund.
+subtitle: Communities are better places to live, learn, and thrive because of the people and ideas supported by The Sprout Fund.
+description:
 section: introduction
 redirect_from: /introduction/
 toc: false

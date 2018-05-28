@@ -1,7 +1,8 @@
 ---
 layout: docs
 title: Grant Initiation & Project Planning
-description: Steps to take before sending the check.
+subtitle: Steps to take before sending the check.
+description:
 section: catalytic-funding
 group: managing-funded-projects
 redirect_from: /catalytic-funding/managing-funded-projects/
