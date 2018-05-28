@@ -24,7 +24,7 @@
               <ul class="list-group">
                 {%- assign technique_group_techniques = site.data.community-building-techniques | where:"purpose",technique_group -%}
                 {%- for technique in technique_group_techniques -%}
-                  <a class="list-group-item list-group-item-action" href="/field-guide/techniques/{{ technique_group }}/#{{ technique.technique | slugify }}">
+                  <a class="list-group-item list-group-item-action" href="/community-building/techniques/{{ technique_group }}#{{ technique.technique | slugify }}">
                     <h3 class="h5 mb-1">{{ technique.technique | smartify }}</h5>
                     <p class="mb-0">{{ technique.tagline | smartify }}</p>
                   </a>
@@ -42,7 +42,7 @@
                   {%- for companion in technique.companions -%}
                     {%- assign technique_details = site.data.community-building-techniques | where:"technique",companion -%}
                     {%- for technique_detail in technique_details -%}
-                      <a href="/field-guide/techniques/{{ technique_detail.purpose }}/#{{ technique_detail.technique | slugify }}">{{ technique_detail.technique | smartify }}</a>,
+                      <a href="/community-building/techniques/{{ technique_detail.purpose }}#{{ technique_detail.technique | slugify }}">{{ technique_detail.technique | smartify }}</a>,
                     {%- endfor -%}
                   {%- endfor -%}
                 {%- endcapture -%}
@@ -51,7 +51,7 @@
               {%- if technique.experiences -%}
                 {%- capture technique_experiences_links -%}
                   {%- for experience in technique.experiences -%}
-                    <a href="/field-guide/experiences/{{ experience | slugify }}/">{{ experience | smartify }}</a>,
+                    <a href="/community-building/experiences/{{ experience | slugify }}/">{{ experience | smartify }}</a>,
                   {%- endfor -%}
                 {%- endcapture -%}
                 <p><strong>Related Experiences</strong>: {{ technique_experiences_links | split: ',' | array_to_sentence_string: ''  }}</p>

@@ -20,7 +20,7 @@
           {%- if page_slug == 'experiences' -%}
             <ul class="list-group">
               {%- for experience in site.data.community-building-experiences -%}
-                <a class="list-group-item list-group-item-action" href="/field-guide/experiences/{{ experience.experience | slugify }}/">
+                <a class="list-group-item list-group-item-action" href="/community-building/experiences/{{ experience.experience | slugify }}/">
                   <h3 class="h5 mb-1">{{ experience.experience | smartify }}</h5>
                   <p class="mb-0">{{ experience.tagline | smartify }}</p>
                 </a>
@@ -54,7 +54,7 @@
               {%- if experience.companions -%}
                 {%- capture experience_companions_links -%}
                   {%- for companion in experience.companions -%}
-                    <a href="/field-guide/experiences/{{ companion | slugify }}/">{{ companion | smartify }}</a>,
+                    <a href="/community-building/experiences/{{ companion | slugify }}/">{{ companion | smartify }}</a>,
                   {%- endfor -%}
                 {%- endcapture -%}
                 <p><strong>Related Experiences</strong>: {{ experience_companions_links | split: ',' | array_to_sentence_string: ''  }}</p>
@@ -63,7 +63,7 @@
                 {%- assign techniques_sorted = site.data.community-building-techniques | sort: 'technique' -%}
                 {%- for technique in techniques_sorted -%}
                   {%- if technique.experiences contains experience.experience -%}
-                    <a href="/field-guide/techniques/{{ technique.purpose | slugify }}/#{{ technique.technique | slugify }}">{{ technique.technique | smartify }}</a>,
+                    <a href="/community-building/techniques/{{ technique.purpose | slugify }}/#{{ technique.technique | slugify }}">{{ technique.technique | smartify }}</a>,
                   {%- endif -%}
                 {%- endfor -%}
               {%- endcapture -%}
