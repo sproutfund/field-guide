@@ -14,7 +14,7 @@
 
     <div class="container-fluid">
       <div class="row flex-xl-nowrap">
-        <div class="col-12 col-md-3 col-xl-2 bd-sidebar d-print-none">
+        <div class="{{ site.css_sidebar }}">
           {% include sidebar.html %}
         </div>
 
@@ -81,12 +81,12 @@
         {%- endcapture -%}
 
         {% if page.toc %}
-          <div class="d-none d-xl-block col-xl-2 bd-toc d-print-none">
+          <div class="{{ site.css_toc }}">
             {% include toc.html html=related-external-links class="section-nav" item_class="toc-entry toc-h%level%" %}
           </div>
         {% endif %}
 
-        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 d-print-block col-print-12 px-print-0 py-print-0 bd-content" role="main">
+        <main id="content" class="{{ site.css_main }}" role="main">
           {% include docs/header_print.html %}
           <h1 class="bd-title" id="content">{{ page.title | smartify }}</h1>
           <p class="bd-lead">{{ page.subtitle | smartify }}</p>
