@@ -1,3 +1,4 @@
 ---
 layout: test
+sitemap: false
 ---
