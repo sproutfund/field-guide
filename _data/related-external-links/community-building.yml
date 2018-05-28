@@ -1,0 +1,74 @@
+# page-slug:
+# - title: title of the webpage/external resource *required*
+#   description: additional descriptive text
+#   source: short source name
+#   url: URL *required*
+
+# don't use any colons without quoting text!
+
+what-is-community-building:
+
+- title: "101 Design Methods"
+  description:
+  source:
+  url: "http://www.101designmethods.com"
+
+- title: "18F"
+  description:
+  source:
+  url: "https://18f.gsa.gov"
+
+- title: "AtlassianTeam Playbook"
+  description:
+  source:
+  url: "https://www.atlassian.com/team-playbook"
+
+- title: "Atomic Object’s Design Thinking Toolkit"
+  description:
+  source:
+  url: "https://spin.atomicobject.com/2017/05/18/what-is-design-thinking/"
+
+- title: "Circular Design Guide"
+  description:
+  source:
+  url: "https://www.circulardesignguide.com/"
+
+- title: "CreativeMornings Skills"
+  description:
+  source:
+  url: "https://creativemornings.com/skills"
+
+- title: "The Field Guide to Human-Centered Design"
+  description:
+  source: "IDEO.org"
+  url: "http://www.designkit.org/resources/1"
+
+- title: "Gamestorming"
+  description:
+  source:
+  url: "http://gamestorming.com"
+
+- title: "IDEO Design Kit"
+  description:
+  source:
+  url: "https://www.designkit.org"
+
+- title: "Improv Wiki"
+  description:
+  source:
+  url: "https://improwiki.com/"
+
+- title: "Innovating for People"
+  description:
+  source: "LUMA Institute"
+  url: "https://www.amazon.com/dp/B00AEBNFWU/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1"
+
+- title: "LUMA Institute"
+  description:
+  source:
+  url: "https://www.luma-institute.com"
+
+- title: "This is Service Design Thinking"
+  description:
+  source:
+  url: "http://thisisservicedesignthinking.com"

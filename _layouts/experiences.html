@@ -19,7 +19,7 @@
           {%- assign page_slug = page.url | split: '/' | last -%}
           {%- if page_slug == 'experiences' -%}
             <ul class="list-group">
-              {%- for experience in site.data.experiences -%}
+              {%- for experience in site.data.community-building-experiences -%}
                 <a class="list-group-item list-group-item-action" href="/field-guide/experiences/{{ experience.experience | slugify }}/">
                   <h3 class="h5 mb-1">{{ experience.experience | smartify }}</h5>
                   <p class="mb-0">{{ experience.tagline | smartify }}</p>
@@ -27,7 +27,7 @@
               {%- endfor -%}
             </ul>
           {%- else -%}
-            {%- assign experiences = site.data.experiences | where:"experience",page.experience -%}
+            {%- assign experiences = site.data.community-building-experiences | where:"experience",page.experience -%}
             {%- for experience in experiences -%}
               <div class="row">
                 <div class="col-12 col-md-6 col-lg-7 col-xl-8">
@@ -60,7 +60,7 @@
                 <p><strong>Related Experiences</strong>: {{ experience_companions_links | split: ',' | array_to_sentence_string: ''  }}</p>
               {%- endif -%}
               {%- capture experience_techniques_links -%}
-                {%- assign techniques_sorted = site.data.techniques | sort: 'technique' -%}
+                {%- assign techniques_sorted = site.data.community-building-techniques | sort: 'technique' -%}
                 {%- for technique in techniques_sorted -%}
                   {%- if technique.experiences contains experience.experience -%}
                     <a href="/field-guide/techniques/{{ technique.purpose | slugify }}/#{{ technique.technique | slugify }}">{{ technique.technique | smartify }}</a>,

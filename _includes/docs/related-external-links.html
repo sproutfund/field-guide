@@ -1,10 +1,10 @@
 {%- comment -%}
-Usage: {% include docs/related-external-links.html doc_slug=doc_slug heading="Related External Links" hlevel=2 %},
+Usage: {% include docs/related-external-links.html section_slug=section_slug doc_slug=doc_slug heading="Related External Links" hlevel=2 %},
 {%- endcomment -%}
-{%- if site.data.related-external-links[include.doc_slug] -%}
+{%- if site.data.related-external-links[include.section_slug][include.doc_slug] -%}
   <h{{ include.hlevel }} id="{{ include.heading | slugify }}">{{ include.heading }}</h{{ include.hlevel }}>
   <ul class="list-group">
-    {%- for link in site.data.related-external-links[include.doc_slug] -%}
+    {%- for link in site.data.related-external-links[include.section_slug][include.doc_slug] -%}
       <li class="list-group-item">
         <i class="fas fa-external-link" style="margin-right: .5rem;"></i>
         <a href="{{ link.url }}" target="_blank" class="font-weight-bold">{{ link.title }}</a>

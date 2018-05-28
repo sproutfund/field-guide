@@ -1,10 +1,10 @@
 {%- comment -%}
-Usage: {% include docs/templates-downloads.html doc_slug=doc_slug heading="Templates & Downloads" hlevel=2 %},
+Usage: {% include docs/templates-downloads.html section_slug=section_slug doc_slug=doc_slug heading="Templates & Downloads" hlevel=2 %},
 {%- endcomment -%}
-{%- if site.data.templates-downloads[include.doc_slug] -%}
+{%- if site.data.templates-downloads[include.section_slug][include.doc_slug] -%}
   <h{{ include.hlevel }} id="{{ include.heading | slugify }}">{{ include.heading }}</h{{ include.hlevel }}>
   <ul class="list-group">
-    {%- for link in site.data.templates-downloads[include.doc_slug] -%}
+    {%- for link in site.data.templates-downloads[include.section_slug][include.doc_slug] -%}
       <li class="list-group-item">
         {%- if link.type == 'artifact' -%}
           <i class="far fa-file-image" style="margin-right: .5rem;"></i>

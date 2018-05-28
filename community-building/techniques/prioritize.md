@@ -8,5 +8,5 @@ group: techniques
 toc: true
 status: <span class="badge badge-info">auto-generated</span>
 
-# don't edit the contents of this file; make changes in _data/techniques.yml
+# don't edit the contents of this file; make changes in _data/community-building-techniques.yml
 ---

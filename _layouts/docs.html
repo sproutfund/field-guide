@@ -16,9 +16,10 @@
 
         {%- capture augmented_content -%}
           {%- assign page_slug = page.url | split: '/' | last -%}
+          {%- assign page_section_slug = page.section -%}
           {{ content }}
-          {% include docs/templates-downloads.html doc_slug=page_slug heading="Templates & Downloads" hlevel=2  %}
-          {% include docs/related-external-links.html doc_slug=page_slug heading="Related External Links" hlevel=2 %}
+          {% include docs/templates-downloads.html section_slug=page_section_slug doc_slug=page_slug heading="Templates & Downloads" hlevel=2  %}
+          {% include docs/related-external-links.html section_slug=page_section_slug doc_slug=page_slug heading="Related External Links" hlevel=2 %}
         {%- endcapture -%}
 
         {% if page.toc %}

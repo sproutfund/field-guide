@@ -22,7 +22,7 @@
             {%- for technique_group in technique_groups -%}
               <h2 id="{{ technique_group }}">Techniques to {{ technique_group | capitalize }}</h2>
               <ul class="list-group">
-                {%- assign technique_group_techniques = site.data.techniques | where:"purpose",technique_group -%}
+                {%- assign technique_group_techniques = site.data.community-building-techniques | where:"purpose",technique_group -%}
                 {%- for technique in technique_group_techniques -%}
                   <a class="list-group-item list-group-item-action" href="/field-guide/techniques/{{ technique_group }}/#{{ technique.technique | slugify }}">
                     <h3 class="h5 mb-1">{{ technique.technique | smartify }}</h5>
@@ -32,7 +32,7 @@
               </ul>
             {%- endfor -%}
           {%- else -%}
-            {%- assign technique_group_techniques = site.data.techniques | where:"purpose",page_slug -%}
+            {%- assign technique_group_techniques = site.data.community-building-techniques | where:"purpose",page_slug -%}
             {%- for technique in technique_group_techniques -%}
               <h2 id="{{ technique.technique | slugify }}">{{ technique.technique | smartify }}</h2>
               <p class="lead">{{ technique.tagline | smartify }}</p>
@@ -40,7 +40,7 @@
               {%- if technique.companions -%}
                 {%- capture technique_companions_links -%}
                   {%- for companion in technique.companions -%}
-                    {%- assign technique_details = site.data.techniques | where:"technique",companion -%}
+                    {%- assign technique_details = site.data.community-building-techniques | where:"technique",companion -%}
                     {%- for technique_detail in technique_details -%}
                       <a href="/field-guide/techniques/{{ technique_detail.purpose }}/#{{ technique_detail.technique | slugify }}">{{ technique_detail.technique | smartify }}</a>,
                     {%- endfor -%}

@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     {% include header.html %}
+    <style type="text/css">
+      .bd-content h4 { margin-top: 1rem; }
+      .section-nav ul ul { display: block; }
+    </style>
   </head>
   <body class="layout-{{ page.layout }}">
     {% include skippy.html %}
@@ -15,22 +19,64 @@
         </div>
 
         {%- capture related-external-links -%}
-          {%- for group in site.data.nav -%}
-            {%- assign group_slug = group.title | slugify -%}
-            {%- assign group_has_links = false -%}
-            {%- for doc in group.pages -%}
-              {%- assign doc_slug = doc.title | slugify -%}
-              {%- if site.data.related-external-links[doc_slug] -%}
-                {%- assign group_has_links = true -%}
-              {%- endif -%}
-            {%- endfor -%}
-            {%- if group_has_links -%}
-              <h2 id="{{ group_slug }}">{{ group.title }}</h2>
-              {%- for doc in group.pages -%}
+          {%- assign content_pages = site.pages | where_exp: "page","page.layout != 'redirect'" -%}
+          {%- for section in site.data.nav -%}
+
+            {%- assign section_slug = section.title | slugify -%}
+            {%- assign section_pages = content_pages | where: "section",section_slug -%}
+            {%- assign section_has_links = false -%}
+            {%- for doc in section_pages -%}
+              {% unless section_has_links == true %}
                 {%- assign doc_slug = doc.title | slugify -%}
-                {%- include docs/related-external-links.html doc_slug=doc_slug heading=doc.title hlevel=3 -%}
-              {%- endfor -%}
+                {%- if site.data.related-external-links[section_slug][doc_slug] -%}
+                  {%- assign section_has_links = true -%}
+                {%- endif -%}
+              {% endunless %}
+            {%- endfor -%}
+
+            {%- if section_has_links -%}
+              {%- if section.pages == nil -%}
+                {%- include docs/related-external-links.html section_slug=section_slug doc_slug=section_slug heading=section.title hlevel=2 -%}
+              {%- else -%}
+                <h2 id="{{ section.title | slugify }}">{{ section.title }}</h2>
+                {%- for group in section.pages -%}
+
+                  {%- assign group_slug = group.title | slugify -%}
+                  {%- assign group_pages = content_pages | where: "group",group_slug -%}
+                  {%- assign group_has_links = false -%}
+                  {%- for doc in group_pages -%}
+                    {% unless group_has_links == true %}
+                      {%- assign doc_slug = doc.title | slugify -%}
+                      {%- if site.data.related-external-links[section_slug][doc_slug] -%}
+                        {%- assign group_has_links = true -%}
+                      {%- endif -%}
+                    {% endunless %}
+                  {%- endfor -%}
+
+                  {%- if group_has_links -%}
+                    {%- if group.pages == nil -%}
+                      {%- include docs/related-external-links.html section_slug=section_slug doc_slug=group_slug heading=group.title hlevel=3 -%}
+                    {%- else -%}
+                      <h3 id="{{ group.title | slugify }}">{{ group.title }}</h3>
+                      {%- for doc in group.pages -%}
+                        {%- assign doc_slug = doc.title | slugify -%}
+                        {%- assign doc_has_links = false -%}
+                        {%- if site.data.related-external-links[section_slug][doc_slug] -%}
+                          {%- assign doc_has_links = true -%}
+                        {%- endif -%}
+
+                        {%- if doc_has_links -%}
+                          {%- include docs/related-external-links.html section_slug=section_slug doc_slug=doc_slug heading=doc.title hlevel=4 -%}
+                        {%- endif -%}
+
+                      {%- endfor -%}
+                    {%- endif -%}
+                  {%- endif -%}
+
+                {%- endfor -%}
+              {%- endif -%}
             {%- endif -%}
+
           {%- endfor -%}
         {%- endcapture -%}
 
