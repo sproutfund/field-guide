@@ -15,8 +15,78 @@
         </div>
 
         {%- capture augmented_content -%}
-          {%- assign page_slug = page.url | split: '/' | last -%}
           {{ content }}
+          {%- assign content_pages = site.pages | where_exp: "page","page.layout != 'redirect'" -%}
+          {%- for section in site.data.nav -%}
+            {%- assign section_slug = section.title | slugify -%}
+            {%- capture section_url -%}
+              {{ site.baseurl }}/{{ section_slug }}/
+            {%- endcapture -%}
+            {%- assign section_page = content_pages | where: "url",section_url | first -%}
+
+            <h2 id="{{ section_slug }}">
+              {%- if section_page == nil -%}
+                {{ section.title }}
+              {%- else -%}
+                <a href="{{ section_url }}">
+                  {{ section.title }}
+                </a>
+              {%- endif -%}
+            </h2>
+            {%- if section_page.description -%}
+              <p>{{ section_page.description | smartify }}</p>
+            {%- endif -%}
+
+            {% unless section.pages == nil %}
+            {%- for group in section.pages -%}
+              {%- assign group_slug = group.title | slugify -%}
+              {%- capture group_url -%}
+                {{ site.baseurl }}/{{ section_slug }}/{{ group_slug }}/
+              {%- endcapture -%}
+              {%- assign group_page = content_pages | where: "url",group_url | first -%}
+
+              <h3 id="{{ section_slug }}--{{ group_slug }}">
+                {%- if group_page == nil -%}
+                  {{ group.title }}
+                {%- else -%}
+                  <a href="{{ group_url }}">
+                    {{ group.title }}
+                  </a>
+                {%- endif -%}
+              </h3>
+              {%- if group_page.description -%}
+                <p>{{ group_page.description | smartify }}</p>
+              {%- endif -%}
+
+              {% unless group.pages == nil %}
+              <ul>
+                {%- for doc in group.pages -%}
+                  {%- assign doc_slug = doc.title | slugify -%}
+                  {%- capture doc_url -%}
+                    {{ site.baseurl }}/{{ section_slug }}/{{ group_slug }}/{{ doc_slug }}/
+                  {%- endcapture -%}
+                  {%- assign doc_page = content_pages | where: "url",doc_url | first -%}
+
+                  <h4 id="{{ section_slug }}--{{ group_slug }}--{{ doc_slug }}">
+                    {%- if doc_page == nil -%}
+                      {{ doc.title }}
+                    {%- else -%}
+                      <a href="{{ doc_url }}">
+                        {{ doc.title }}
+                      </a>
+                    {%- endif -%}
+                  </h4>
+                  {%- if doc_page.description -%}
+                    <p>{{ doc_page.description | smartify }}</p>
+                  {%- endif -%}
+
+                {%- endfor -%}
+              </ul>
+              {% endunless %}
+
+            {%- endfor -%}
+            {% endunless %}
+          {%- endfor -%}
         {%- endcapture -%}
 
         {% if page.toc %}
