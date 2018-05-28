@@ -121,6 +121,12 @@ div.card[id^=example-] {
   padding-bottom: 0.5rem;
 }
 
+// change main body width at md and above
+@media (min-width: 576px) {
+  .bd-lead {
+    max-width: 100%;
+  }
+}
 
 
 // change main body width at lg and above
