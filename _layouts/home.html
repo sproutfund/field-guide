@@ -3,7 +3,7 @@
   <head>
     {% include header.html %}
   </head>
-  <body>
+  <body class="layout-{{ page.layout }}">
     {% include skippy.html %}
 
     {% include navbar.html %}
@@ -14,8 +14,45 @@
           {% include sidebar.html %}
         </div>
 
-        {%- capture augmented_content -%}
+        {%- capture heading_content -%}
+          {%- for section in site.data.nav -%}
+
+            {%- assign section_slug = section.title | slugify -%}
+            <h2 id="{{ section_slug }}">{{ section.title }}</h2>
+
+            {% unless section.pages == nil %}
+            {%- for group in section.pages -%}
+
+              {%- assign group_slug = group.title | slugify -%}
+              <h3 id="{{ section_slug }}--{{ group_slug }}">{{ group.title }}</h3>
+
+              {% unless group.pages == nil %}
+              {%- for doc in group.pages -%}
+
+                {%- assign doc_slug = doc.title | slugify -%}
+                <h4 id="{{ section_slug }}--{{ group_slug }}--{{ doc_slug }}">{{ doc.title }}</h4>
+
+              {%- endfor -%}
+              {% endunless %}
+
+            {%- endfor -%}
+            {% endunless %}
+          {%- endfor -%}
+        {%- endcapture -%}
+
+        {% if page.toc %}
+          <div class="d-none d-lg-block col-lg-3 bd-toc d-print-none ml-auto">
+            {% include toc.html html=heading_content class="section-nav" item_class="toc-entry toc-h%level%" %}
+          </div>
+        {% endif %}
+
+        <main class="col-12 col-md-9 px-md-4 col-lg-7 d-print-block col-print-12 px-print-0 py-print-0 bd-content" role="main">
+          {% include docs/header_print.html %}
+          <h1 class="bd-title" id="content">{{ page.title | smartify }}{% if page.status %} {{ page.status }}{% endif %}</h1>
+          <p class="bd-lead">{{ page.subtitle | smartify }}</p>
+
           {{ content }}
+
           {%- assign content_pages = site.pages | where_exp: "page","page.layout != 'redirect'" -%}
           {%- for section in site.data.nav -%}
             {%- assign section_slug = section.title | slugify -%}
@@ -24,7 +61,7 @@
             {%- endcapture -%}
             {%- assign section_page = content_pages | where: "url",section_url | first -%}
 
-            <h2 id="{{ section_slug }}">
+            <h2 class="display-2" id="{{ section_slug }}">
               {%- if section_page == nil -%}
                 {{ section.title }}
               {%- else -%}
@@ -32,6 +69,7 @@
                   {{ section.title }}
                 </a>
               {%- endif -%}
+              {% if section_page.status %}<div class="d-inline page-status"> {{ section_page.status }}</div>{% endif %}
             </h2>
             {%- if section_page.description -%}
               <p>{{ section_page.description | smartify }}</p>
@@ -53,6 +91,7 @@
                     {{ group.title }}
                   </a>
                 {%- endif -%}
+                {% if group_page.status %}<div class="d-inline page-status"> {{ group_page.status }}</div>{% endif %}
               </h3>
               {%- if group_page.description -%}
                 <p>{{ group_page.description | smartify }}</p>
@@ -75,6 +114,7 @@
                         {{ doc.title }}
                       </a>
                     {%- endif -%}
+                    {% if doc_page.status %}<div class="d-inline page-status"> {{ doc_page.status }}</div>{% endif %}
                   </h4>
                   {%- if doc_page.description -%}
                     <p>{{ doc_page.description | smartify }}</p>
@@ -87,19 +127,6 @@
             {%- endfor -%}
             {% endunless %}
           {%- endfor -%}
-        {%- endcapture -%}
-
-        {% if page.toc %}
-          <div class="d-none d-lg-block col-lg-3 bd-toc d-print-none ml-auto">
-            {% include toc.html html=augmented_content class="section-nav" item_class="toc-entry toc-h%level%" %}
-          </div>
-        {% endif %}
-
-        <main class="col-12 col-md-9 px-md-4 col-lg-7 d-print-block col-print-12 px-print-0 py-print-0 bd-content" role="main">
-          {% include docs/header_print.html %}
-          <h1 class="bd-title" id="content">{{ page.title | smartify }}{% if page.status %} {{ page.status }}{% endif %}</h1>
-          <p class="bd-lead">{{ page.subtitle | smartify }}</p>
-          {{ augmented_content }}
         </main>
       </div>
     </div>
