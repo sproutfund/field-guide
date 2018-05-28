@@ -113,12 +113,23 @@ div.card[id^=example-] {
   }
 }
 
+// style home TOC
+.layout-home h2.display-2,
+.layout-home .h2.display-2 {
+  font-size: $h2-font-size + 0.5;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
 
 
 // change main body width at lg and above
 @media (min-width: 992px) {
 
-  .bd-content>ol, .bd-content>p, .bd-content>ul {
+  .bd-content>ol, .bd-content>p, .bd-content>ul,
+  .bd-content>h2, .bd-content>.h2,
+  .bd-content>h3, .bd-content>.h3,
+  .bd-content>h4, .bd-content>.h4 {
     max-width: 100%;
   }
 
@@ -127,7 +138,10 @@ div.card[id^=example-] {
 // limit widths at xl
 @media (min-width: 1200px) {
 
-  .bd-content>ol, .bd-content>p, .bd-content>ul {
+  .bd-content>ol, .bd-content>p, .bd-content>ul,
+  .bd-content>h2, .bd-content>.h2,
+  .bd-content>h3, .bd-content>.h3,
+  .bd-content>h4, .bd-content>.h4 {
     max-width: 840px;
   }
 
