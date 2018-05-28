@@ -5,7 +5,7 @@ subtitle:
 description:
 section: conclusion
 toc: true
-status: <span class="badge badge-success">final draft</span>
+status: <span class="badge badge-warning">needs review</span>
 ---
 
 The Sprout Fund was driven by the desire to empower grassroots innovators by providing them with the resources and connections they needed to cultivate their ideas and create stronger communities. The Community Building Field Guide is a free and open resource that was written by Sprout to encourage people to invest in community-driven collaboration.

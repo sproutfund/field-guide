@@ -6,7 +6,7 @@ description:
 section: catalytic-funding
 group: sustaining-sunsetting
 toc: true
-status: <span class="badge badge-warning">review in progress</span>
+status: <span class="badge badge-warning">needs review</span>
 ---
 
 ## Overview

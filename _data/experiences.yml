@@ -1,6 +1,6 @@
 - experience: Planning
   goal: "I want to plan something."
-  emoji: 📝
+  icon: 📝
   adjectives: "Small, Intentional, Focused"
   tagline: "Chart the course for a new project"
   size: "5–10 people"
@@ -21,7 +21,7 @@
 
 - experience: Fundraising
   goal: "I want to raise money."
-  emoji: 💸
+  icon: 💸
   adjectives: "Goal-oriented, Purposeful, Mission-Driven"
   tagline: "Raise money to benefit a cause"
   size: "$XXXX dollars"
@@ -37,7 +37,7 @@
 
 - experience: Kick-Off
   goal: "I want to announce a new initiative."
-  emoji: 🏈
+  icon: 🏈
   adjectives: "Aspirational, Action-Oriented, Introductory"
   tagline: "Announce a new campaign"
   size: "100+ people"
@@ -55,7 +55,7 @@
 
 - experience: Recruitment
   goal: "I want to recruit participants."
-  emoji: 👋
+  icon: 👋
   adjectives: "Inclusive, Informational, Catalytic"
   tagline: "Gather new participants and audiences"
   size: "25–200 people"
@@ -74,7 +74,7 @@
 
 - experience: Ideation
   goal: "I want to come up with new ideas."
-  emoji: 💡
+  icon: 💡
   adjectives: "Creative, Participatory, Generative"
   tagline: "Develop ideas for new projects and programs"
   size: "Up to 75 people"
@@ -92,7 +92,7 @@
 
 - experience: Knowledge-Sharing
   goal: "I want to share ideas."
-  emoji: 📚
+  icon: 📚
   adjectives: "Engaging, Educational, Hands-on"
   tagline: "Share expertise with one another"
   size: "10–200 people"
@@ -111,7 +111,7 @@
 
 - experience: Social
   goal: "I want to gather people for social events."
-  emoji: 🔗
+  icon: 🔗
   adjectives: "Casual, Informal, Relationship-focused"
   tagline: "Create and strengthen social connections"
   size: "20–40 people"
@@ -131,7 +131,7 @@
 
 - experience: Showcase
   goal: "I want to celebrate progress."
-  emoji: 🎪
+  icon: 🎪
   adjectives: "Fun, Inspiring, Celebratory"
   tagline: "Celebrate a community’s achievements"
   size: "50–200 people"
@@ -149,7 +149,7 @@
 
 - experience: Summit
   goal: "I want to get a ton of people together."
-  emoji: ⛰
+  icon: ⛰
   adjectives: "Large, Structured, Multi-Faceted"
   tagline: "Convene a large audience for an important topic"
   size: "100–500 people"
@@ -169,7 +169,7 @@
 
 - experience: Feedback
   goal: "I want to gather feedback and figure out what’s next."
-  emoji: 🗳
+  icon: 🗳
   adjectives: "Conversational, Reflective, Pragmatic"
   tagline: "Solicit input from stakeholders and constituents"
   size: "10–50 people"

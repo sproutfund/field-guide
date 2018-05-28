@@ -2,11 +2,10 @@
 layout: docs
 title: Old CBFG Resources List
 subtitle:
-
 description:
 section: resources
 toc: true
-status: <span class="badge badge-success">final draft</span>
+sitemap: false
 ---
 
 The Community Building Field Guide documents the way we think about community building and the art of facilitation. When we start developing a facilitation approach, these are our favorite books, websites, and tools to have close at hand. Most of the books and websites focus on human-centered design; all of them feature creative ways to spark collaboration. We hope they inspire you as much as they’ve inspired us.

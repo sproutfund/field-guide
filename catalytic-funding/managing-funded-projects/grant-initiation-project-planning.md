@@ -7,7 +7,7 @@ section: catalytic-funding
 group: managing-funded-projects
 redirect_from: /catalytic-funding/managing-funded-projects/
 toc: true
-status: <span class="badge badge-warning">review in progress</span>
+status: <span class="badge badge-warning">needs review</span>
 ---
 
 ## Overview

@@ -7,7 +7,7 @@ section: community-building
 group: what-is-community-building
 redirect_from: /community-building/
 toc: true
-status: <span class="badge badge-danger">in development</span>
+status: <span class="badge badge-warning">needs review</span>
 ---
 
 Complex problems require collaborative solutions. To help people collaborate effectively, we believe in designing experiences that provoke discussion, spark insight, and forge lasting partnerships. We endeavor to create intentional arcs of activity that mobilize people to work together to achieve shared goals.
@@ -60,3 +60,11 @@ This publication seeks to share what our experience has taught us about the fiel
 At Sprout, we’ve been lucky to work with other grantmakers, local governments, nonprofit organizations, schools, startups, community organizers, and more. The common thread among these many "friends of Sprout" has been their commitment to fostering connections in communities and contexts around the world. You can see ten examples of other “community builders” in the Voices From The Field chapter of this guide, and you’ll note that our own examples are drawn from Sprout’s work across a variety of fields over the organization’s two-decade history.
 
 We hope you’ll use these stories, examples, and ideas as the starting point for your own community building work, no matter where you work or what you do. Moreover, we hope that the ideas and examples we’ve shared here will help other communities achieve their own measures of meaningful, positive change. _Read on!_
+
+
+
+<!--GRAY BOX: Use the **_Experience Cards_** to help you brainstorm the kinds of action-oriented experiences you might include in your campaign. Remember, you can use the same experience type more than once!
+
+Then, use the **_Campaign Arc_** to illustrate how you might stitch those experiences together to create your campaign. This will enable you to create a one-page summary of your trajectory.
+
+Finally, use the **_Experience Builder_** to plan each experience in your campaign in greater detail. `<INSERT LIZZY’S DOCUMENTS>`-->

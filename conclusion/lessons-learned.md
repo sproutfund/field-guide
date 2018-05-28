@@ -6,7 +6,7 @@ description:
 section: conclusion
 redirect_from: /conclusion/
 toc: true
-status: <span class="badge badge-success">final draft</span>
+status: <span class="badge badge-warning">needs review</span>
 ---
 
 **Relieve anxiety.** No one likes being stressed out. Do you best to relieve the anxiety of those around you. Be relentlessly organized and help others tackle their most pressing challenges.

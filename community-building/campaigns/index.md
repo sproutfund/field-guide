@@ -6,7 +6,7 @@ description:
 section: community-building
 group: campaigns
 toc: true
-status: <span class="badge badge-success">final draft</span>
+status: <span class="badge badge-warning">needs review</span>
 ---
 
 True, authentic, and organic community building happens when people have ongoing opportunities to collaborate with one another and steadily increase their participation over time. This is important because relationships matter and they grow stronger through intentional collaboration. In short, relationships are the currency of community building—we trade in trust.

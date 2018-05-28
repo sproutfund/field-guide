@@ -7,7 +7,7 @@ section: catalytic-funding
 group: cultivating-applicants
 redirect_from: /catalytic-funding/cultivating-applicants/
 toc: true
-status: <span class="badge badge-warning">review in progress</span>
+status: <span class="badge badge-warning">needs review</span>
 ---
 
 ## Overview
