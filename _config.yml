@@ -44,8 +44,8 @@ plugins:
 repository: sproutfund/community-building-field-guide
 
 # Social
-title:              "The Sprout Fund Field Guide for Philanthropy & Civic Action"
-description:        "Ideas and resources to seed innovation, make community-advised decisions, host participatory events, communicate effectively, and catalyze civic action."
+title:              "Field Guide for Philanthropy & Civic Action"
+description:        "Ideas and resources to seed innovation, make community-advised decisions, host participatory events, communicate effectively, and catalyze local change."
 twitter:            sproutfund
 authors:            "The Sprout Fund"
 social_image_path:  /assets/brand/bootstrap-social.png

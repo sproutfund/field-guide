@@ -1,27 +1,20 @@
 <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
 
-  <a class="navbar-brand" href="https://www.sproutfund.org/" style="margin-top: -.25rem;">
+  <a class="navbar-brand" href="/" style="margin-top: -.25rem;">
     <img src="/assets/img/sprout.svg" width="30" height="30" class="d-inline-block align-top" alt="The Sprout Fund">
-    <span>Sprout Field Guide to Philanthropy & Civic Action</span>
+    <span>Sprout {{ site.title}}</span>
   </a>
 
   <div class="navbar-nav-scroll">
     <ul class="navbar-nav bd-navbar-nav flex-row">
-      <li class="nav-item">
-        <a class="nav-link" href="/catalytic-funding/">Catalytic Funding</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/community-building/">Community Building</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/storytelling/">Storytelling</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/resources/">Resources</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/about/">About</a>
-      </li>
+      {%- assign section_titles = "Catalytic Funding, Community Building, Storytelling, Resources, About" | split: ', ' -%}
+      {%- assign this_section_slug = page.section -%}
+      {%- for section_title in section_titles -%}
+        {%- assign section_slug = section_title | slugify -%}
+        <li class="nav-item{% if this_section_slug == section_slug %} active{% endif %}">
+          <a class="nav-link" href="/{{ section_slug }}/">{{ section_title }}</a>
+        </li>
+      {%- endfor -%}
     </ul>
   </div>
 

@@ -1,13 +1,9 @@
-- title: Summary & Instructions
-  pages:
-    - title: Overview & Table of Contents
-    - title: How to Use This Guide
-
 - title: Introduction
   pages:
     - title: Foreword
     - title: Philosophy & Ideals
     - title: History of The Sprout Fund
+    - title: How to Use This Guide
 
 - title: Catalytic Funding
   pages:
@@ -89,6 +85,7 @@
 
 - title: Storytelling
   pages:
+    - title: What Is Storytelling?
     - title: Blog
     - title: Brand
     - title: Calendar
@@ -106,11 +103,11 @@
   pages:
     - title: Templates & Downloads
     - title: Related External Links
-    - title: Job Descriptions
     - title: Software Recommendations
+    - title: Job Descriptions
 
 - title: About
   pages:
     - title: Credits & Acknowledgements
-    - title: License
     - title: About the Authors
+    - title: License
