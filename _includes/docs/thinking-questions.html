@@ -1,0 +1,7 @@
+{%- comment -%}
+Usage: {% include docs/thinking-questions.html content=thinking-questions %},
+where content is a capture with the content
+{%- endcomment -%}
+<div class="alert alert-secondary bd-thinking-questions">
+  {{- include.content | markdownify -}}
+</div>

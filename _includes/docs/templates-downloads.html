@@ -1,0 +1,19 @@
+{%- comment -%}
+Usage: {% include docs/templates-downloads.html doc_slug=doc_slug heading="Templates & Downloads" hlevel=2 %},
+{%- endcomment -%}
+{%- if site.data.templates-downloads[include.doc_slug] -%}
+  <h{{ include.hlevel }} id="{{ include.heading | slugify }}">{{ include.heading }}</h{{ include.hlevel }}>
+  <ul class="list-group">
+    {%- for link in site.data.templates-downloads[include.doc_slug] -%}
+      <li class="list-group-item">
+        {%- if link.type == 'artifact' -%}
+          <i class="far fa-file-image" style="margin-right: .5rem;"></i>
+        {%- else -%}
+          <i class="far fa-file-alt" style="margin-right: .5rem;"></i>
+        {%- endif -%}
+        <a {% if link.url %} href="{{ link.url }}" target="_blank" {% endif %} class="font-weight-bold">{{ link.title }}</a>
+        {% if link.description %} - {{ link.description }}{% endif %}
+      </li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include header.html %}
+  </head>
+  <body>
+    {% include skippy.html %}
+
+    {% include navbar.html %}
+
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+        <div class="col-12 col-md-3 col-lg-2 bd-sidebar d-print-none">
+          {% include sidebar.html %}
+        </div>
+
+        {%- capture augmented_content -%}
+          {%- assign page_slug = page.url | split: '/' | last -%}
+          {{ content }}
+          {% include docs/templates-downloads.html doc_slug=page_slug heading="Templates & Downloads" hlevel=2  %}
+          {% include docs/related-external-links.html doc_slug=page_slug heading="Related External Links" hlevel=2 %}
+        {%- endcapture -%}
+
+        {% if page.toc %}
+          <div class="d-none d-lg-block col-lg-3 bd-toc d-print-none ml-auto">
+            {% include toc.html html=augmented_content class="section-nav" item_class="toc-entry toc-h%level%" %}
+          </div>
+        {% endif %}
+
+        <main class="col-12 col-md-9 px-md-4 col-lg-7 d-print-block col-print-12 px-print-0 py-print-0 bd-content" role="main">
+          {% include docs/header_print.html %}
+          <h1 class="bd-title" id="content">{{ page.title | smartify }}{% if page.status %} {{ page.status }}{% endif %}</h1>
+          <p class="bd-lead">{{ page.description | smartify }}</p>
+          {{ augmented_content }}
+        </main>
+      </div>
+    </div>
+
+    {% include scripts.html %}
+  </body>
+</html>

@@ -1,0 +1,211 @@
+# page-slug:
+# - title: title of the template/artifact *required*
+#   description: additional descriptive text
+#   type: template or artifact *required*
+#   url: URL *required*
+
+# don't use any colons without quoting text!
+
+
+# Planing & Preparing
+
+program-design:
+
+- title: Program Budget Calculator
+  type: template
+  url: "https://docs.google.com/spreadsheets/d/1uXr916Y8b3QHTlnnJV3SkPr42AFlxGw6MJ776rUp5Uc/view"
+
+- title: Program Timeline Checklist
+  type: template
+  url: "https://docs.google.com/document/d/1S1r7lHC4f8w3mdonfwh6xjVmTWrbbKisKIDO4TdPMFc/view"
+
+
+fundraising: false
+
+
+# Cultivating Applicants
+
+application-design:
+
+- title: Funding Opportunity and Application Form Example
+  type: download
+  url: "https://drive.google.com/file/d/0BzCiN-PkZ98fSm9udm9sRTVXRzg/view"
+
+- title: Conference Stipend Application Example
+  type: download
+  url: "https://drive.google.com/file/d/0BzCiN-PkZ98fTUVTak1PSFVEZWc/view"
+
+- title: Budget Template for Funding Application
+  type: download
+  url: "https://drive.google.com/open?id=0BzCiN-PkZ98fRjBZaUhYVzd3YW8/view"
+
+- title: Timeline Template for Funding Application
+  type: download
+  url: "https://drive.google.com/open?id=0BzCiN-PkZ98fZFJvNGtWTXpxNzA/view"
+
+- title: References Template for Funding Application
+  type: download
+  url: "https://drive.google.com/open?id=0BzCiN-PkZ98fRHQzYk9yOFg1c0U/view"
+
+
+program-launch-announcement:
+
+- title: MBK Digital Literacy Collaborative Press Release
+  type: artifact
+  url: "https://drive.google.com/file/d/1edy-fCt07jzPfU3PJc58H-WDbQeNEQ9E/view"
+
+- title: 100 Days of US Information Session Invite (program launch)
+  type: artifact
+  url: "https://us4.campaign-archive.com/?&u=d88590060b35162f56ec6156c&id=518357955a"
+
+- title: Seed Award for Economic Opportunity RFP Announcement
+  type: artifact
+  url: "https://mailchi.mp/sproutfund/request-for-proposals-seed-award-for-economic-opportunity"
+
+- title: Neighbor-to-Neighbor 2016 Relaunch Announcement
+  type: artifact
+  url: "https://us4.admin.mailchimp.com/campaigns/show?id=742285"
+
+- title: Grand Ideas Announcement + Happy Hour Announcement
+  type: artifact
+  url: "https://us4.admin.mailchimp.com/campaigns/show?id=742285"
+
+
+applicant-outreach-info-sessions:
+
+- title: Sign In Sheet
+  type: template
+  url: "https://docs.google.com/document/d/1Tg_kAnUkjaZtCmdKCoU36bTLjARbAvscdd7YC_8JfTA/view"
+
+- title: Presentation Slide Deck
+  type: template
+  url: "https://docs.google.com/presentation/d/105E49aThFy7SqtAjIbMeEmiXorBhXKQ55NCv4YglO-0/view"
+
+- title: Info Session Follow-up Message
+  type: template
+  url: "https://docs.google.com/document/d/1TNppZzK3A81YSDp_jWgq4ZzM6l8t6iEVlqaIT8alcDE/view"
+
+- title: Neighbor-to-Neighbor Information Session Flyer
+  type: artifact
+  url: "https://drive.google.com/open?id=1t4DQDyum-Tn-sszQ57mTN8-MDafI2nN1"
+
+
+prospect-management-draft-review: false
+
+
+# Making Decisions
+
+decisionmaker-recruitment:
+
+- title: Invitation Email Template
+  type: template
+  url: "https://docs.google.com/document/d/1jQCCzEcAgGwEwwV21JTEY1PF9L_--MnEs8HLnr1bKcM/view"
+
+- title: Invitation Email
+  type: artifact
+  url: "https://drive.google.com/file/d/1ebZdduX3eZI7vgsr-Wljzj4xx3xwlGbQ/view"
+
+- title: Advisory Committee Training Agenda
+  type: artifact
+  url: "https://drive.google.com/file/d/1LUID2VXCqEKDSc3EF7LauHggnB6MbXa5/view"
+
+- title: Advisory Committee Training Manual
+  type: artifact
+  url: "https://drive.google.com/file/d/1cX8Jb-KwBxfRN4EIIVYuyAaIgMKKtG-F/view"
+
+
+application-intake:
+
+- title: Accepted for Review Email Template
+  type: template
+  url: "https://docs.google.com/document/d/1fumWaiKzyTnirYSF7v6ovEikXm5a0CxqBwu-P9h9jV0/view"
+
+- title: Ineligible Application Email Template
+  type: template
+  url: "https://docs.google.com/document/d/1DpPtQ8rqFwFwaMG4TBUDvr7aiBPYpGfnh7YmZl9AHrM/view"
+
+- title: Sample Sprout Cover Sheet (Page 1 of the Project Journal)
+  type: artifact
+  url: "https://drive.google.com/open?id=1UrPr4M21RjVOP6pWbi4eDWvE-4sDTowB"
+
+
+committee-review:
+
+- title: Scorecard template - Funding Criteria
+  type: template
+  url: "https://docs.google.com/spreadsheets/d/1uXs0_5DGappNQd8300qHmOE3I25yOj-ZKd557_mwEJU/view"
+
+- title: Scorecard Template - Yes/No/Maybe
+  type: template
+  url: "https://docs.google.com/spreadsheets/d/1XNTpl_EWFp_MR7n9ItolQhrkNZ0N0fbyDM1O3z3mxfM/view"
+
+- title: Committee Packet and Scorecard Email Template
+  type: template
+  url: "https://docs.google.com/document/d/1ARYWR1wtmYTagkOYghZpyHPbEjGSuRS-gTTLz4h_RpE/view"
+
+- title: Application Packet and Instructions for Review Template
+  type: template
+  url: "https://drive.google.com/open?id=1oWM7zeRoCju2svfBiXEFrh4Peplyz83nR3WypNywdog/view"
+
+
+follow-up-due-diligence:
+
+- title: Standard Follow-Up Questions Email Template
+  type: template
+  url: "https://docs.google.com/document/d/1Xh7BDTQEQQ2DOwzfQH321iyGzGE4bKiM4frNPTFj5X4/view"
+
+- title: Custom Follow-Up Questions Email Template
+  type: template
+  url: "https://docs.google.com/document/d/1CMOoy0I_5LmY95L_0-klvjTfqKaXVLFl7E1bz45KpKY/view"
+
+- title: Reference Check Email Template
+  type: template
+  url: "https://docs.google.com/document/d/1QYqBJT-9220U8Bw7hlDC3rU1DCpr23ON_J2j0TngbXU/view"
+
+
+meeting-facilitation:
+
+- title: Meeting Script template
+  type: template
+  url: "https://docs.google.com/document/d/1tN5R8jsYnYusTuW6YHRRekJsIT6QGG_wZwA9e051sQM/edit?usp=sharing"
+
+- title: Funding Round Report Template
+  type: template
+  url: "https://docs.google.com/document/d/1kKfEYixs-sCpdShRN1I_Ee5YgQ23pLQV0ejCwlqiS9A/view"
+
+
+denied-applicant-feedback:
+
+- title: Denied applicant notification
+- title: Denied applicant call script
+
+
+# Managing Funded Projects
+
+grant-initiation-project-planning:
+
+- title: First Project Meeting Email
+- title: First Project Meeting Agenda
+- title: Project Plan Template
+- title: Invitation Letter Template
+- title: Congratulations Email
+- title: Grant Agreement Template
+
+reporting-on-successes-challenges: false
+
+
+multimedia-documentation: false
+
+
+bringing-grantees-together: false
+
+
+# Sustaining & Sunsetting
+
+feedback-improvement: false
+
+
+funder-reporting: false
+
+
+wrap-up-wind-down: false

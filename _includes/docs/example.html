@@ -1,0 +1,12 @@
+{%- comment -%}
+Usage: {% include docs/example.html content=example title="title" %}
+where example is a capture with the content
+{%- endcomment -%}
+<div class="card" id="example-{{ include.title | slugify}}">
+  <div class="card-header">
+    <em>{{ include.title }}</em>
+  </div>
+  <div class="card-body">
+    {{- include.content | markdownify -}}
+  </div>
+</div>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:12;stroke-miterlimit:10;}
+	.st2{clip-path:url(#SVGID_2_);fill:none;}
+</style>
+<title>Artboard 1</title>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="0" width="512" height="512"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		<path class="st1" d="M332.4,211.6c0,0-25.3-102.5,121-179.4C453.4,32.2,440.8,173.1,332.4,211.6z"/>
+		<path class="st1" d="M268.8,179.6c0,0-103.4-3.6-135.4-168.6C133.4,11,262.5,62.2,268.8,179.6z"/>
+		<path class="st1" d="M260.7,246c0,0-39.9,97.5-202.2,69.9C58.5,315.8,151.1,210.4,260.7,246z"/>
+		<path class="st1" d="M294.3,234.5c0,0,171.8,211.9,6.1,368.8c-44.1,41.7-193.7,152.7,43,384.6c0,0-297.7-216.4-78.8-401.6
+			C441.6,436.9,293.9,252.3,294.3,234.5z"/>
+	</g>
+	<rect class="st2" width="512" height="512"/>
+</g>
+</svg>

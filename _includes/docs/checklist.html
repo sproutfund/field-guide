@@ -1,0 +1,35 @@
+{%- comment -%}
+Usage: {%- include checklist.html id="checklist-id" -%}
+{%- endcomment -%}
+
+{%- assign checklist_id = include.id -%}
+{%- assign checklist = site.data.checklists[checklist_id] -%}
+<div class="row">
+  <div class="col-6">
+    <div class="list-group" id="checklist-{{ checklist_id }}-items" role="tablist">
+      {%- for items in checklist -%}
+        {%- assign item_id = items.item | slugify -%}
+        <a class="list-group-item list-group-item-action" data-toggle="list" role="tab"
+          id="checklist-{{ checklist_id }}-{{ item_id }}-list"
+          href="#checklist-{{ checklist_id }}-{{ item_id }}"
+          aria-controls="{{ item_id }}"
+          style="padding-left: 3rem;"
+        ><i class="fas fa-check-square" style="margin-left: -1.75rem; margin-right: .85rem;"></i>{{ items.item }}</a>
+      {%- endfor -%}
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="tab-content" id="checklist-{{ checklist_id }}-tabs">
+      {%- for items in checklist -%}
+        {%- if items.description -%}
+          {%- assign item_id = items.item | slugify -%}
+          {%- assign id = "checklist-{{ checklist_id }}-{{ item_id }}" -%}
+          <div class="tab-pane fade" role="tabpanel"
+            id="checklist-{{ checklist_id }}-{{ item_id }}"
+            aria-labelledby="checklist-{{ checklist_id }}-{{ item_id }}-list"
+          ><div class="alert alert-secondary" role="alert">{{ items.description }}</div></div>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</div>

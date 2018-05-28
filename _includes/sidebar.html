@@ -1,0 +1,92 @@
+<form class="bd-search d-flex align-items-center">
+  <input type="search" class="form-control" id="search-input" placeholder="Search Disabled" aria-label="Search for..." autocomplete="off" data-siteurl="{{ site.url }}" disabled="disabled">
+  <button class="btn btn-link bd-search-docs-toggle d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation">
+    {%- include icons/menu.svg width="30" height="30" -%}
+  </button>
+</form>
+
+<nav class="collapse bd-links" id="bd-docs-nav">
+  {% comment %}
+  {%- assign this_section_slug = 'community-building' -%}
+  {%- assign this_group_slug   = ''   -%}
+  {%- assign this_doc_slug     = 'experiences'    -%}
+  {% endcomment %}
+  {%- assign page_slug = page.url | split: '/' | last -%}
+  {%- assign this_section_slug = page.section -%}
+  {%- assign this_group_slug   = page.group   -%}
+  {%- assign this_doc_slug     = page_slug    -%}
+
+  <!-- Site Sections -->
+  {%- for section in site.data.nav -%}
+    {%- assign section_slug = section.title | slugify -%}
+    {%- assign section_link_slug = nil -%}
+    {%- assign section_pages = site.pages | where: "section",section_slug -%}
+    {%- assign section_page = section_pages | where: "title",section.title | first -%}
+    {%- if section_page == nil -%}
+      {%- assign section_link = section.pages | first -%}
+      {%- assign section_link_slug = section_link.title | slugify -%}
+    {%- endif -%}
+    {%- assign active = nil -%}
+
+    {%- if this_section_slug == section_slug -%}
+      {%- assign active = 'active' -%}
+    {%- endif -%}
+
+    <div class="bd-toc-item{% unless active == nil %} {{ active }}{% endunless %}">
+      <a class="bd-toc-link" href="{{ site.baseurl }}/{{ section_slug }}/{{ section_link_slug }}{% if section_link_slug %}/{% endif %}">
+        {{ section.title }}
+      </a>
+
+      {% unless section.pages == nil %}
+      <!-- Section Groups -->
+      <ul class="nav bd-sidenav">
+        {%- for group in section.pages -%}
+          {%- assign group_slug = group.title | slugify -%}
+          {%- assign group_link_slug = nil -%}
+          {%- assign group_pages = site.pages | where: "group",group_slug -%}
+          {%- assign group_page = group_pages | where: "title",group.title | first -%}
+          {%- if group_page == nil -%}
+            {%- assign group_link = group.pages | first -%}
+            {%- assign group_link_slug = group_link.title | slugify -%}
+          {%- endif -%}
+          {%- assign active = nil -%}
+
+          {%- if this_section_slug == section_slug -%}
+            {%- if this_group_slug == group_slug or this_doc_slug == group_slug -%}
+              {%- assign active = 'active' -%}
+            {%- endif -%}
+          {%- endif -%}
+
+          <li class="bd-toc-item{% unless active == nil %} {{ active }}{% endunless %}">
+            <a href="{{ site.baseurl }}/{{ section_slug }}/{{ group_slug }}/{{ group_link_slug }}{% if group_link_slug %}/{% endif %}">
+              {{ group.title }}
+            </a>
+
+            {% unless group.pages == nil %}
+            <!-- Group Pages -->
+            <ul class="nav bd-sidenav">
+              {%- for doc in group.pages -%}
+                {%- assign doc_slug = doc.title | slugify -%}
+                {%- assign active = nil -%}
+
+                {%- if this_section_slug == section_slug and this_group_slug == group_slug and this_doc_slug == doc_slug -%}
+                  {%- assign active = 'active' -%}
+                {%- endif -%}
+
+                <li class="bd-toc-item{% unless active == nil %} {{ active }}{% endunless %}">
+                  <a href="{{ site.baseurl }}/{{ section_slug }}/{{ group_slug }}/{{ doc_slug }}/">
+                    {{ doc.title }}
+                  </a>
+                </li>
+
+              {%- endfor -%}
+            </ul>
+            {% endunless %}
+
+          </li>
+        {%- endfor -%}
+      </ul>
+      {% endunless %}
+    </div>
+  {%- endfor -%}
+</nav>

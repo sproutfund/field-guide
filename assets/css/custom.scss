@@ -1,0 +1,178 @@
+---
+---
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+$primary: #238b53;
+$link-color: $primary;
+
+// @import "bootstrap/bootstrap";
+// @import "bootstrap-docs/docs";
+
+h3, .h3 {
+  font-size: 1.5rem;
+}
+
+h4, .h4 {
+  font-size: 1.125rem;
+}
+
+.bd-toc-link {
+  color: rgba(0, 0, 0, .50);
+}
+
+.bd-navbar {
+  background-color: $primary;
+}
+
+.bd-navbar .navbar-nav .nav-link {
+  color: lighten($primary, 50%);
+}
+
+div.card[id^=example-] {
+   max-width: 80%;
+   margin-top: 1.5rem;
+   margin-bottom: 1.5rem;
+}
+
+.bd-thinking-questions {
+   max-width: 80%;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
+
+.card.voices-from-the-field-more-info {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.bd-title span.badge {
+  font-size: 1rem;
+  vertical-align: 1rem;
+}
+
+.bd-more-info {
+  @supports (position: sticky) {
+    position: sticky;
+    top: 4rem;
+    height: calc(100vh - 4rem);
+    overflow-y: auto;
+  }
+  order: 2;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: .875rem;
+}
+
+
+.bd-toc-item > .bd-sidenav > .bd-toc-item {
+  &.active {
+    margin-bottom: 0.5rem;
+
+    &:not(:first-child) {
+      margin-top: 0.5rem;
+    }
+
+    > .bd-toc-link {
+      color: rgba(0, 0, 0, .85);
+
+      &:hover {
+        background-color: transparent;
+      }
+    }
+
+    > .bd-sidenav {
+      display: block;
+      margin-left: 1rem;
+    }
+  }
+}
+
+.bd-toc-item > .bd-sidenav > .bd-toc-item > .bd-sidenav > .bd-toc-item {
+  &.active {
+    margin-bottom: 0;
+
+    &:not(:first-child) {
+      margin-top: 0;
+    }
+
+    > .bd-toc-link {
+      color: rgba(0, 0, 0, .85);
+
+      &:hover {
+        background-color: transparent;
+      }
+    }
+
+    > .bd-sidenav {
+      display: block;
+      margin-left: 2rem;
+    }
+  }
+}
+
+
+
+// change main body width at lg and above
+@media (min-width: 992px) {
+
+  .bd-content>ol, .bd-content>p, .bd-content>ul {
+    max-width: 100%;
+  }
+
+}
+
+// limit widths at xl
+@media (min-width: 1200px) {
+
+  .bd-content>ol, .bd-content>p, .bd-content>ul {
+    max-width: 840px;
+  }
+
+  .bd-more-info {
+    max-width: 360px;
+  }
+
+}
+
+@media print {
+
+  .col-print-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .pl-print-0 {
+    padding-left: 0!important;
+  }
+
+  .pr-print-0 {
+    padding-right: 0!important;
+  }
+
+  .px-print-0 {
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+
+  .pt-print-0 {
+    padding-top: 0!important;
+  }
+
+  .pb-print-0 {
+    padding-bottom: 0!important;
+  }
+
+  .py-print-0 {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+  }
+
+  .bd-content>ol, .bd-content>p, .bd-content>ul, .bd-thinking-questions, div.card[id^=example-] {
+    max-width: 100%;
+  }
+
+}

@@ -1,0 +1,186 @@
+- experience: Planning
+  goal: "I want to plan something."
+  emoji: 📝
+  adjectives: "Small, Intentional, Focused"
+  tagline: "Chart the course for a new project"
+  size: "5–10 people"
+  process: "Gather a planning team > Arrange a meeting (in-person, if possible) > Develop an agenda > Hatch a plan > Take good notes > Follow-up afterward > Meet again (if necessary)"
+  example: "Sprout designed and led a series of planning meetings to help the Triangle Learning Network develop its plan to launch a learning innovation network in the Triangle Region of North Carolina."
+  protips:
+    - "_As the saying goes..._ **Proper planning prevents poor performance.**"
+    - "**Don’t start with a blank sheet of paper.** It’s often helpful to have a few draft ideas ready to discuss, even if they are very nascent."
+    - "**What’s on the docket?** Always have an agenda ready to go. If you don’t have an agenda, you will waste people’s time. And no one likes that."
+  companions:
+    - Fundraising
+    - Kick-Off
+    - Feedback
+    - Showcase
+    - Ideation
+    - Recruitment
+    - Summit
+
+- experience: Fundraising
+  goal: "I want to raise money."
+  emoji: 💸
+  adjectives: "Goal-oriented, Purposeful, Mission-Driven"
+  tagline: "Raise money to benefit a cause"
+  size: "$XXXX dollars"
+  process: "Gather an event design team > Choose a goal (amount of $) > Find a venue (think creatively) > Determine programming (music, performance, speaking, etc.) > Invite people > Cultivate your vibe > Show people a good time > Ask for contributions > Document the event > Thank everyone"
+  example: "For several years, Hothouse provided an opportunity for a wide cross-section of Pittsburgh’s business and social circles to come together in support of Sprout’s mission. It also served as Sprout’s “live annual report” to the community by presenting a sampling of some of the innovative projects and emerging leaders supported by Sprout each year. "
+  protips:
+    - "**Raise money _and_ awareness.** Sometimes fundraisers not only help you get the cold hard cash you need but they also serve as PR opportunities for your project or organization."
+    - "**Your fundraiser should feel like you.** Make sure that the fundraiser is reflective of your organizational culture. Don’t host a fancy gala if an artsy party in a forgotten warehouse will attract more money and attention."
+    - "**Select the right strategy.** There are lots of ways to raise money. A big fundraiser is one way. Asking private donors is another. Soliciting lots of small donations online is another still. Pick the approach that will work best for you."
+  companions:
+    - Planning
+    - Social
+
+- experience: Kick-Off
+  goal: "I want to announce a new initiative."
+  emoji: 🏈
+  adjectives: "Aspirational, Action-Oriented, Introductory"
+  tagline: "Announce a new campaign"
+  size: "100+ people"
+  process: "Create something exciting > Develop your message > Keep it a secret until the announcement > Gather friends, supporters, and media > Unveil the good news > Tell people how they can get involved > Follow-up afterward personally and online"
+  example: "Sprout developed a high-profile event to support the launch of the new Hive initiative in Pittsburgh. The event featured notable speakers, a selection of key announcements, and time for networking."
+  protips:
+    - "**Don’t hold events that should have been an email.** If you’re going to host a kick-off event, make it worth people’s time. Do things that cannot be done online. Take advantage of the fact that people are physically in the same place."
+    - "**Create some intrigue.** Be mysterious...but not too mysterious. Create anticipation and intrigue by teasing people with the announcement but make sure that you give people new information at the event."
+    - "**Make it actionable.** Don’t let people leave without a clear understanding of what comes next and how they can get involved."
+  companions:
+    - Planning
+    - Recruitment
+    - Ideation
+    - Social
+
+- experience: Recruitment
+  goal: "I want to recruit participants."
+  emoji: 👋
+  adjectives: "Inclusive, Informational, Catalytic"
+  tagline: "Gather new participants and audiences"
+  size: "25–200 people"
+  process: "Finalize opportunity > Invite participants > Develop talking points > Build agenda > Train facilitators and presenters > Host an enticing, inspiring event > Collect commitments > Follow up with participants"
+  example: "Sprout led three events—one in Philadelphia, one in Chicago, and one in San Francisco—to recruit participants for a new national program called LRNG. The events featured notable speakers and working sessions."
+  protips:
+    - "**Clearly communicate the opportunity.** Through a mix of presentations and activities, introduce your participants to the opportunity at hand and how they can get involved."
+    - "**Build in time for questions.** Host a panel discussion or an informal Q&A session to let participants dig into the details. You might anticipate some of the most pressing questions and plant them with a moderator or with a friendly audience member."
+    - "**Make it easy to get on board.** End your event with a clear call to action, and help your participants get involved right away. Capitalize on the event’s momentum and show how you’ll continue to keep people engaged and informed."
+  companions:
+    - Planning
+    - Kickoff
+    - Knowledge-Sharing
+    - Social
+    - Summit
+
+- experience: Ideation
+  goal: "I want to come up with new ideas."
+  emoji: 💡
+  adjectives: "Creative, Participatory, Generative"
+  tagline: "Develop ideas for new projects and programs"
+  size: "Up to 75 people"
+  process: "Identify an opportunity > Develop a facilitation plan > Gather a group of would-be collaborators > Spend time iterating on ideas > Select the most promising few > Determine next steps > Make it happen"
+  example: "In support of a new grantmaking program, Sprout hosted the Idea Round Up, a day-long event to introduce people to the opportunity, engage them in ideation activities, and get them started on applications. The event was also a chance to meet potential collaborators."
+  protips:
+    - "**Your first idea might not be your best idea.** Iteration is key to idea development. Oftentimes, you need to develop many ideas before landing on one that’s worth further refinement."
+    - "**Diverse opinions can lead to breakthroughs.** You don’t know what you don’t know. Sometimes it can help to invite other people into your ideation process — especially people with different expertise and opinions than you."
+    - "**Be willing to share.** We are often keen to keep our ideas to ourselves for fear of someone stealing them, which can happen. However, our experience suggests that discussing ideas openly is far superior to toiling by your lonesome."
+    - "**Quietstorming works.** Brainstorming in groups only works some of the time. However, quietstorming first — brainstorming quietly by yourself — then sharing your ideas with others is often a more effective strategy."
+  companions:
+    - Planning
+    - Kick-off
+    - Knowledge-Sharing
+
+- experience: Knowledge-Sharing
+  goal: "I want to share ideas."
+  emoji: 📚
+  adjectives: "Engaging, Educational, Hands-on"
+  tagline: "Share expertise with one another"
+  size: "10–200 people"
+  process: "Pick a topic & a speaker > Recruit participants > Develop an agenda > Facilitate the event > Learn something new > Send follow-up message"
+  example: "Sprout developed and hosted a series of thematic meetups for members of the Remake Learning Network. Event topics included digital media and learning, the maker movement, and early childhood education."
+  protips:
+    - "**Pick engaging topics.** People love to learn new things, especially if they’re presented in playful, inspiring, and thoughtful ways. Pick speakers and topics that will captivate attention and provoke lively conversation."
+    - "**Meet people where they are.** Sometimes it’s great to hear a lecture from a local luminary on her life’s work; other times, it’s great to host a knowledge-sharing event that features many voices or includes a hands-on learning experience. Consider what your participants might want to learn, and develop an event agenda that reflects their needs."
+    - "**Keep it going.** Consider developing an ongoing series of knowledge-sharing events. You might choose to host events related to topics relevant to your community (like ongoing meetups for educators interested in digital media) or develop events for a limited audience with a rotating topic (like monthly breakfast lectures for people engaged in creative work)."
+  companions:
+    - Recruitment
+    - Ideation
+    - Social
+    - Showcase
+    - Summit
+
+- experience: Social
+  goal: "I want to gather people for social events."
+  emoji: 🔗
+  adjectives: "Casual, Informal, Relationship-focused"
+  tagline: "Create and strengthen social connections"
+  size: "20–40 people"
+  process: "Find an interesting location > Order food and drink > Invite people (friends and strangers who are interested in a topic of choice) > Create signage to help people mingle on their own > Provide some light facilitation (say a few words) > Play good music > Don’t let it last too long (90-120 minutes is enough)"
+  example: "Each fall, Sprout hosted an open house-style “Harvest Gathering” event to create space for people within the Sprout community to mix and mingle — and get better connected with one another. This drop-in event was designed to allow Sprout to open our doors to the community."
+  protips:
+    - "**Nametags go on the right.** Most people shake hands with their right hand, so put your nametag near your right shoulder so that people can read it when they shake your hand."
+    - "**Location, Location, Location.** Most people like to visit new and interesting locations. Don’t underestimate the importance of hosting your gatherings in unique and unexpected locations. If the location complements the topic of the event, even better."
+    - "**Music matters.** The easiest way to cultivate a friendly vibe — and avoid awkward silences — is to play some good background music. Don’t overthink it, though. Make a good playlist and let it roll. Also, fade the music in and out, please."
+  companions:
+    - Kick-off
+    - Fundraising
+    - Recruitment
+    - Knowledge-Sharing
+    - Showcase
+    - Summit
+
+- experience: Showcase
+  goal: "I want to celebrate progress."
+  emoji: 🎪
+  adjectives: "Fun, Inspiring, Celebratory"
+  tagline: "Celebrate a community’s achievements"
+  size: "50–200 people"
+  process: "Pick a venue and an event format >  Recruit presenters > Develop an agenda > Advertise the event to public > Show off your work > Celebrate achievements > Document the event > Share highlights"
+  example: "As steward of the Remake Learning Network, Sprout developed and hosted the Remake Learning Assembly, an annual event that featured a report on the state of the network followed by a networking reception."
+  protips:
+    - "**Recruit diverse presenters.** Whether you’re recruiting people to speak onstage or host an activity at a table, make a point to highlight the voices and accomplishments of a wide range of contributors who are relevant to the work or the community."
+    - "**Prioritize unstructured time.** Nobody likes to be talked at for more than about 30 minutes. If your event features remarks, keep them short, then build in time for networking, informal conversation, and, where appropriate, play."
+    - "**Build visual interest.** Create event signage to help people understand where to go and how they should expect to interact with your presenters and with fellow participants. If you have formal remarks with a slide deck, minimize text and opt for photos instead."
+  companions:
+    - Planning
+    - Knowledge-Sharing
+    - Social
+    - Feedback
+
+- experience: Summit
+  goal: "I want to get a ton of people together."
+  emoji: ⛰
+  adjectives: "Large, Structured, Multi-Faceted"
+  tagline: "Convene a large audience for an important topic"
+  size: "100–500 people"
+  process: "Choose a relevant topic > Develop interesting programming > Recruit participants > Train staff, facilitators, and volunteers > Host the summit > Document the event > Follow up afterward"
+  example: "Sprout designed and led a two-day summit in Silicon Valley about digital badges and micro-credentials for a group of 300 funders, technologists, educators, and other innovators. The Summit to Reconnect Learning featured plenary sessions, panel discussions with prominent speakers, and working sessions."
+  protips:
+    - "**Show, don’t tell.** Offering excellent directional signage can help your attendees understand what to expect. The best large-scale events make use of printed matter and digital media to help participants understand where they need to be and when big events will take place—all without an announcement from the main stage."
+    - "**Set the right tone.** Use any plenary sessions to set participants’ expectations for your event. Make the event’s context clear and describe the event’s objectives and next steps. Outline the rules of engagement, like commitments to equity and inclusion, and let people know where they can find assistance during the event."
+    - "**Assemble your team.** Large-scale events work best when you have a team of trained facilitators who make the whole operation hum. Recruit a team of helpers, train them in advance, and plan to compensate them fairly for their time and any travel or expenses."
+    - "**Don’t overschedule.** Offering too many sessions at once will annoy your participants (who’ll have too many sessions to choose from) and your presenters (who may end up with very few session attendees). Build in time for hallway conversations: participants will stop and chat anyway, so you might as well build in time for informal connections."
+  companions:
+    - Planning
+    - Recruitment
+    - Knowledge-Sharing
+    - Social
+    - Feedback
+
+- experience: Feedback
+  goal: "I want to gather feedback and figure out what’s next."
+  emoji: 🗳
+  adjectives: "Conversational, Reflective, Pragmatic"
+  tagline: "Solicit input from stakeholders and constituents"
+  size: "10–50 people"
+  process: "Develop an agenda > Arrange in-person meetings > Recruit diverse participants > Ask good questions > Take comprehensive notes > Follow up afterward"
+  example: "Sprout designed and led a series of events to gather community feedback about local efforts related to My Brother’s Keeper, a national initiative dedicated to expanding opportunities for boys and young men of color. Events featured a brief presentation followed by a series of feedback station activities."
+  protips:
+    - "**Build in time for critical conversation.** In-person feedback sessions can give community members a unique opportunity to engage with people in positions of power. Structure your event to give people face-time with critical stakeholders so participants feel heard and understood."
+    - "**Keep people moving.** We often structure our feedback sessions with multiple “station activities” to give people several ways to offer feedback and answer important questions. This allows us to break participants into smaller groups where people have more time to talk and more varied ways to engage. It also helps to physically move around the room periodically."
+    - "**Write it down, then read it later.** Recruit note-takers to take notes on structured conversations, and take photos of written responses from participants, including completed surveys and sticky notes. Take the time to systematically record and code the data so you can analyze key themes and ideas that emerged during the session."
+    - "**Host more than one session.** If possible, try to host multiple feedback sessions in multiple locations and at multiple times. For example, if we’re hosting three identical feedback sessions, we’ll schedule one in the morning, one at the lunch hour, and one in the evening. You might also offer a digital survey to people who cannot attend any of the in-person sessions."
+  companions:
+    - Planning
+    - Showcase
+    - Summit

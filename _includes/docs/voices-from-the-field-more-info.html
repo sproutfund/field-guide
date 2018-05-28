@@ -1,0 +1,33 @@
+{%- assign page_slug = page.url | split: '/' | last -%}
+{%- if page.learn-more -%}
+<div class="card voices-from-the-field-more-info" id="more-info-{{ page_slug }}">
+  <div class="row">
+    <div class="col-sm-4 col-lg-12">
+      <img src="/downloads/community-building/voices-from-the-field/{{ page_slug }}/headshot_sq.jpg" class="w-100">
+    </div>
+    <div class="col-sm-8 col-lg-12">
+      <div class="px-2 py-2">
+        <h4 class="card-title d-lg-none d-xl-none">{{ page.title | smartify }}</h4>
+        <p class="card-text">{{ page.learn-more.text | smartify }}:</p>
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="fas fa-envelope-square"></i></span>
+            <a href="{{ page.learn-more.email | prepend: "mailto:" }}">
+              {{ page.learn-more.email }}
+            </a>
+          </li>
+          <li><span class="fa-li"><i class="fab fa-twitter-square"></i></span>
+            <a href="{{ page.learn-more.twitter | prepend: "https://twitter.com/" }}" target="_blank">
+              {{ page.learn-more.twitter | prepend: "@" }}
+            </a>
+          </li>
+          <li><span class="fa-li"><i class="fas fa-external-link-square"></i></span>
+            <a href="{{ page.learn-more.website }}" target="_blank">
+              {{ page.learn-more.website | remove: "http://" | remove: "https://" }}
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+{%- endif -%}

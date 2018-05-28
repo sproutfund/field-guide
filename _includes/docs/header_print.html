@@ -1,0 +1,13 @@
+<nav aria-label="breadcrumb" class="d-none d-print-block">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/{{ site.docs_dir }}/">{{ site.title }}</a></li>
+    {%- for group in site.data.nav -%}
+    {%- assign page_slug = page.url | split: '/' | last -%}
+    {%- assign group_slug = group.title | slugify -%}
+    {%- if page.group == group_slug and page_slug != group_slug -%}
+    <li class="breadcrumb-item"><a href="/{{ site.docs_dir }}/{{ page.group }}/">{{ group.title }}</a></li>
+    {%- endif -%}
+    {%- endfor -%}
+    <li class="breadcrumb-item active" aria-current="page">{{ page.title | smartify }}</li>
+  </ol>
+</nav>

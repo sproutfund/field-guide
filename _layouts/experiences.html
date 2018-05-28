@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include header.html %}
+  </head>
+  <body>
+    {% include skippy.html %}
+
+    {% include navbar.html %}
+
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+        <div class="col-12 col-md-3 col-lg-2 bd-sidebar d-print-none">
+          {% include sidebar.html %}
+        </div>
+
+        {%- capture augmented_content -%}
+          {{ content }}
+          {%- assign page_slug = page.url | split: '/' | last -%}
+          {%- if page_slug == 'experiences' -%}
+            <ul class="list-group">
+              {%- for experience in site.data.experiences -%}
+                <a class="list-group-item list-group-item-action" href="/field-guide/experiences/{{ experience.experience | slugify }}/">
+                  <h3 class="h5 mb-1">{{ experience.experience | smartify }}</h5>
+                  <p class="mb-0">{{ experience.tagline | smartify }}</p>
+                </a>
+              {%- endfor -%}
+            </ul>
+          {%- else -%}
+            {%- assign experiences = site.data.experiences | where:"experience",page.experience -%}
+            {%- for experience in experiences -%}
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-7 col-xl-8">
+                  <div class="d-block h3">Protips</div>
+                  <ul class="fa-ul">
+                    {%- for protip in experience.protips -%}
+                      <li><span class="fa-li"><i class="far fa-star"></i></span>{{ protip | markdownify }}</li>
+                    {%- endfor -%}
+                  </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-5 col-xl-4">
+                  <div class="d-block h3">Process Checklist</div>
+                  <ul class="fa-ul">
+                    {%- assign process_steps = experience.process | split: ' > ' -%}
+                    {%- for process_step in process_steps -%}
+                      <li><span class="fa-li"><i class="far fa-check-square"></i></span>{{ process_step }}</li>
+                    {%- endfor -%}
+                  </ul>
+                </div>
+              </div>
+              <p><strong>Target Size</strong>: {{ experience.size | smartify }}</p>
+              <p><strong>Adjectives</strong>: {{ experience.adjectives | smartify }}</p>
+              <p><strong>In Action</strong>: {{ experience.example | smartify }}</p>
+              {%- if experience.companions -%}
+                {%- capture experience_companions_links -%}
+                  {%- for companion in experience.companions -%}
+                    <a href="/field-guide/experiences/{{ companion | slugify }}/">{{ companion | smartify }}</a>,
+                  {%- endfor -%}
+                {%- endcapture -%}
+                <p><strong>Related Experiences</strong>: {{ experience_companions_links | split: ',' | array_to_sentence_string: ''  }}</p>
+              {%- endif -%}
+              {%- capture experience_techniques_links -%}
+                {%- assign techniques_sorted = site.data.techniques | sort: 'technique' -%}
+                {%- for technique in techniques_sorted -%}
+                  {%- if technique.experiences contains experience.experience -%}
+                    <a href="/field-guide/techniques/{{ technique.purpose | slugify }}/#{{ technique.technique | slugify }}">{{ technique.technique | smartify }}</a>,
+                  {%- endif -%}
+                {%- endfor -%}
+              {%- endcapture -%}
+              {%- if experience_techniques_links -%}
+                <p><strong>Related Techniques</strong>: {{ experience_techniques_links | split: ',' | array_to_sentence_string: ''  }}</p>
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endif -%}
+        {%- endcapture -%}
+
+        {% if page.toc %}
+          <div class="d-none d-lg-block col-lg-3 bd-toc d-print-none ml-auto">
+            {% include toc.html html=augmented_content class="section-nav" item_class="toc-entry toc-h%level%" %}
+          </div>
+        {% endif %}
+
+        <main class="col-12 col-md-9 px-md-4 col-lg-7 d-print-block col-print-12 px-print-0 py-print-0 bd-content" role="main">
+          {% include docs/header_print.html %}
+          <h1 class="bd-title" id="content">{{ page.title | smartify }}{% if page.status %} {{ page.status }}{% endif %}</h1>
+          <p class="bd-lead">{{ page.description | smartify }}</p>
+          {{ augmented_content }}
+        </main>
+      </div>
+    </div>
+
+    {% include scripts.html %}
+  </body>
+</html>

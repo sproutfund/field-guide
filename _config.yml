@@ -1,0 +1,74 @@
+# Dependencies
+markdown:       kramdown
+highlighter:    rouge
+
+kramdown:
+  auto_ids:           true
+  syntax_highlighter: rouge
+
+# Permalinks
+permalink:      pretty
+
+# Server
+source:         "."
+url:            "https://fieldguide.sproutfund.org/"
+encoding:       UTF-8
+exclude:
+  - .bundle/
+  - .git/
+  - .github/
+  - _vendor/
+  - CODE_OF_CONDUCT.md
+  - composer.json
+  - Gemfile
+  - Gemfile.lock
+  - package.js
+  - package.json
+  - package-lock.json
+  - README.md
+  - LICENSE.md
+  - sache.json
+  - twbsconfig.yml
+
+plugins:
+  - github-pages
+  - jekyll-coffeescript
+  - jekyll-github-metadata
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+
+# Github
+repository: sproutfund/community-building-field-guide
+
+# Social
+title:              "The Sprout Fund Field Guide for Philanthropy & Civic Action"
+description:        "Ideas and resources to seed innovation, make community-advised decisions, host participatory events, communicate effectively, and catalyze civic action."
+twitter:            sproutfund
+authors:            "The Sprout Fund"
+social_image_path:  /assets/brand/bootstrap-social.png
+social_logo_path:   /assets/brand/bootstrap-social-logo.png
+
+# Custom variables
+repo:                 "https://github.com/sproutfund/field-guide"
+
+cdn:
+  # See https://www.srihash.org for info on how to generate the hashes
+  bootstrap_css:      "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+  bootstrap_css_hash: "sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+  bootstrap_js:       "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+  bootstrap_js_hash:  "sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+  jquery:             "https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  jquery_hash:        "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  popper:             "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+  popper_hash:        "sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+
+relative_links:
+  enabled:     true
+  collections: false
+
+sass:
+  sass_dir: _sass
+  style: compressed

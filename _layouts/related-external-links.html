@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include header.html %}
+  </head>
+  <body>
+    {% include skippy.html %}
+
+    {% include navbar.html %}
+
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+        <div class="col-12 col-md-3 col-xl-2 bd-sidebar d-print-none">
+          {% include sidebar.html %}
+        </div>
+
+        {%- capture related-external-links -%}
+          {%- for group in site.data.nav -%}
+            {%- assign group_slug = group.title | slugify -%}
+            {%- assign group_has_links = false -%}
+            {%- for doc in group.pages -%}
+              {%- assign doc_slug = doc.title | slugify -%}
+              {%- if site.data.related-external-links[doc_slug] -%}
+                {%- assign group_has_links = true -%}
+              {%- endif -%}
+            {%- endfor -%}
+            {%- if group_has_links -%}
+              <h2 id="{{ group_slug }}">{{ group.title }}</h2>
+              {%- for doc in group.pages -%}
+                {%- assign doc_slug = doc.title | slugify -%}
+                {%- include docs/related-external-links.html doc_slug=doc_slug heading=doc.title hlevel=3 -%}
+              {%- endfor -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endcapture -%}
+
+        {% if page.toc %}
+          <div class="d-none d-xl-block col-xl-2 bd-toc d-print-none">
+            {% include toc.html html=related-external-links class="section-nav" item_class="toc-entry toc-h%level%" %}
+          </div>
+        {% endif %}
+
+        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 d-print-block col-print-12 px-print-0 py-print-0 bd-content" role="main">
+          {% include docs/header_print.html %}
+          <h1 class="bd-title" id="content">{{ page.title | smartify }}</h1>
+          <p class="bd-lead">{{ page.description | smartify }}</p>
+          {{ related-external-links }}
+        </main>
+      </div>
+    </div>
+
+    {% include scripts.html %}
+  </body>
+</html>
