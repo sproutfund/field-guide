@@ -7,7 +7,7 @@ description:
 section: community-building
 group: voices-from-the-field
 status: <span class="badge badge-success">final draft</span>
-learn-more:
+voices-learn-more:
   text: "Learn more about Nathan and The Global Switchboard"
   email: "ndarity@gmail.com"
   twitter: "nathandarity"
