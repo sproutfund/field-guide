@@ -6,10 +6,38 @@
 @import "bootstrap/mixins";
 
 $primary: #238b53;
-$link-color: $primary;
+// $link-color: $primary;
 
-// @import "bootstrap/bootstrap";
-// @import "bootstrap-docs/docs";
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1900px,
+  xxxl: 3000px
+);
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1600px,
+  xxxl: 2500px
+);
+
+@import "bootstrap/bootstrap";
+@import "bootstrap-docs/docs";
 
 h3, .h3 {
   font-size: 1.5rem;
@@ -140,7 +168,7 @@ div.card[id^=example-] {
 }
 
 // limit widths at xl
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
 
   .bd-content>ol, .bd-content>p, .bd-content>ul,
   .bd-content>h2, .bd-content>.h2,
@@ -153,7 +181,7 @@ div.card[id^=example-] {
     max-width: 360px;
   }
 
-}
+} */
 
 @media print {
 

@@ -53,9 +53,9 @@ social_logo_path:   /assets/brand/bootstrap-social-logo.png
 
 # Custom variables
 repo:               "https://github.com/sproutfund/field-guide"
-css_sidebar:        "bd-sidebar col-12            col-md-3 col-lg-3        d-print-none"
-css_toc:            "bd-toc     d-none d-lg-block          col-lg-3 ml-auto d-print-none"
-css_main:           "bd-content col-12            col-md-9 col-lg-6 px-md-4 d-print-block col-print-12 px-print-0 py-print-0"
+css_sidebar:        "bd-sidebar col-12            col-md-3 col-lg-2 col-xl-2 col-xxl-2                 d-print-none"
+css_toc:            "bd-toc     d-none d-lg-block          col-lg-3 col-xl-2 col-xxl-2 ml-auto         d-print-none"
+css_main:           "bd-content col-12            col-md-9 col-lg-7 col-xl-7 col-xxl-6 px-md-4 pb-md-4 d-print-block col-print-12 px-print-0 py-print-0"
 
 cdn:
   # See https://www.srihash.org for info on how to generate the hashes
