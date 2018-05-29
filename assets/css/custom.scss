@@ -36,8 +36,8 @@ $container-max-widths: (
   xxxl: 2500px
 );
 
-@import "bootstrap/bootstrap";
-@import "bootstrap-docs/docs";
+// @import "bootstrap/bootstrap";
+// @import "bootstrap-docs/docs";
 
 h3, .h3 {
   font-size: 1.5rem;
@@ -136,6 +136,13 @@ div.card[id^=example-] {
       display: block;
       margin-left: 2rem;
     }
+  }
+}
+
+// change footer font-size at xs
+@media (max-width: 575px) {
+  footer {
+    font-size: .75rem;
   }
 }
 

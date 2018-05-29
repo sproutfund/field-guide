@@ -78,6 +78,7 @@
           <h1 class="bd-title" id="content">{{ page.title | smartify }}{% if page.status %} {{ page.status }}{% endif %}</h1>
           <p class="bd-lead">{{ page.subtitle | smartify }}</p>
           {{ augmented_content }}
+          {% include footer.html %}
         </main>
       </div>
     </div>
