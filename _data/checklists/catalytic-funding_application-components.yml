@@ -1,0 +1,20 @@
+- item: Applicant Contact Information
+  description: Name, daytime phone, email address, social media for person completing the application who should receive follow-up
+
+- item: Organizational Information
+  description: Affilation of the applicant or the applying organization (if applicable)
+
+- item: Narrative Questions that align with Decisionmaking Criteria
+  description: Questions you want your applicants to answer
+
+- item: Budget
+  description: Form or upload
+
+- item: Timeline
+  description: Form or upload
+
+- item: References and/or Letters of Support
+  description: Form or upload
+
+- item: Terms and Conditions
+  description: Fine print and/or verification person has authorization to submit on behalf of org

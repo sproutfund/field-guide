@@ -27,7 +27,7 @@ Hosting an information session at a local community meeting place or the funderâ
 {% include docs/thinking-questions.html content=thinking-questions %}
 
 ### Info Session Checklist
-{% include docs/checklist.html id="info-session-tasks" %}
+{% include docs/checklist.html id="catalytic-funding_info-session-tasks" %}
 
 ## Step-by-Step Process
 

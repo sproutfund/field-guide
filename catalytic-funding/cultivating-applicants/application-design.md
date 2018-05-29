@@ -26,7 +26,7 @@ Catalytic funding programs often request that all applicants provide a cover pag
 {% include docs/thinking-questions.html content=thinking-questions %}
 
 ### Application Checklist
-{% include docs/checklist.html id="application-components" %}
+{% include docs/checklist.html id="catalytic-funding_application-components" %}
 
 ## Recommendations
 
