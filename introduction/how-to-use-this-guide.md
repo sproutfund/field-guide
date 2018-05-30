@@ -8,7 +8,7 @@ toc: true
 status: <span class="badge badge-warning">needs review</span>
 ---
 
-Over Sprout's two decades, we’ve been lucky to work with grantmakers, governments, nonprofits, schools, startups, community organizers, and more. The common thread among these many "friends of Sprout" has been **their commitment to catalyzing change in their communities.** 
+Over Sprout's two decades, we’ve been lucky to work with grantmakers, governments, nonprofits, schools, startups, community organizers, and more. The common thread among these many "friends of Sprout" has been their **commitment to catalyzing change in their communities.** 
 
 We wrote this guide to "open source" Sprout's approach to catalytic funding, community building, and storytelling. If you count yourself as someone who endeavors to create more inclusive and vibrant communities, then you might be attracted to the ideas within this publication. 
 
