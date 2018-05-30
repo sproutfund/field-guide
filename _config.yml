@@ -41,15 +41,15 @@ plugins:
   - jemoji
 
 # Github
-repository: sproutfund/community-building-field-guide
+repository: sproutfund/field-guide
 
 # Social
 title:              "Field Guide for Philanthropy & Civic Action"
 description:        "Ideas and resources to seed innovation, make community-advised decisions, host participatory events, communicate effectively, and catalyze local change."
 twitter:            sproutfund
 authors:            "The Sprout Fund"
-social_image_path:  /assets/brand/bootstrap-social.png
-social_logo_path:   /assets/brand/bootstrap-social-logo.png
+social_image_path:  /assets/brand/sproutfund-in-circle_social-square.png
+social_logo_path:   /assets/brand/sproutfund-in-circle_social-wide.png
 
 # Custom variables
 repo:               "https://github.com/sproutfund/field-guide"
