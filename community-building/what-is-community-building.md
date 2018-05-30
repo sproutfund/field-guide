@@ -38,19 +38,19 @@ _We never want people to feel unwelcome, unaware, or unclear. Rather, we want pe
 
 Sprout has hosted hundreds of small- and large-scale events, from focus groups to multi-day festivals. While each event has its own goals and character, all Sprout events are guided by a series of principles that embody our comprehensive approach to experience design.
 
-* **Inclusive**: Experiences should be community-based and accessible to all who want to participate.
+* 👐 **Inclusive**: Experiences should be community-based and accessible to all who want to participate.
 
-* **Purposeful**: Experiences should be imbued with intent. Don't host a meeting that should have been an email.
+* 🎯 **Purposeful**: Experiences should be imbued with intent. Don't host a meeting that should have been an email.
 
-* **Contextual**: Experiences should honor history, acknowledge prior work, and be clearly situated in place and time.
+* 🌏 **Contextual**: Experiences should honor history, acknowledge prior work, and be clearly situated in place and time.
 
-* **Participatory**: Experiences should be participatory and interactive, and utilize co-design whenever possible.
+* 👷 **Participatory**: Experiences should be participatory and interactive, and utilize co-design whenever possible.
 
-* **Catalytic**: Experiences should create tangible after-effects that activate community members.
+* 🎆 **Catalytic**: Experiences should create tangible after-effects that activate community members.
 
-* **Well-Documented**: Experiences should generate shareable artifacts, including photos, videos, and other archival material.
+* 📷  **Well-Documented**: Experiences should generate shareable artifacts, including photos, videos, and other archival material.
 
-Applying human capacity and ingenuity to complex problems our best hope against the robotic uprising. Seriously though, solutions to such problems rarely emerge organically; they require cultivation and a structured approach for orchestrating the chaos and determining the best path forward. Active, intentional community building creates the conditions for individuals to build strong relationships with one another and form coalitions that can accelerate the pace of change.
+Applying human capacity and ingenuity to complex problems our best hope against the robotic uprising. 🤖 Seriously though, solutions to such problems rarely emerge organically; they require cultivation and a structured approach for orchestrating the chaos and determining the best path forward. Active, intentional community building creates the conditions for individuals to build strong relationships with one another and form coalitions that can accelerate the pace of change.
 
 
 ## What You Can Expect 
