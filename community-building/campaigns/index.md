@@ -11,7 +11,7 @@ status: <span class="badge badge-warning">needs review</span>
 
 While all community building campaigns are unique, successful campaigns have some key similarities: a well-defined audience, a focused goal, a clear message, and specific ways for people to get involved during a set period of time. 
 
-When you start to develop a community building campaign, we encourage you to think through each of these <a href="http://fieldguide.sproutfund.org/community-building/campaigns/#key-considerations">**key considerations**</a> to guide your planning process. Then, you can use a suite of <a href="http://fieldguide.sproutfund.org/community-building/campaigns/#campaign-planning-tools">**campaign planning tools**</a> we created to help you further develop your thinking. 
+When you start to develop a community building campaign, we encourage you to think through each of these <a href="http://fieldguide.sproutfund.org/community-building/campaigns/#key-considerations">**key considerations**</a> to guide your planning process. Then, you can use a suite of <a href="http://fieldguide.sproutfund.org/community-building/campaigns/#planning-tools">**planning tools**</a> we created to help you further develop your thinking. 
 
 ## Key Considerations
 
@@ -92,7 +92,7 @@ Let’s look at them one by one. Remember, you can jot down ideas and track your
 3. What useful milestones might you set?
 4. What external milestones might influence or impact your activities?
 
-## Campaign Planning Tools
+## Planning Tools
 
 Use the <a href="https://drive.google.com/open?id=1gA0d42b4SaC4sWjROwSMpBbQDr9qOH2P">**_Campaign Builder_**</a> to help you create a high-level, one-page plan for your campaign.
 
