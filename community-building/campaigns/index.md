@@ -10,7 +10,8 @@ status: <span class="badge badge-warning">needs review</span>
 ---
 
 While all community building campaigns are unique, successful campaigns have some key similarities: a well-defined audience, a focused goal, a clear message, and specific ways for people to get involved during a set period of time. When you start to develop a community building campaign, we encourage you to think through each of these "key considerations" and use them to guide your planning process.
-<!--GRAY BOX: Use the **_Campaign Builder_** to help you create a high-level, one-page plan for your campaign. `<INSERT LIZZY’S DOCUMENT>`
+
+<!--GRAY BOX: Use the **_Campaign Builder_** to help you create a high-level, one-page plan for your campaign. <INSERT LIZZY’S DOCUMENT> -->`
 
 <!--Use the **_Experience Cards_** to help you brainstorm the kinds of action-oriented experiences you might include in your campaign. Remember, you can use the same experience type more than once! -->
 
