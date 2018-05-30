@@ -9,15 +9,9 @@ toc: true
 status: <span class="badge badge-warning">needs review</span>
 ---
 
-True, authentic, and organic community building happens when people have ongoing opportunities to collaborate with one another and steadily increase their participation over time. This is important because relationships matter and they grow stronger through intentional collaboration. In short, relationships are the currency of community building—we trade in trust.
-
-We’ve all been to dynamite events that hint at collaborations that might develop. We’ve seen provocative speakers and engaged in dynamic discussions, and we’ve likely imagined how it might look to sustain that initial energy into productive action. Unfortunately, those enthusiastic sparks don’t often catch fire—usually because there’s no one tending the flame. 🔥
-
-Community building seeks to sustain productive collaboration _and_ catalyze collective action. We like to think about this work as a **campaign**: an intentional arc of focused, action-oriented activities that mobilize people to achieve shared goals. Campaigns are comprised of a series of **experiences** that purposefully bring people together to make progress toward an overarching goal. Those experiences are supported by a series of experience design **techniques** that empower people to collaborate effectively.
-
 While all community building campaigns are unique, successful campaigns have some key similarities: a well-defined audience, a focused goal, a clear message, and specific ways for people to get involved during a set period of time. When you start to develop a community building campaign, we encourage you to think through each of these "key considerations" and use them to guide your planning process.
 
-GRAY BOX: Use the **_Campaign Builder_** to help you create a high-level, one-page plan for your campaign. `<INSERT LIZZY’S DOCUMENT>`
+Use the **_Campaign Builder_** to help you create a high-level, one-page plan for your campaign. `<INSERT LIZZY’S DOCUMENT>`
 
 ## Key Considerations
 
