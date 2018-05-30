@@ -9,17 +9,7 @@ toc: true
 status: <span class="badge badge-warning">needs review</span>
 ---
 
-While all community building campaigns are unique, successful campaigns have some key similarities: a well-defined audience, a focused goal, a clear message, and specific ways for people to get involved during a set period of time. When you start to develop a community building campaign, we encourage you to think through each of these "key considerations" and use them to guide your planning process.
-
-## Campaign Planning Tools
-
-Use the <a href="https://drive.google.com/open?id=1gA0d42b4SaC4sWjROwSMpBbQDr9qOH2P">**_Campaign Builder_**</a> to help you create a high-level, one-page plan for your campaign.
-
-Use the <a href="https://drive.google.com/open?id=1nCLW0w_PVVaUa9ue9rFZN4KztROOQ8Ot">**_Experience Cards_**</a> to help you brainstorm the kinds of action-oriented experiences you might include in your campaign. Remember, you can use the same experience type more than once!
-
-Then, use the <a href="https://drive.google.com/open?id=1I3nZ17F4FZw6IYeFXEyrDOlPX9B-kbv8">**_Campaign Arc_**</a> to illustrate how you might stitch those experiences together to create your campaign. This will enable you to create a one-page summary of your trajectory.
-
-Finally, use the <a href="https://drive.google.com/open?id=1iEz99pTPr_ou9apLu1iYkFIg67_t4_9P">**_Experience Builder_**</a> to plan each experience in your campaign in greater detail.
+While all community building campaigns are unique, successful campaigns have some key similarities: a well-defined audience, a focused goal, a clear message, and specific ways for people to get involved during a set period of time. When you start to develop a community building campaign, we encourage you to think through each of these "key considerations" to guide your planning process. Then, you can use a suite of campaign planning tools we created to help you further develop your thinking. 
 
 ## Key Considerations
 
@@ -99,3 +89,13 @@ Let’s look at them one by one. Remember, you can jot down ideas and track your
 2. How often do your activities need to take place?
 3. What useful milestones might you set?
 4. What external milestones might influence or impact your activities?
+
+## Campaign Planning Tools
+
+Use the <a href="https://drive.google.com/open?id=1gA0d42b4SaC4sWjROwSMpBbQDr9qOH2P">**_Campaign Builder_**</a> to help you create a high-level, one-page plan for your campaign.
+
+Use the <a href="https://drive.google.com/open?id=1nCLW0w_PVVaUa9ue9rFZN4KztROOQ8Ot">**_Experience Cards_**</a> to help you brainstorm the kinds of action-oriented experiences you might include in your campaign. Remember, you can use the same experience type more than once!
+
+Then, use the <a href="https://drive.google.com/open?id=1I3nZ17F4FZw6IYeFXEyrDOlPX9B-kbv8">**_Campaign Arc_**</a> to illustrate how you might stitch those experiences together to create your campaign. This will enable you to create a one-page summary of your trajectory.
+
+Finally, use the <a href="https://drive.google.com/open?id=1iEz99pTPr_ou9apLu1iYkFIg67_t4_9P">**_Experience Builder_**</a> to plan each experience in your campaign in greater detail.
