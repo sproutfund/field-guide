@@ -57,6 +57,8 @@ Applying human capacity and ingenuity to complex problems our best hope against 
 
 Explore the following chapters to learn more about our approach to community building. We've created tools you can use to develop your own community building campaigns, and we've shared links to our favorite resources  from around the web that inspire and support our work. 
 
-We also hope you'll draw inspiration from how people apply similar practices in contexts around the world.  You can see ten examples of other “community builders” in the Voices From The Field section of this guide, and you’ll note that our own examples are drawn from Sprout’s work across a variety of fields over the organization’s two-decade history.
+We also hope you'll draw inspiration from how people apply similar practices in contexts around the world.  You can see ten examples of other “community builders” in the Voices From The Field section of this guide, and you’ll note that our own examples are drawn from Sprout’s work across a variety of fields over the organization’s two-decade history. 
+
+Remember, at its core, community building is about creating the conditions for collaboration and facilitating connections between people. So long as you stay true to that mission, your work will surely continue to evolve and grow.
 
 We hope you’ll use these stories, examples, and ideas as the starting point for your own community building work, no matter where you work or what you do. Moreover, we hope that the ideas and examples we’ve shared here will help other communities achieve their own measures of meaningful, positive change. _Read on!_
