@@ -10,8 +10,6 @@ toc: true
 status: <span class="badge badge-warning">needs review</span>
 ---
 
-## Community Building Defined
-
 The Sprout Fund helped foundations, nonprofits, companies, and governments make an impact on the issues they cared about most. Sprout began its work primarily as a grantmaking organization: over its 17-year history, Sprout worked with regional and national philanthropic partners to make more than $7 million of community-decided investments in more than 1,100 early-stage projects, organizations, innovators, and activities.
 
 But distributing grants was only the beginning. In addition to providing catalytic funding to promising projects, Sprout has also spent its last decade forging connections between people working in service of critical social causes like education, art, and neighborhood development. Our experience suggests that most problems cannot be solved in isolation; instead, we believe that positive change results when people openly collaborate to achieve shared goals.
