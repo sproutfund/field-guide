@@ -27,7 +27,7 @@ We think that the following key considerations can help you develop the strategi
 
 5. 💪 **Organizers**: Who can help you lead the work?
 
-Let’s look at them one by one. Remember, you can jot down ideas and track your progress using the Community Building Campaign Builder.  
+Let’s look at them one by one. Once you've reviewed them,you can jot down ideas and track your progress using the <a href="http://fieldguide.sproutfund.org/community-building/campaigns/#planning-tools">planning tools</a> linked below.  
 
 ### 👥 Participants
 
