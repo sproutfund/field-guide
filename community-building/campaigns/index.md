@@ -23,9 +23,9 @@ We think that the following key considerations can help you develop the strategi
 
 3. 📣 **Message**: What do you want to say?
 
-4. 💪 **Organizers**: Who can help you lead the work?
+4. 📅 **Timeline**: When will it happen? 
 
-5. 📅 **Timeline**: When will it happen?
+5. 💪 **Organizers**: Who can help you lead the work?
 
 Let’s look at them one by one. Remember, you can jot down ideas and track your progress using the Community Building Campaign Builder.  
 
@@ -67,18 +67,6 @@ Let’s look at them one by one. Remember, you can jot down ideas and track your
 4. What talking points will resonate with your community?
 5. How should you convey your message?
 
-### 💪 Organizers
-
-**Get friends to help**: Recruit collaborators to fill critical roles.
-
-**Explanation**: Community building campaigns demand considerable and varied effort, and it’s worth recruiting friends, colleagues, and other professionals whose skillsets match the work. Some important contributors might include key community partners who can guide the campaign over the long term, plus short-term helpers like communications professionals, photographers, meeting facilitators, or venue hosts.  
-
-**Thinking questions**:
-
-1. What roles do you need contributors to play to help you achieve your goals?
-2. How might you recruit contributors to join you?  
-3. Are your helpers and vendors representative of your audience and responsive to their needs?
-
 ### 📅 Timeline
 
 **Build your calendar of events**: Determine how long your campaign should last.
@@ -91,6 +79,18 @@ Let’s look at them one by one. Remember, you can jot down ideas and track your
 2. How often do your activities need to take place?
 3. What useful milestones might you set?
 4. What external milestones might influence or impact your activities?
+
+### 💪 Organizers
+
+**Get friends to help**: Recruit collaborators to fill critical roles.
+
+**Explanation**: Community building campaigns demand considerable and varied effort, and it’s worth recruiting friends, colleagues, and other professionals whose skillsets match the work. Some important contributors might include key community partners who can guide the campaign over the long term, plus short-term helpers like communications professionals, photographers, meeting facilitators, or venue hosts.  
+
+**Thinking questions**:
+
+1. What roles do you need contributors to play to help you achieve your goals?
+2. How might you recruit contributors to join you?  
+3. Are your helpers and vendors representative of your audience and responsive to their needs?
 
 ## Planning Tools
 
