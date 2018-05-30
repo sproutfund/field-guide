@@ -5,10 +5,14 @@
 <meta name="generator" content="Jekyll v{{ jekyll.version }}">
 
 <title>
-  {%- if page.title -%}
-    {{ page.title | smartify }} · {{ site.title | smartify }}
-  {%- else -%}
+  {%- if page.layout == 'legacy-award-assignments' -%}
+    Sprout Legacy Awards Review Packet
+  {%- elsif page.layout == 'home' -%}
     {{ site.title | smartify }} · {{ site.description | smartify }}
+  {%- elsif page.title -%}
+    {{ site.title | smartify }} · {{ site.description | smartify }}
+  {%- else -%}
+    {{ site.title | smartify }}
   {%- endif -%}
 </title>
 
