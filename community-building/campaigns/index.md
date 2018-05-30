@@ -11,7 +11,13 @@ status: <span class="badge badge-warning">needs review</span>
 
 While all community building campaigns are unique, successful campaigns have some key similarities: a well-defined audience, a focused goal, a clear message, and specific ways for people to get involved during a set period of time. When you start to develop a community building campaign, we encourage you to think through each of these "key considerations" and use them to guide your planning process.
 
-Use the **_Campaign Builder_** to help you create a high-level, one-page plan for your campaign. `<INSERT LIZZY’S DOCUMENT>`
+<!--GRAY BOX: Use the **_Campaign Builder_** to help you create a high-level, one-page plan for your campaign. `<INSERT LIZZY’S DOCUMENT>`
+
+<!--Use the **_Experience Cards_** to help you brainstorm the kinds of action-oriented experiences you might include in your campaign. Remember, you can use the same experience type more than once! -->
+
+<!--Then, use the **_Campaign Arc_** to illustrate how you might stitch those experiences together to create your campaign. This will enable you to create a one-page summary of your trajectory. -->
+
+<!--Finally, use the **_Experience Builder_** to plan each experience in your campaign in greater detail. `<INSERT LIZZY'S DOCUMENTS>`-->
 
 ## Key Considerations
 
@@ -33,7 +39,7 @@ Let’s look at them one by one. Remember, you can jot down ideas and track your
 
 **Identify your community**: Clearly articulate the audience you want to engage.
 
-**Explanation**: Always start with people. Community building campaigns are designed to create connections between people within a geography or interest area. Therefore, you must identify your audience first. You must understand who you’re trying to serve.
+**Explanation**: Always start with people. Community building campaigns are designed to create connections among people within a geography or interest area. Therefore, you must identify your audience first. You must understand who you’re trying to serve.
 
 **Thinking questions**:
 
@@ -67,7 +73,7 @@ Let’s look at them one by one. Remember, you can jot down ideas and track your
 4. What talking points will resonate with your community?
 5. How should you convey your message?
 
-### 💪 Contributors
+### 💪 Organizers
 
 **Get friends to help**: Recruit collaborators to fill critical roles.
 
