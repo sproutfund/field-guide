@@ -30,6 +30,8 @@
                   </a>
                 {%- endfor -%}
               </ul>
+              {% include docs/templates-downloads.html section_slug=page_section_slug doc_slug=page_slug heading="Templates & Downloads" hlevel=2 %}
+              {% include docs/related-external-links.html section_slug=page_section_slug doc_slug=page_slug heading="Related External Links" hlevel=2 %}
             {%- endfor -%}
           {%- else -%}
             {%- assign technique_group_techniques = site.data.community-building-techniques | where:"purpose",page_slug -%}
