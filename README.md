@@ -9,7 +9,7 @@ Ideas and resources to seed innovation, make community-advised decisions, host p
 * hide funder reporting (for now)
 
 
-# DEC To Do
+## DEC To Do
 
 * review [templates/downloads](http://fieldguide.sproutfund.org/resources/templates-downloads/) & [external links](http://fieldguide.sproutfund.org/resources/related-external-links/) to verify we've got everything there we want
 * review the original google docs and see if anything didn't migrate
