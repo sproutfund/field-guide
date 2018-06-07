@@ -2,7 +2,7 @@
 layout: docs
 title: What Is Community Building?
 subtitle:
-description:
+description: This section was created as an introduction to the Community Building section of Sprout's Field Guide. It outlines Sprout's approach to community building, which we define as the practice of creating and enhancing connections among people. You'll find a series of design principles that have our guided our work and an overview of our approach to experience design. It is intended to be useful for fellow community builders who lead similar work and use open practices to catalyze civic action around the world.
 section: community-building
 group: what-is-community-building
 redirect_from: /community-building/
