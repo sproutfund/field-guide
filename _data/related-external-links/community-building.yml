@@ -8,67 +8,57 @@
 
 techniques:
 
-- title: "101 Design Methods"
-  description: test description text
+- title: 101 Design Methods
+  description: A practical set of collaborative tools and methods for planning and defining successful new offerings.
   source: 101 Design Methods
   url: "http://www.101designmethods.com"
 
-- title: "18F"
-  description:
-  source:
-  url: "https://18f.gsa.gov"
+- title: 18F Design Tools
+  description: A collection of tools to bring human-centered design into your project.
+  source: 18F
+  url: "https://methods.18f.gov/"
 
 - title: "AtlassianTeam Playbook"
-  description:
-  source:
+  description: A no-bullshit guide to unleashing your team's potential.
+  source: Atlassian
   url: "https://www.atlassian.com/team-playbook"
 
-- title: "Atomic Object’s Design Thinking Toolkit"
-  description:
-  source:
+- title: Atomic Object’s Design Thinking Toolkit
+  description: A series of blog posts about design thinking from Atomic Object. 
+  source: Atomic
   url: "https://spin.atomicobject.com/2017/05/18/what-is-design-thinking/"
 
-- title: "Circular Design Guide"
-  description:
-  source:
+- title: Circular Design Guide
+  description: A radical, restorative, regenerative approach to business.
+  source:  Ellen MacArthur Foundation and IDEO
   url: "https://www.circulardesignguide.com/"
 
-- title: "CreativeMornings Skills"
-  description:
-  source:
+- title: CreativeMornings Skills
+  description: A collection of resources from the global CreativeMornings community. 
+  source: CreativeMornings 
   url: "https://creativemornings.com/skills"
 
-- title: "The Field Guide to Human-Centered Design"
-  description:
-  source: "IDEO.org"
-  url: "http://www.designkit.org/resources/1"
+- title: The Field Guide to Human-Centered Design
+  description: A collection of books, guides, and  downloads to help people routinely innovate and solve big problems.
+  source: IDEO
+  url: "http://www.designkit.org/resources/"
 
 - title: "Gamestorming"
-  description:
-  source:
+  description: A set of co-creation tools used by innovators around the world.
+  source: Gamestorming
   url: "http://gamestorming.com"
 
-- title: "IDEO Design Kit"
-  description:
-  source:
-  url: "https://www.designkit.org"
-
 - title: "Improv Wiki"
-  description:
-  source:
+  description: The internet headquarters of improvisational theater. 
+  source: Improv Wiki 
   url: "https://improwiki.com/"
 
-- title: "Innovating for People"
-  description:
-  source: "LUMA Institute"
-  url: "https://www.amazon.com/dp/B00AEBNFWU/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1"
-
 - title: "LUMA Institute"
-  description:
-  source:
+  description: This handbook equips people in various lines of work to become more innovative.
+  source: LUMA Institute
   url: "https://www.luma-institute.com"
 
 - title: "This is Service Design Thinking"
-  description:
-  source:
+  description: This book outlines a contemporary approach for service innovation. 
+  source: 23 international authors
   url: "http://thisisservicedesignthinking.com"
