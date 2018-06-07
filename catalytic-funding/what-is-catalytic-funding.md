@@ -1,13 +1,13 @@
 ---
 layout: docs
 title: What Is Catalytic Funding?
-subtitle:
-description:
+subtitle: 
+description: This section was created as an overview of Sprout’s approach to Catalytic Funding. It provides context on the core principles that the subsequent guide were developed from and is intended to be useful for people who would like an introduction to Sprout as a catalytic funder before exploring the individual sections of the Field Guide.
 section: catalytic-funding
 group: what-is-catalytic-funding
 redirect_from: /catalytic-funding/
 toc: true
-status: <span class="badge badge-danger">missing</span>
+status: <span class="badge badge-warning">needs review</span>
 ---
 
 <!--Offering financial and technical assistance at a project’s earliest stages of development creates space for new leaders and ideas to emerge. This combination of funding and a deep network of support in turn fuels the capabilities and taps into the ingenuity of a city’s creative community.-->
