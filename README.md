@@ -3,10 +3,11 @@ Ideas and resources to seed innovation, make community-advised decisions, host p
 
 ## MGH To Do
 
+* edit links in Tracker to fieldguide.sproutfund.org
 * migrate TOC descriptions
 * copy/paste overviews for missing CatFun sections
 * hide funder reporting (for now)
-* 
+
 
 # DEC To Do
 
