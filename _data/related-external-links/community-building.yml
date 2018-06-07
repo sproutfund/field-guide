@@ -6,7 +6,9 @@
 
 # don't use any colons without quoting text!
 
-techniques:
+# techniques
+
+index:
 
 - title: "101 Design Methods"
   description: test description text
