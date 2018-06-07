@@ -2,7 +2,7 @@
 layout: techniques
 title: Techniques
 subtitle:
-description: This section provides an overview of some of our favorite human-centered desgn techniques, separated by function: Generate, Prioritize, Reflect. It is intended to serve as a library of tools that experience designers can draw from as they develop engaging experiences in support of Community Building campaigns. 
+description: This section provides an overview of some of our favorite human-centered design **techniques** that we use to Generate, Prioritize, and Reflect on new ideas. It is intended to serve as a library of tools that experience designers can draw from as they develop engaging experiences in support of Community Building campaigns. 
 section: community-building
 group: techniques
 toc: true
