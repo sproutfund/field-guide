@@ -17,7 +17,7 @@ As a way to power grassroots responses to pressing regional issues, Sprout provi
 Despite the diversity within Sprout’s funding portfolio, the funding programs are connected through the following fundamentals:
 * **Timing** – early support for new ideas, catching new ideas at their germination
 * **Amount** – small investments can produce big results, an entry point for new projects
-* **Innovation** – unusual, unexpected, unique ideas that act as a catalyst for change, providing support for emerging leaders and new projects, programs, and activities that are not yet established enough to be considered for more traditional grant programs
+* **Innovation* – unusual, unexpected, unique ideas that act as a catalyst for change, providing support for emerging leaders and new projects, programs, and activities that are not yet established enough to be considered for more traditional grant programs
 
 In addition to catalyzing new ideas, this support also helped build capacity of individuals to organize small groups of peers and colleagues into high-functioning collaborative efforts. Sprout’s support of grantee cohorts along with communications and documentation investments to supplement the financial awards amplified the voice of project managers, elevating them as change agents in their communities and inspiring others to become more active, involved, and civically-engaged.
 
