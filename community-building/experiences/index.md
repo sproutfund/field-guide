@@ -2,7 +2,7 @@
 layout: experiences
 title: Experiences
 subtitle:
-description:
+description: This section outlines ten types of experiences that we have used to develop our own community building campaigns. It is intended to help community builders develop a series of engaging, action-oriented events that purposefully bring people together to make progress toward an overarching goal. Each experience type includes artifacts from Sprout's work developing similar events over its two-decade history. 
 section: community-building
 group: experiences
 toc: true
