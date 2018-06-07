@@ -2,7 +2,7 @@
 layout: docs
 title: Campaigns
 subtitle:
-description: This section provides an introduction to community building **campaigns**, our name for the intentional arc of focused, action-oriented activities that mobilize people to achieve shared goals. This section is intended to help people organize their thinking about their potential campaigns using a series of key considerations and a suite of planning tools. 
+description: This section provides an introduction to community building campaigns, our name for the intentional arc of focused, action-oriented activities that mobilize people to achieve shared goals. This section is intended to help people organize their thinking about their potential campaigns using a series of key considerations and a suite of planning tools. 
 section: community-building
 group: campaigns
 toc: true
