@@ -9,8 +9,8 @@
 techniques:
 
 - title: "101 Design Methods"
-  description:
-  source:
+  description: test description text
+  source: 101 Design Methods
   url: "http://www.101designmethods.com"
 
 - title: "18F"
