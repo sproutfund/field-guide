@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Software Recommendations
+title: Web Tools
 subtitle:
 description:
 section: resources
