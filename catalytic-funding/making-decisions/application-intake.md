@@ -2,7 +2,7 @@
 layout: docs
 title: Application Intake
 subtitle: Process for handling applications, after the deadline but before sending them for review.
-description:
+description: A guide for doing an organized intake of the applications submitted. Provides an overview of eligibility and screening considerations along with creating cover sheets for each application. Useful for funders who need to ensure that projects meet certain criteria before being sent for review. 
 section: catalytic-funding
 group: making-decisions
 toc: true

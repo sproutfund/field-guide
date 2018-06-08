@@ -2,7 +2,7 @@
 layout: docs
 title: Application Design
 subtitle: Developing the best set of application materials based on the program goals and submission method.
-description:
+description: A guide to determining what materials should be used to make funding decisions. Provides sample prompts and templates for a variety of application materials that can be combined in different ways to best meet the needs of the funding program. Useful for people that would like to provide reviewers with a streamlined review that best showcases the ideas of applicants.
 section: catalytic-funding
 group: cultivating-applicants
 redirect_from: /catalytic-funding/cultivating-applicants/

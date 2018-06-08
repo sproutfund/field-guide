@@ -2,7 +2,7 @@
 layout: docs
 title: Reporting on Successes & Challenges
 subtitle:
-description:
+description: A guide to having grantees meet reporting requirements without undue burden. Provides an overview of different types of reports along with next steps following the receipt of a report. Useful for funders considering alternative ways of reporting or hoping to better adapt their reports to individual programs.
 section: catalytic-funding
 group: managing-funded-projects
 toc: true

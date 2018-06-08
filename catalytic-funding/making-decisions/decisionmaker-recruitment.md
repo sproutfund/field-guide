@@ -2,7 +2,7 @@
 layout: docs
 title: Decisionmaker Recruitment
 subtitle: Seat a committee of reviewers that represent the community and the audiences served by the funding program.
-description:
+description: An overview for seating a decisionmaking committee in order to  make community-based decisions on applications. Provides suggestions for the types of people to consider along with roles and responsibilities of the committee. Useful for funders who have never utilized a community-based decisionmaking process.
 section: catalytic-funding
 group: making-decisions
 redirect_from: /catalytic-funding/making-decisions/

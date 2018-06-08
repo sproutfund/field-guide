@@ -2,7 +2,7 @@
 layout: docs
 title: Program Design
 subtitle: Comprehensive planning strategies to coordinate and inform the various funding program components.
-description: "Take the time to develop a project understanding and approach before you dive into designing a new funding program. This will allow the key components of the program to be developed in a strategic way that informs the entire process. You’ll also consider any likely barriers to success before you encounter them during your implementation."
+description: An overview of areas to consider when designing a new funding program. Provides methods and recommendations for who to involve in the design process. Encourages thinking about everything together as a comprehensive program before distilling down to the nuances of each individual step in the process. Useful for people with a clear understanding of the program goals and needs of the target audience who want to infuse this knowledge into the program design.
 section: catalytic-funding
 group: planning-preparing
 redirect_from: /catalytic-funding/planning-preparing/

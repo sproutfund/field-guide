@@ -2,7 +2,7 @@
 layout: docs
 title: Prospect Management & Draft Review
 subtitle: Individual support strategies and skills to learn to better manage prospective applicants.
-description:
+description: A guide for working one-on-one with prospective applicants. Provides best practices for helping applicants strengthen their proposal by communicating the goals of the program and knowledge of common feedback from reviewers. Useful for funders with the capacity to provide individual feedback, especially funders with very nuanced funding programs, to ensure that proposals will be competitive in the review process.
 section: catalytic-funding
 group: cultivating-applicants
 toc: true

@@ -2,7 +2,7 @@
 layout: docs
 title: Multimedia Documentation
 subtitle:
-description:
+description: An overview of how funders can further support funded projects through documentation. Provides insights into the benefits to grantee and to the program as a whole, which benefits from professional documentation materials for storytelling and marketing purposes. Useful for funders looking to supplement their investments through alternative forms of grantee support.
 section: catalytic-funding
 group: managing-funded-projects
 toc: true

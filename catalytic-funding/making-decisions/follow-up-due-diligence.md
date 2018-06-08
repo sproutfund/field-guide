@@ -2,7 +2,7 @@
 layout: docs
 title: Finalist Follow-Up & Due Diligence
 subtitle:
-description:
+description: A guide for collecting additional information about proposals. Provides helpful language for requesting updates from applicants, checking references, and summarizing any new information in advance of a decisionmaking meeting. Useful for programs with minimal application materials, seeking additional information from applicants only as they move forward in the decisionmaking process.
 section: catalytic-funding
 group: making-decisions
 toc: true

@@ -2,7 +2,7 @@
 layout: docs
 title: Meeting Facilitation
 subtitle: How to use a meeting to build consensus around funding recommendations.
-description:
+description: A guide for building consensus around a set of funding recommendations through a decisionmaking meeting. Provides pros and cons for different types of meetings along with tips for being a successful meeting facilitator. Useful for funders looking to incorporate a decisionmaking meeting into their process for making funding recommendations.
 section: catalytic-funding
 group: making-decisions
 toc: true

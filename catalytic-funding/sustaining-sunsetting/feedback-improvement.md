@@ -2,7 +2,7 @@
 layout: docs
 title: Feedback & Improvement
 subtitle:
-description:
+description: An overview of ways to evaluate a funding program. Provides suggestions for collecting and compiling feedback along with reporting finding back out to the community. Useful for funders with ongoing programs that they hope to make more transparent or responsive to community needs.
 section: catalytic-funding
 group: sustaining-sunsetting
 redirect_from: /catalytic-funding/sustaining-sunsetting/

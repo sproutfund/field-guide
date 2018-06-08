@@ -2,7 +2,7 @@
 layout: docs
 title: Program Launch & Public Announcement
 subtitle: Opportunity announcement strategies, templates, and instructions for getting the word out about the funding program.
-description:
+description: An overview of ways to announce a new (or new round) of a funding program. Provides recommendations and methods for sharing the new funding opportunity with the community. Useful for funders that do not have a dedicated marketing team or those that would like to consider alternate approaches to launching a new funding program.
 section: catalytic-funding
 group: cultivating-applicants
 toc: true

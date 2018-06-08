@@ -2,7 +2,7 @@
 layout: docs
 title: Denied Applicant Feedback
 subtitle: Ways to provide suggestions to strengthen the proposal, despite it not being recommended for funding.
-description:
+description: An overview for providing feedback to applicants that have not been recommended for funding. Provides recommendations for providing constructive feedback in order to help applicants either reapply with a stronger application or seek funding elsewhere. Useful for funders with ongoing funding programs or those looking to cultivate relationships with their applicants, regardless of funding decisions.
 section: catalytic-funding
 group: making-decisions
 toc: true

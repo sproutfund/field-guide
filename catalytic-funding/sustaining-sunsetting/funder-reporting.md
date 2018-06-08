@@ -2,7 +2,7 @@
 layout: docs
 title: Funder Reporting
 subtitle:
-description:
+description: An overview for meeting reporting requirements for program funding. Provides recommendations for collecting information during program implementation and best practices for maintaining good relationships with funders. Useful for intermediaries that need to raise the funds in order to then re-grant them.
 section: catalytic-funding
 group: sustaining-sunsetting
 toc: true

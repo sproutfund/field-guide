@@ -2,7 +2,7 @@
 layout: docs
 title: Wrap-up & Wind-down
 subtitle: Steps to take when a funding program will no longer be available.
-description:
+description: An overview of best practices for ending a funding program. Provides recommended steps to take to provide prospective applicants with ample notification of the wind-down and ways to change program materials to reflect the legacy of the program as opposed to how to apply for funding. Useful for funders considering to sunset a program or make significant changes while still preserving the story of the existing program.
 section: catalytic-funding
 group: sustaining-sunsetting
 toc: true

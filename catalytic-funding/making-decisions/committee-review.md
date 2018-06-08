@@ -2,7 +2,7 @@
 layout: docs
 title: Committee Review
 subtitle: An overview of a standard committee-based review process along with suggestions for alternate ways to review funding applications.
-description:
+description: A guide for administering the review process using a scorecard and review packet. Provides the tools to develop these materials and send them to reviewers with clear instructions. Useful for funders that do not already have review tools in place or through their grants management system.
 section: catalytic-funding
 group: making-decisions
 toc: true

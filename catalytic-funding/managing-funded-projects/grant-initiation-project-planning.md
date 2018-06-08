@@ -2,7 +2,7 @@
 layout: docs
 title: Grant Initiation & Project Planning
 subtitle: Steps to take before sending the check.
-description:
+description: An overview of recommended steps to take after a proposal has been recommended for funding. Provides best practices for building an open relationship with grantees, encouraging regular updates and being understanding of changes to implementation plans. Useful for funders looking to have a more hands-on relationship with grantees.
 section: catalytic-funding
 group: managing-funded-projects
 redirect_from: /catalytic-funding/managing-funded-projects/

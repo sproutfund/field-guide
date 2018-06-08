@@ -2,7 +2,7 @@
 layout: docs
 title: Fundraising
 subtitle: Raise the financial support to fully execute the funding program and related organizational expenses.
-description: "It is hard to know how much time and money to invest in program development before securing support. It's important to understand the program's fundraising potential before you commit to it. Fundraising always takes longer than you would like. Make certain to allow adequate time to raise money."
+description: An overview for seeking funding for funding programs. Provides helpful steps to take to gauge interest in a funding program from funders and pursue different funders for different components of the program. Useful for intermediaries that need to raise the funds in order to then re-grant them.
 section: catalytic-funding
 group: planning-preparing
 toc: true

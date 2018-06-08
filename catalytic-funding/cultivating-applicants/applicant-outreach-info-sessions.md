@@ -2,7 +2,7 @@
 layout: docs
 title: Applicant Outreach & Info Sessions
 subtitle: Outreach strategies to help communicate the program goals and share application materials.
-description:
+description: A guide for sharing information about the funding program with groups of prospective applicants. Provides step-by-step instructions for hosting an information session and recommendations for how to best utilize staff time when doing outreach. Useful for funders that have not incorporated applicant outreach in the past or those that are trying to reach a new/expanded audience.
 section: catalytic-funding
 group: cultivating-applicants
 toc: true
