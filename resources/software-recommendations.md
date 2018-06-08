@@ -37,7 +37,7 @@ status: <span class="badge badge-warning">needs review</span>
 * [**When Is Good?**](http://whenisgood.net/Create) **_Planning_** Super-simple tool for finding a time for busy people to meet. 
 * [**Basecamp**](https://basecamp.com/) **_Project Management_** Collaborative project management tool for teams. 
 * [**Trello**](https://trello.com/) **_Project Management_** Organize your project using boards, lists, and cards. 
-* [**Crowdrise**](https://www.crowdrise.com/) **_Social_** Highly customizable crowdfunding platform with friendly customer service.
+* [**Crowdrise**](https://www.crowdrise.com/) **_Social_** Highly customizable crowdfunding platform with chummy customer service.
 * [**Hootsuite**](https://hootsuite.com/) **_Social_** Flexible social media scheduling tool; works well with multiple platforms.
 * [**Tweetdeck**](https://tweetdeck.twitter.com/) **_Social_** Twitter-specific social media scheduling tool. 
 * [**Hemingway**](http://www.hemingwayapp.com/) **_Writing_** It's like a spellchecker, but for style. No adverbs, please. 
