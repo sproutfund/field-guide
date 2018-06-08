@@ -2,16 +2,16 @@
 layout: docs
 title: Campaigns
 subtitle:
-description: This section provides an introduction to community building campaigns, our name for the intentional arc of focused, action-oriented activities that mobilize people to achieve shared goals. This section is intended to help people organize their thinking about their potential campaigns using a series of key considerations and a suite of planning tools. 
+description: A guide to creating community building campaigns, which are focused, action-oriented activities that mobilize people to achieve shared goals. Useful to help people organize their thinking about their potential campaigns using a series of key considerations and a suite of planning tools.
 section: community-building
 group: campaigns
 toc: true
 status: <span class="badge badge-warning">needs review</span>
 ---
 
-While all community building campaigns are unique, successful campaigns have some key similarities: a well-defined audience, a focused goal, a clear message, and specific ways for people to get involved during a set period of time. 
+While all community building campaigns are unique, successful campaigns have some key similarities: a well-defined audience, a focused goal, a clear message, and specific ways for people to get involved during a set period of time.
 
-When you start to develop a community building campaign, we encourage you to think through each of these <a href="http://fieldguide.sproutfund.org/community-building/campaigns/#key-considerations">**key considerations**</a> to guide your planning process. Then, you can use a suite of <a href="http://fieldguide.sproutfund.org/community-building/campaigns/#planning-tools">**planning tools**</a> we created to help you further develop your thinking. 
+When you start to develop a community building campaign, we encourage you to think through each of these <a href="http://fieldguide.sproutfund.org/community-building/campaigns/#key-considerations">**key considerations**</a> to guide your planning process. Then, you can use a suite of <a href="http://fieldguide.sproutfund.org/community-building/campaigns/#planning-tools">**planning tools**</a> we created to help you further develop your thinking.
 
 ## Key Considerations
 
@@ -23,7 +23,7 @@ We think that the following key considerations can help you develop the strategi
 
 3. 📣 **Message**: What do you want to say?
 
-4. 📅 **Timeline**: When will it happen? 
+4. 📅 **Timeline**: When will it happen?
 
 5. 💪 **Organizers**: Who can help you lead the work?
 

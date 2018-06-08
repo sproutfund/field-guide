@@ -2,7 +2,7 @@
 layout: docs
 title: Organizing a Robust Directory
 subtitle: Remake Learning’s directory helps members, partners, and supporters see themselves as part of a larger whole.
-description: This document was created as a reference for RemakeLearning.org’s site manager. It provides a description of the value of Remake Learning’s directory of people, projects, and organizations, a historical account of the content strategy used to date, and instructional guidance for creating high-quality directory entries and maintaining those entries over time. It is intended to be useful for anyone who is managing and adding content to the directory.
+description: A guide for creating and maintaining a directory to help members, partners, and supporters see themselves as part of a larger whole. Provides a description of the value of a directory of people, projects, and organizations, a historical account of the content strategy used to date, and instructional guidance for creating high-quality directory entries and maintaining those entries over time. Useful for anyone who is managing and adding content to a directory.
 section: storytelling
 toc: true
 status: <span class="badge badge-warning">needs review</span>

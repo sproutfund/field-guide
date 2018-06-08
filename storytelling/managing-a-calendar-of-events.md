@@ -2,7 +2,7 @@
 layout: docs
 title: Managing a Calendar of Events
 subtitle: Remake Learning’s calendar provides a public listing of ways for people to get involved in the movement to remake learning.
-description: This document was created as a reference for RemakeLearning.org’s site manager. It provides a description of the value of Remake Learning’s calendar of events and opportunities, a historical account of the content strategy used to date, and instructional guidance for creating high-quality calendar posts on behalf of Remake Learning. It is intended to be useful for anyone who is managing and adding events to the calendar.
+description: A guide for creating and maintaining a public listing of ways for people to get involved. Provides a description of the value of a calendar of events and opportunities, a historical account of the content strategy used to date, and instructional guidance for creating high-quality calendar posts. Useful for anyone who is managing and adding events to a calendar.
 section: storytelling
 toc: true
 status: <span class="badge badge-warning">needs review</span>

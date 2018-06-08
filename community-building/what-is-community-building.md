@@ -2,7 +2,7 @@
 layout: docs
 title: What Is Community Building?
 subtitle:
-description: This section was created as an introduction to the Community Building section of Sprout's Field Guide. It outlines Sprout's approach to community building, which we define as the practice of creating and enhancing connections among people. You'll find a series of design principles that have our guided our work and an overview of our approach to experience design. It is intended to be useful for fellow community builders who lead similar work and use open practices to catalyze civic action around the world.
+description: An overview of Sprout's approach to Community Building. Describes design principles for creating and enhancing connections among people. Useful for fellow community builders who lead similar work and use open practices to catalyze civic action around the world.
 section: community-building
 group: what-is-community-building
 redirect_from: /community-building/
@@ -22,7 +22,7 @@ This publication seeks to share what our experience has taught us about the fiel
 
 Complex problems require collaborative solutions. To help people collaborate effectively, we believe in designing experiences that provoke discussion, spark insight, and forge lasting partnerships. We endeavor to create intentional arcs of activity that mobilize people to work together to achieve shared goals.
 
-True, authentic, and organic community building happens when people have ongoing opportunities to collaborate with one another and steadily increase their participation over time. This is important because relationships matter and they grow stronger through intentional collaboration. 
+True, authentic, and organic community building happens when people have ongoing opportunities to collaborate with one another and steadily increase their participation over time. This is important because relationships matter and they grow stronger through intentional collaboration.
 
 We’ve all been to dynamite events that hint at collaborations that might develop. We’ve seen provocative speakers and engaged in dynamic discussions, and we’ve likely imagined how it might look to sustain that initial energy into productive action. Unfortunately, those enthusiastic sparks don’t often catch fire—usually because there’s no one tending the flame. 🔥
 
@@ -53,11 +53,11 @@ Sprout has hosted hundreds of small- and large-scale events, from focus groups t
 Applying human capacity and ingenuity to complex problems our best hope against the robotic uprising. 🤖 Seriously though, solutions to such problems rarely emerge organically; they require cultivation and a structured approach for orchestrating the chaos and determining the best path forward. Active, intentional community building creates the conditions for individuals to build strong relationships with one another and form coalitions that can accelerate the pace of change.
 
 
-## What You Can Expect 
+## What You Can Expect
 
-Explore the following chapters to learn more about our approach to community building. We've created tools you can use to develop your own community building campaigns, and we've shared links to our favorite resources  from around the web that inspire and support our work. 
+Explore the following chapters to learn more about our approach to community building. We've created tools you can use to develop your own community building campaigns, and we've shared links to our favorite resources  from around the web that inspire and support our work.
 
-We also hope you'll draw inspiration from how people apply similar practices in contexts around the world.  You can see ten examples of other “community builders” in the Voices From The Field section of this guide, and you’ll note that our own examples are drawn from Sprout’s work across a variety of fields over the organization’s two-decade history. 
+We also hope you'll draw inspiration from how people apply similar practices in contexts around the world.  You can see ten examples of other “community builders” in the Voices From The Field section of this guide, and you’ll note that our own examples are drawn from Sprout’s work across a variety of fields over the organization’s two-decade history.
 
 Remember, at its core, community building is about creating the conditions for collaboration and facilitating connections between people. So long as you stay true to that mission, your work will surely continue to evolve and grow.
 

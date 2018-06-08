@@ -2,7 +2,7 @@
 layout: docs
 title: Sending Effective Emails
 subtitle: Remake Learning’s email marketing creates a regular drumbeat of information and knowledge exchange within the Remake Learning network.
-description: This document was created as a reference for those responsible for managing the distribution of email newsletters, event alerts, and other e-blasts to Remake Learning subscribers. It provides a description of the value of Remake Learning’s email marketing, a historical account of the strategy used to date, and instructional guidance for creating high-quality email marketing messages. It is intended to be useful for anyone who is composing and sending mass email on behalf of Remake Learning.
+description: A guide to creating a regular drumbeat of information and knowledge exchange. Provides instructional guidance for creating high-quality email marketing messages. Useful for people managing the distribution of email newsletters, event alerts, and other e-blasts to subscribers.
 section: storytelling
 toc: true
 status: <span class="badge badge-warning">needs review</span>

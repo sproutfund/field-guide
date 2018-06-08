@@ -2,7 +2,7 @@
 layout: docs
 title: Using Social Media
 subtitle: Remake Learning’s social media presence speaks on behalf of the network and shares news and opportunities with the network and the world.
-description: This document was created as a reference for Remake Learning’s social media manager. It provides a description of the value of social media communications for Remake Learning, a historical account of social media strategies used to date, and instructional guidance for creating high-quality social media content on behalf of Remake Learning. It is intended to be useful for anyone who is tweeting or posting through Remake Learning’s official social media channels.
+description: A guide to creating a social media presence to speaks on behalf of the funder and shares news and opportunities with local partners (and the world). Provides instructional guidance for creating high-quality social media content. Useful for anyone who is tweeting or posting through an organization's official social media channels.
 section: storytelling
 toc: true
 status: <span class="badge badge-warning">needs review</span>

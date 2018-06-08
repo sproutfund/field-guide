@@ -2,7 +2,7 @@
 layout: docs
 title: Building a Strong Brand
 subtitle: Remake Learning’s brand is integral to its identity and recognition in the world.
-description: This document was created as a reference for Remake Learning’s designer and/or brand manager. It provides a description of the uses of the Remake Learning brand and provides guidance on the adaption of that brand for various extensions and public-facing uses. It is intended to be helpful for anyone who is designing, adapting, or using the Remake Learning brand.
+description: An overview of brand management. Provides guidance on the adaption of that brand for various extensions and public-facing uses. Useful for people designing, adapting, or using a defined brand for their programs.
 section: storytelling
 toc: true
 status: <span class="badge badge-warning">needs review</span>

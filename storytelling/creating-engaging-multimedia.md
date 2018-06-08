@@ -2,7 +2,7 @@
 layout: docs
 title: Creating Engaging Multimedia
 subtitle: Remake Learning’s documentation activities capture and share what learning innovation looks like in practice.
-description: This document was created as a reference for Remake Learning’s communications team. It provides a description of the value of storytelling and documentation for Remake Learning, a historical account of strategies used to date, and instructional guidance for creating high-quality content on behalf of Remake Learning. It is intended to be useful for anyone who is producing media by or on behalf of Remake Learning.
+description: A guide to creating photo, video, and written content to share with the public. Provides a description of the value of storytelling and documentation and instructional guidance for creating high-quality content. Useful for anyone who is producing media by or on behalf of a funder.
 section: storytelling
 toc: true
 status: <span class="badge badge-warning">needs review</span>

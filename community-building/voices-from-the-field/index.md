@@ -2,7 +2,7 @@
 layout: docs
 title: Voices from the Field
 subtitle:
-description: This section was created to showcase community builders working in a variety of contexts. You'll read stories of people leading collaborative projects related to education, global engagement, entrepreneurship, and more. We also hope you’ll draw inspiration from how people apply similar practices around the world. 
+description: A showcase of 10 community builders working in a variety of contexts. Features stories of people leading collaborative projects related to education, global engagement, entrepreneurship, and more. Useful to draw inspiration from how people apply similar practices around the world. 
 section: community-building
 group: voices-from-the-field
 toc: true
