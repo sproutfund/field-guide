@@ -9,8 +9,6 @@ toc: true
 status: <span class="badge badge-success">final draft</span>
 ---
 
-In addition to cultivating expertise in catalytic funding, The Sprout Fund also wanted to answer this question: As a grantmaking organization, what can Sprout do for you besides give you money? One major answer to that question was the development of Sprout’s Community Building team. We recognized the importance of connecting grantees with each other, with the broader Pittsburgh community, and with national and international stakeholders. In essence, we began to understand the value of actively building communities of creative, industrious, and ambitious innovators.
-
 We think that simply getting a group of people in a room together isn’t enough. Whether you’re convening eighth graders or educators, community organizers or city leaders, it’s critical to do things together that you can’t do apart. Consequently, we design experiences that feature engaging, enjoyable activities that make the most of face-to-face interactions.
 
 The tools we use to design engaging experiences are called **techniques**: a series of methods that provoke conversation, spark creativity, and offer structured opportunities for people to share their insights and develop new ideas together.
