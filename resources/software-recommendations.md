@@ -1,24 +1,12 @@
 ---
 layout: docs
 title: Software Recommendations
-subtitle:
+subtitle: These are some of the free and almost-free web tools we've used to support our work over the years. 
 description: This section provides a list of our favorite free and almost-free tools we've used to support Sprout's work over the years. It is intended to be useful for people who are similarly won over by elegant web-based solutions to practical challenges.
 section: resources
 toc: true
 status: <span class="badge badge-warning">needs review</span>
 ---
-
----
-layout: docs
-title: Web Tools
-subtitle: these are a few of our favorite things
-description: These are some of the free and almost-free web tools we've used to support our work over the years. 
-section: resources
-toc: true
-status: <span class="badge badge-warning">needs review</span>
----
-
-## These are some of the free and almost-free web tools we've used to power Sprout behind the scenes. 
 
 * [**Canva**](https://www.canva.com/) **_A/V_** Online design tool helps amateurs create appealing logos and graphics. 
 * [**Coffivity**](https://coffitivity.com/) **_A/V_** Ambient cafe sounds at your fingertips. 
