@@ -1,7 +1,7 @@
 ---
 layout: voices-from-the-field
 title: Sarah Allen
-subtitle: Across the Pond, A Festival of the Open Internet
+subtitle: Leading the Future of the Open Internet
 toc: true
 description:
 section: community-building
