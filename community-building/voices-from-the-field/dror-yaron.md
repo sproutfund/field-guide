@@ -1,7 +1,7 @@
 ---
 layout: voices-from-the-field
 title: Dror Yaron
-subtitle: Sustained Relationships in Educational Technology
+subtitle: Sustaining Relationships in EdTech
 toc: true
 description:
 section: community-building
