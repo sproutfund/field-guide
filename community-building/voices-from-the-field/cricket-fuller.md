@@ -1,7 +1,7 @@
 ---
 layout: voices-from-the-field
 title: Cricket Fuller
-subtitle: Clusters, Not Silos
+subtitle: Breaking Down Silos
 toc: true
 description:
 section: community-building
