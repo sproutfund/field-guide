@@ -1,7 +1,7 @@
 ---
 layout: voices-from-the-field
 title: Sam Dyson
-subtitle: Creating Transformational Learning Experiences for Youth
+subtitle: Creating Transformational Learning Experiences
 toc: true
 description:
 section: community-building
