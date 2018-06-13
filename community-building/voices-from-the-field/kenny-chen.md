@@ -1,7 +1,7 @@
 ---
 layout: voices-from-the-field
 title: Kenny Chen
-subtitle: Cross-Sector Relationships, At Work and At Play
+subtitle: Bridging Sectors, Building Relationships
 toc: true
 description:
 section: community-building
