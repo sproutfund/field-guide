@@ -1,7 +1,7 @@
 ---
 layout: voices-from-the-field
 title: Christine Marty
-subtitle: Local Government Connecting Local Strengths
+subtitle: Powering Inclusive Innovation
 toc: true
 description:
 section: community-building
