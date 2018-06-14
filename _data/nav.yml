@@ -2,7 +2,6 @@
   pages:
     - title: Foreword
     - title: Philosophy & Ideals
-    - title: History of The Sprout Fund
     - title: How to Use This Guide
 
 - title: Catalytic Funding
@@ -112,4 +111,5 @@
   pages:
     - title: Credits & Acknowledgements
     - title: About the Authors
+    - title: History of The Sprout Fund
     - title: License
