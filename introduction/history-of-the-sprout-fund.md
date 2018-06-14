@@ -16,7 +16,7 @@ Created the **Seed Award** as mechanism for young people to support innovative i
 
 ### 2003
 
-Launched Public Art **community mural** program to transform the visual landscape and bring communities together around shared goals. Longstanding program supporters were PNC Foundation and Laurel Foundation.
+Launched Public Art **community murals** program to transform the visual landscape and bring communities together around shared goals. Longstanding program supporters were PNC Foundation and Laurel Foundation.
 
 Hosted first **Hothouse** event, our “live annual report” to the community and annual fundraiser until 2010. It regularly earned “best party” accolades and drew crowds to recent redevelopments.
 
