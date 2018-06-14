@@ -1,7 +1,6 @@
 - title: Introduction
   pages:
     - title: Foreword
-    - title: Philosophy & Ideals
     - title: How to Use This Guide
 
 - title: Catalytic Funding
@@ -95,10 +94,7 @@
 #    - title: Event Sponsorships
 #    - title: Media Relations & Advertising
 
-- title: Conclusion
-  pages:
-    - title: Lessons Learned
-    - title: Final Thoughts
+- title: Lessons Learned
 
 - title: Resources
   pages:
