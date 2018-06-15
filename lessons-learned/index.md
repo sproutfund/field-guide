@@ -73,3 +73,7 @@ Much of what we set out to do is done. But, as we sunset, we know there is still
 -   Share successes and failures with each other and with the world.
 
 We are proud of our successes and mindful of the mistakes we made along the way. We trust those who trusted us—with their ideas, their money, their leadership, and their time—to learn from our work. And we humbly offer this advice for the future.
+
+The Sprout Fund was driven by the desire to empower grassroots innovators by providing them with the resources and connections they needed to cultivate their ideas and create stronger communities. This Field Guide is a free and open resource that was written by Sprout to encourage people to invest in community-driven collaboration.
+
+We sincerely hope that these ideas inspire you to create more open, connected, and generous communities. We encourage you to freely remix and reuse these ideas to the extent that they resonate with you and your local context.
