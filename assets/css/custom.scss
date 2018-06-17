@@ -7,6 +7,7 @@
 
 $primary: #238b53;
 $link-color: lighten($primary, 10%);
+$link-hover-color: $primary;
 
 // Grid breakpoints
 //
@@ -261,4 +262,9 @@ div.card[id^=example-] {
   .ds-suggestion.ds-cursor .algolia-docsearch-suggestion--content {
     background-color: rgba($primary, .15) !important;
   }
+}
+
+#content.bd-content strong,
+#content.bd-content p a  {
+  font-weight: 600;
 }
