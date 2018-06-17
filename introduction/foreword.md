@@ -2,7 +2,7 @@
 layout: docs
 title: Foreword
 subtitle: Communities are better places to live, learn, and thrive because of the people and ideas supported by The Sprout Fund.
-description:
+description: A message from The Sprout Fund. Provides context about our work in Pittsburgh from 2001 to 2018. Acknowledges supporters and team that made this Field Guide possible.
 section: introduction
 redirect_from: /introduction/
 toc: false
@@ -18,8 +18,8 @@ Over the course of our history, we also developed in-person and digital practice
 
 This Field Guide includes our [**lessons learned**](/lessons-learned/) from 17 years of cultivating applications, making decisions, hosting events, leading community building campaigns, telling stories, and working with our grantees and our funders to achieve meaningful results together. We hope you'll use these [**resources**](/resources/) as a starting point for your own community work—no matter where you live or what you do.
 
-We’re incredibly grateful to the John D. and Catherine T. MacArthur Foundation, which provided support for the staff time necessary to complete this long-desired organizational project.
+We’re incredibly grateful to the John D. and Catherine T. MacArthur Foundation, which provided support for the staff time necessary to complete this long-desired organizational project. Furthermore, we wish to acknowledge all the staff, interns, board members, project leaders, facilitators, and vendors that worked together through Sprout to make Pittsburgh a better place to live, learn, and thrive.
 
-May the information shared here help you achieve the kind of meaningful, positive change we’ve been privileged to be part of in our community.
+May the information we share here help you achieve the kind of meaningful, positive change we’ve been privileged to be part of in our community.
 
 <p class="text-right font-italic">All of us at Sprout<br/>Pittsburgh USA<br/>June 2018</p>
