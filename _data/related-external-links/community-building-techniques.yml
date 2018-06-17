@@ -1,0 +1,181 @@
+# page-slug:
+# - title: title of the webpage/external resource *required*
+#   url: URL *required*
+#   source: short source name
+#   description: additional descriptive text
+
+# don't use any colons without quoting text!
+
+
+co-creation-session:
+
+- title: "Co-Creation Session Design Kit"
+  url: "http://www.designkit.org/methods/33"
+  source: "IDEO.org"
+
+
+concept-posters:
+
+- title: "Illustrate the main points of a new idea in a presentation format"
+  url: "https://mural.co/framework/concept-poster/"
+  source: "LUMA Institute"
+
+
+creative-matrix:
+
+- title: "Spark new ideas at the intersection of categories"
+  url: "https://mural.co/framework/creative-matrix/"
+  source: "LUMA Institute"
+
+
+experience-diagramming:
+
+- title: "Journey Map Design Kit"
+  url: "http://www.designkit.org/methods/63"
+  source: "IDEO.org"
+
+
+four-corners:
+
+- title: "Four Corners Instructions"
+  url: "http://dbp.theatredance.utexas.edu/content/four-corners"
+  source: "University of Texas School of Theater and Dance"
+
+
+history-future-mapping:
+
+- title: "History Map Instructions"
+  url: "http://gamestorming.com/history-map/"
+  source: "Gamestorming"
+
+
+personas:
+
+- title: "Personas Method Card"
+  url: "https://methods.18f.gov/decide/personas/"
+  source: "18F"
+
+
+quietstorming:
+
+- title: "How ‘Quietstorming’ Will Make Your Team More Productive"
+  url: "https://www.inc.com/natalie-nixon/productivity-playbook-encouraging-creativity.html"
+  source: "Inc."
+
+
+round-robin:
+
+- title: "Evolve your team’s ideas in unexpected ways"
+  url: "https://mural.co/framework/round-robin/"
+  source: "LUMA Institute"
+
+
+stakeholder-mapping:
+
+- title: "Map the Stakeholders"
+  url: "https://www.interaction-design.org/literature/article/map-the-stakeholders"
+  source: "Interaction Design Foundation"
+
+
+statement-starters:
+
+- title: "SME interview, statement starters, and empathy mapping"
+  url: "http://design.lienbtran.com/tag/statement-starters/"
+  source: "Designing Interactivity"
+
+
+trading-cards:
+
+- title: "Trading Cards Instructions"
+  url: "http://gamestorming.com/trading-cards/"
+  source: "Gamestorming"
+
+
+world-cafe:
+
+- title: "World Café Design Principles"
+  url: "http://www.theworldcafe.com/key-concepts-resources/design-principles/"
+  source: "The World Café"
+
+
+affinity-clustering:
+
+- title: "Affinity Diagramming Method Card"
+  url: "https://methods.18f.gov/decide/affinity-diagramming/"
+  source: "18F"
+
+
+bullseye:
+
+- title: "Carefully consider ideas in order of importance"
+  url: "https://mural.co/framework/bulls-eye-diagramming/"
+  source: "LUMA Institute"
+
+
+dot-voting:
+
+- title: "Dot Voting Method Card"
+  url: "https://methods.18f.gov/discover/feature-dot-voting/"
+  source: "18F"
+
+
+impact-effort-matrix:
+
+- title: "Facilitation Object	for Remake Learning"
+  type: "pdf"
+  url: "https://drive.google.com/open?id=1xxsXRvFfr7etl9CG_9XwMuEZzjZHKRzY"
+
+
+i-wish-i-wonder:
+
+- title: "I Like, I Wish, I Wonder Method"
+  url: "https://dschool-old.stanford.edu/wp-content/themes/dschool/method-cards/i-like-i-wish-what-if.pdf"
+  source: "Stanford D School"
+
+
+ignite-talks:
+
+- title: "How To Give a Great Ignite Talk"
+  url: "http://scottberkun.com/2009/how-to-give-a-great-ignite-talk/"
+  source: "Scott Berukun"
+
+plus-delta:
+
+- title: "Driving Accountability to Maximize Results Using the Plus-Delta Tool"
+  url: "https://agileforall.com/bad-standard-plus-minus-delta-agile-retrospectives/"
+  source: "GoLeanSixSigma.com"
+
+
+poems:
+
+- title: "POEMS, from the Design Thinking Toolkit"
+  url: "https://spin.atomicobject.com/2017/09/20/poems-template-user-observation/"
+  source: "Atomic Object"
+
+
+pre-mortem:
+
+- title: "Premortem Instructions"
+  url: "https://www.atlassian.com/team-playbook/plays/pre-mortem"
+  source: "Atlassian Team Playbook"
+
+
+rose-bud-thorn:
+
+- title: "Rose Bud Thorn, from the Design Thinking Toolkit"
+  url: "https://spin.atomicobject.com/2017/09/20/poems-template-user-observation/"
+  source: "Atomic Object"
+
+
+tuning-protocol:
+
+- title: "Tuning Protocol Instructions"
+  url: "https://www.greatschoolspartnership.org/wp-content/uploads/2016/11/TuningCompetenciesandIndicators_Final-1.pdf"
+  source: "Great Schools Partnership"
+
+
+what-so-what-now-what:
+
+- title: "Reflection Starters: Basic Discussions"
+  url: "https://www.uvm.edu/~dewey/reflection_manual/activities.html#Starters"
+  source: "John Dewey Project’s Facilitating Reflection"
