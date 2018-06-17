@@ -28,7 +28,16 @@ We’ve all been to dynamite events that hint at collaborations that might devel
 
 For us, **the core of community building is experience design**: the work of developing purposeful and engaging activities that enhance social cohesion. We believe in the power of engaging in meaningful dialogue, and we're partial to face-to-face get-togethers. Digital experiences can be valuable, to be sure, but we think the most productive, exciting work happens when people meet in person. Such events, when done well, foster productive relationships that enable people to collaborate intentionally and effectively over time. After all, relationships are the currency of community building—we trade in trust.
 
-Successful community building sustains productive collaboration and catalyzes collective action. We like to use the following model to organize our community building efforts. We think about our work as a **campaign**: an intentional arc of focused, action-oriented activities that mobilize people to achieve shared goals. Campaigns are comprised of **experiences** that purposefully bring people together to make progress toward an overarching goal. Those experiences are supported by a series of experience design **techniques** that empower people to collaborate effectively.
+Successful community building sustains productive collaboration and catalyzes collective action. We like to use the following model to organize our community building efforts:
+
+<div class="row justify-content-between align-items-center">
+  <div class="col-12 col-xl-6 order-xl-last col-xxl-4">
+    {% include image.html src="/downloads/community-building/what-is-community-building.gif" alt="What is community building?" class="img-fluid mt-3 mt-xl-0 mb-3 mb-xl-0" %}
+  </div>
+  <div class="col-12 col-xl-6 order-xl-first col-xxl-8">
+    <p>We think about our work as a <strong>campaign</strong>: an intentional arc of focused, action-oriented activities that mobilize people to achieve shared goals. Campaigns are comprised of <strong>experiences</strong> that purposefully bring people together to make progress toward an overarching goal. Those experiences are supported by a series of experience design <strong>techniques</strong> that empower people to collaborate effectively.</p>
+  </div>
+</div>
 
 ## Design Principles for Community Building
 
