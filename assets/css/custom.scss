@@ -6,7 +6,7 @@
 @import "bootstrap/mixins";
 
 $primary: #238b53;
-// $link-color: $primary;
+$link-color: lighten($primary, 10%);
 
 // Grid breakpoints
 //
@@ -19,8 +19,7 @@ $grid-breakpoints: (
   md: 768px,
   lg: 992px,
   xl: 1200px,
-  xxl: 1900px,
-  xxxl: 3000px
+  xxl: 1600px
 );
 
 // Grid containers
@@ -32,12 +31,11 @@ $container-max-widths: (
   md: 720px,
   lg: 960px,
   xl: 1140px,
-  xxl: 1600px,
-  xxxl: 2500px
+  xxl: 1520px
 );
 
-// @import "bootstrap/bootstrap";
-// @import "bootstrap-docs/docs";
+@import "bootstrap/bootstrap";
+@import "bootstrap-docs/docs";
 
 h3, .h3 {
   font-size: 1.5rem;
