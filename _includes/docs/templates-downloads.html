@@ -7,7 +7,7 @@ Usage: {% include docs/templates-downloads.html section_slug=section_slug doc_sl
   {%- endif -%}
   <ul class="list-group">
     {%- for link in site.data.templates-downloads[include.section_slug][include.doc_slug] -%}
-      <li class="list-group-item">
+      <li class="list-group-item" id="template-download--{{ link.title | slugify }}">
         {%- if link.type == 'pdf' -%}
           <i class="far fa-file-pdf" style="margin-right: .5rem;"></i>
         {%- elsif link.type == 'jpg' -%}

@@ -7,7 +7,7 @@ Usage: {% include docs/related-external-links.html section_slug=section_slug doc
   {%- endif -%}
   <ul class="list-group">
     {%- for link in site.data.related-external-links[include.section_slug][include.doc_slug] -%}
-      <li class="list-group-item">
+      <li class="list-group-item" id="related-external-link--{{ link.title | slugify }}">
         <i class="fas fa-external-link" style="margin-right: .5rem;"></i>
         <a href="{{ link.url }}" target="_blank" class="font-weight-bold">{{ link.title }}</a>
         {% if link.description %} - {{ link.description }}{% endif %}
