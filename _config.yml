@@ -11,7 +11,7 @@ permalink:      pretty
 
 # Server
 source:         "."
-url:            "http://fieldguide.sproutfund.org"
+url:            "https://fieldguide.sproutfund.org"
 encoding:       UTF-8
 exclude:
   - .bundle/
@@ -29,6 +29,7 @@ exclude:
   - LICENSE.md
   - sache.json
   - twbsconfig.yml
+  - storytelling/
 
 plugins:
   - github-pages
