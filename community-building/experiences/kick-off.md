@@ -1,7 +1,7 @@
 ---
 layout: experiences
 icon: 🏈
-title: "Kick-Off: I want to announce a new initiative"
+title: "Kick-Off"
 subtitle: "Announce a new campaign."
 description:
 section: community-building

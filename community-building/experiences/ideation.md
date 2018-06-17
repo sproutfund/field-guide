@@ -1,7 +1,7 @@
 ---
 layout: experiences
 icon: 💡
-title: "Ideation: I want to come up with new ideas"
+title: "Ideation"
 subtitle: "Develop ideas for new projects and programs."
 description:
 section: community-building

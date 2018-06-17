@@ -1,7 +1,7 @@
 ---
 layout: experiences
 icon: 🗳
-title: "Feedback: I want to de-brief and figure out what’s next"
+title: "Feedback"
 subtitle: "Solicit input from stakeholders and constituents."
 description:
 section: community-building

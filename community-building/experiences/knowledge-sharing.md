@@ -1,7 +1,7 @@
 ---
 layout: experiences
 icon: 📚
-title: "Knowledge-Sharing: I want to share ideas"
+title: "Knowledge-Sharing"
 subtitle: "Share expertise with one another."
 description:
 section: community-building

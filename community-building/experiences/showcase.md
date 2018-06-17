@@ -1,7 +1,7 @@
 ---
 layout: experiences
 icon: 🎪
-title: "Showcase: I want to celebrate progress"
+title: "Showcase"
 subtitle: "Celebrate a community’s achievements."
 description:
 section: community-building

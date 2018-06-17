@@ -1,7 +1,7 @@
 ---
 layout: experiences
 icon: 👋
-title: "Recruitment: I want to recruit participants"
+title: "Recruitment"
 subtitle: "Gather new participants and audiences."
 description:
 section: community-building

@@ -1,7 +1,7 @@
 ---
 layout: experiences
 icon: 🔗
-title: "Social: I want to gather people for social events"
+title: "Social"
 subtitle: "Create and strengthen social connections."
 description:
 section: community-building
