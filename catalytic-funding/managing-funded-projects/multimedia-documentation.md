@@ -6,7 +6,6 @@ description: An overview of how funders can further support funded projects thro
 section: catalytic-funding
 group: managing-funded-projects
 toc: true
-status: <span class="badge badge-warning">needs review</span>
 ---
 
 ## Overview
@@ -35,7 +34,7 @@ Once you have decided on a story to tell, spend some time thinking about the goa
 
 Once you have identified the people you’d like to feature as the subject of the story, contact them to explain the idea for the story to them and ask if they would be interested in participating. Be prepared to answer their questions about where and when the story would be produced, where and when it would be shared, and what they will be asked to do. This is also a good opportunity to ask your own exploratory questions to further develop your understanding of the subject, or ask if they can share any internal background material, such as strategic plans, grant proposals, working documents, and the like.
 
-To distill the story into a sensible document that a vendor can use to get started, use one of the assignment briefing templates provided in the Sprout asset transfer. These templates include a combination of "checklist" info that is a must have (basic details, contact information, dates and times, etc.) and also prompts to spur more creative thinking about the project.
+To distill the story into a sensible document that a vendor can use to get started, it's valuable to keep all the pertinent details in a unique assignment specification for each of your [writing](#template-download--writing-assignment-specification), [photo](#template-download--photo-assignment-specification), and [video](#template-download--video-assignment-specification) projects. These templates include a combination of "checklist" info that is a must have (basic details, contact information, dates and times, etc.) and also prompts to spur more creative thinking about the project.
 
 ### Budgeting & Vendor Selection
 
@@ -57,7 +56,7 @@ In any case, a review of a vendor’s website, reel, or work examples will often
 
 ### Pre-production
 
-The focus of the pre-production phase is preparing for and coordinating the work of media vendors (writers, photographers, videographers). It's valuable to keep all the pertinent details in a unique assignment specification for each of your [writing](#template-download--writing-assignment-specification), [photo](#template-download--photo-assignment-specification), and [video](#template-download--video-assignment-specification) projects.
+The focus of the pre-production phase is preparing for and coordinating the work of media vendors (writers, photographers, videographers).
 
 This is the time to reconnect with the subjects to confirm their participation, describe in detail what the production experience will be like and what will be asked of them, and confirm time, date, and location details. If youth are going to be depicted, this is also the time to work with the subject or principal point of contact to secure [media appearance consent releases](#template-download--publicity-consent-and-release).
 
@@ -120,7 +119,7 @@ The focus of the archiving phase is managing the orderly storage and future use 
 
 ## Style & Tone Recommendations
 
-In general, documentation and storytelling content should align with the values, interests, and expectations of your organization. Furthermore, over time, Sprout developed multimedia content with a consistent style and tone that may have varied depending on the type of media.
+In general, documentation and storytelling content should align with the values, interests, and expectations of your organization. Furthermore, over time, you should develop multimedia content with a generally consistent style and tone but with some variation depending on the type of media. For example:
 
 ### Writing
 

@@ -204,14 +204,6 @@ multimedia-documentation:
   type: google-drive
   url: "https://docs.google.com/document/d/1DFwyHjUaKBP_e8KOurxxdUvm9dvP1WS9LxgS471c9xE/copy"
 
-- title: Publicity Consent and Release
-  type: file-word
-  url: "https://drive.google.com/open?id=0B1jfYdmazlA-SFpkZEVkSDI2MGs"
-
-- title: Video Assignment Call Sheet
-  type: file-excel
-  url: "https://drive.google.com/open?id=0B1jfYdmazlA-TDZKdUFkd2J3MDQ"
-
 - title: Writing Assignment Specification
   type: file-word
   url: "https://drive.google.com/open?id=0B1jfYdmazlA-aFNyZXJkM1dhQlk"
@@ -223,6 +215,14 @@ multimedia-documentation:
 - title: Video Assignment Specification
   type: file-word
   url: "https://drive.google.com/open?id=0B1jfYdmazlA-RzJLSGlQdGdCdUU"
+
+- title: Publicity Consent and Release
+  type: file-word
+  url: "https://drive.google.com/open?id=0B1jfYdmazlA-SFpkZEVkSDI2MGs"
+
+- title: Video Assignment Call Sheet
+  type: file-excel
+  url: "https://drive.google.com/open?id=0B1jfYdmazlA-TDZKdUFkd2J3MDQ"
 
 
 bringing-grantees-together: false
