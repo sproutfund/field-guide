@@ -1,0 +1,4 @@
+{%- comment -%}
+Usage: {% include image.html src="src" alt="alt" class="class" %}
+{%- endcomment -%}
+<img src="{{- include.src -}}" alt="{{- include.alt | smartify -}}" class="{{- include.class -}}" />
