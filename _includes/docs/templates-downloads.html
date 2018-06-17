@@ -8,12 +8,12 @@ Usage: {% include docs/templates-downloads.html section_slug=section_slug doc_sl
   <ul class="list-group">
     {%- for link in site.data.templates-downloads[include.section_slug][include.doc_slug] -%}
       <li class="list-group-item" id="template-download--{{ link.title | slugify }}">
-        {%- if link.type == 'pdf' -%}
-          <i class="far fa-file-pdf" style="margin-right: .5rem;"></i>
-        {%- elsif link.type == 'jpg' -%}
-          <i class="far fa-file-image" style="margin-right: .5rem;"></i>
+        {%- if link.icon == "google-drive" -%}
+          <i class="fab fa-{{ link.icon }} fa-fw" style="margin-right: .5rem;"></i>
+        {%- elsif link.icon -%}
+          <i class="far fa-{{ link.icon }} fa-fw" style="margin-right: .5rem;"></i>
         {%- else -%}
-          <i class="far fa-file-alt" style="margin-right: .5rem;"></i>
+          <i class="far fa-file-alt fa-fw" style="margin-right: .5rem;"></i>
         {%- endif -%}
         <a {% if link.url %} href="{{ link.url }}" target="_blank" {% endif %} class="font-weight-bold">{{ link.title }}</a>
         {% if link.description %} - {{ link.description }}{% endif %}

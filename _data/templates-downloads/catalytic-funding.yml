@@ -1,8 +1,8 @@
 # page-slug:
 # - title: title of the template/artifact *required*
-#   description: additional descriptive text
-#   type: template or artifact *required*
 #   url: URL *required*
+#   icon: Font Awesome (https://fontawesome.com/icons) to use, fa-*
+#   description: additional descriptive text
 
 # don't use any colons without quoting text!
 
@@ -12,12 +12,12 @@
 program-design:
 
 - title: Program Budget Calculator
-  type: template
   url: "https://docs.google.com/spreadsheets/d/1uXr916Y8b3QHTlnnJV3SkPr42AFlxGw6MJ776rUp5Uc/view"
+  icon: google-drive
 
 - title: Program Timeline Checklist
-  type: template
   url: "https://docs.google.com/document/d/1S1r7lHC4f8w3mdonfwh6xjVmTWrbbKisKIDO4TdPMFc/view"
+  icon: google-drive
 
 
 fundraising: false
@@ -28,66 +28,66 @@ fundraising: false
 application-design:
 
 - title: Funding Opportunity and Application Form Example
-  type: download
   url: "https://drive.google.com/file/d/0BzCiN-PkZ98fSm9udm9sRTVXRzg/view"
+  icon: file-pdf
 
 - title: Conference Stipend Application Example
-  type: download
   url: "https://drive.google.com/file/d/0BzCiN-PkZ98fTUVTak1PSFVEZWc/view"
+  icon: file-pdf
 
 - title: Budget Template for Funding Application
-  type: download
   url: "https://drive.google.com/open?id=0BzCiN-PkZ98fRjBZaUhYVzd3YW8/view"
+  icon: file-pdf
 
 - title: Timeline Template for Funding Application
-  type: download
   url: "https://drive.google.com/open?id=0BzCiN-PkZ98fZFJvNGtWTXpxNzA/view"
+  icon: file-pdf
 
 - title: References Template for Funding Application
-  type: download
   url: "https://drive.google.com/open?id=0BzCiN-PkZ98fRHQzYk9yOFg1c0U/view"
+  icon: file-pdf
 
 
 program-launch-announcement:
 
 - title: MBK Digital Literacy Collaborative Press Release
-  type: artifact
   url: "https://drive.google.com/file/d/1edy-fCt07jzPfU3PJc58H-WDbQeNEQ9E/view"
+  icon: google-drive
 
 - title: 100 Days of US Information Session Invite (program launch)
-  type: artifact
   url: "https://us4.campaign-archive.com/?&u=d88590060b35162f56ec6156c&id=518357955a"
+  icon: envelope
 
 - title: Seed Award for Economic Opportunity RFP Announcement
-  type: artifact
   url: "https://mailchi.mp/sproutfund/request-for-proposals-seed-award-for-economic-opportunity"
+  icon: envelope
 
 - title: Neighbor-to-Neighbor 2016 Relaunch Announcement
-  type: artifact
   url: "https://us4.admin.mailchimp.com/campaigns/show?id=742285"
+  icon: envelope
 
 - title: Grand Ideas Announcement + Happy Hour Announcement
-  type: artifact
   url: "https://us4.admin.mailchimp.com/campaigns/show?id=742285"
+  icon: envelope
 
 
 applicant-outreach-info-sessions:
 
 - title: Sign In Sheet
-  type: template
   url: "https://docs.google.com/document/d/1Tg_kAnUkjaZtCmdKCoU36bTLjARbAvscdd7YC_8JfTA/view"
+  icon: google-drive
 
 - title: Presentation Slide Deck
-  type: template
   url: "https://docs.google.com/presentation/d/105E49aThFy7SqtAjIbMeEmiXorBhXKQ55NCv4YglO-0/view"
+  icon: google-drive
 
 - title: Info Session Follow-up Message
-  type: template
   url: "https://docs.google.com/document/d/1TNppZzK3A81YSDp_jWgq4ZzM6l8t6iEVlqaIT8alcDE/view"
+  icon: google-drive
 
 - title: Neighbor-to-Neighbor Information Session Flyer
-  type: artifact
   url: "https://drive.google.com/open?id=1t4DQDyum-Tn-sszQ57mTN8-MDafI2nN1"
+  icon: file-pdf
 
 
 prospect-management-draft-review: false
@@ -98,80 +98,80 @@ prospect-management-draft-review: false
 decisionmaker-recruitment:
 
 - title: Invitation Email Template
-  type: template
   url: "https://docs.google.com/document/d/1jQCCzEcAgGwEwwV21JTEY1PF9L_--MnEs8HLnr1bKcM/view"
+  icon: google-drive
 
 - title: Invitation Email
-  type: artifact
   url: "https://drive.google.com/file/d/1ebZdduX3eZI7vgsr-Wljzj4xx3xwlGbQ/view"
+  icon: google-drive
 
 - title: Advisory Committee Training Agenda
-  type: artifact
   url: "https://drive.google.com/file/d/1LUID2VXCqEKDSc3EF7LauHggnB6MbXa5/view"
+  icon: file-pdf
 
 - title: Advisory Committee Training Manual
-  type: artifact
   url: "https://drive.google.com/file/d/1cX8Jb-KwBxfRN4EIIVYuyAaIgMKKtG-F/view"
+  icon: file-pdf
 
 
 application-intake:
 
 - title: Accepted for Review Email Template
-  type: template
   url: "https://docs.google.com/document/d/1fumWaiKzyTnirYSF7v6ovEikXm5a0CxqBwu-P9h9jV0/view"
+  icon: google-drive
 
 - title: Ineligible Application Email Template
-  type: template
   url: "https://docs.google.com/document/d/1DpPtQ8rqFwFwaMG4TBUDvr7aiBPYpGfnh7YmZl9AHrM/view"
+  icon: google-drive
 
 - title: Sample Sprout Cover Sheet (Page 1 of the Project Journal)
-  type: artifact
   url: "https://drive.google.com/open?id=1UrPr4M21RjVOP6pWbi4eDWvE-4sDTowB"
+  icon: file-pdf
 
 
 committee-review:
 
 - title: Scorecard template - Funding Criteria
-  type: template
   url: "https://docs.google.com/spreadsheets/d/1uXs0_5DGappNQd8300qHmOE3I25yOj-ZKd557_mwEJU/view"
+  icon: google-drive
 
 - title: Scorecard Template - Yes/No/Maybe
-  type: template
   url: "https://docs.google.com/spreadsheets/d/1XNTpl_EWFp_MR7n9ItolQhrkNZ0N0fbyDM1O3z3mxfM/view"
+  icon: google-drive
 
 - title: Committee Packet and Scorecard Email Template
-  type: template
   url: "https://docs.google.com/document/d/1ARYWR1wtmYTagkOYghZpyHPbEjGSuRS-gTTLz4h_RpE/view"
+  icon: google-drive
 
 - title: Application Packet and Instructions for Review Template
-  type: template
   url: "https://drive.google.com/open?id=1oWM7zeRoCju2svfBiXEFrh4Peplyz83nR3WypNywdog/view"
+  icon: google-drive
 
 
 follow-up-due-diligence:
 
 - title: Standard Follow-Up Questions Email Template
-  type: template
   url: "https://docs.google.com/document/d/1Xh7BDTQEQQ2DOwzfQH321iyGzGE4bKiM4frNPTFj5X4/view"
+  icon: google-drive
 
 - title: Custom Follow-Up Questions Email Template
-  type: template
   url: "https://docs.google.com/document/d/1CMOoy0I_5LmY95L_0-klvjTfqKaXVLFl7E1bz45KpKY/view"
+  icon: google-drive
 
 - title: Reference Check Email Template
-  type: template
   url: "https://docs.google.com/document/d/1QYqBJT-9220U8Bw7hlDC3rU1DCpr23ON_J2j0TngbXU/view"
+  icon: google-drive
 
 
 meeting-facilitation:
 
 - title: Meeting Script template
-  type: template
-  url: "https://docs.google.com/document/d/1tN5R8jsYnYusTuW6YHRRekJsIT6QGG_wZwA9e051sQM/edit?usp=sharing"
+  url: "https://docs.google.com/document/d/1tN5R8jsYnYusTuW6YHRRekJsIT6QGG_wZwA9e051sQM/view"
+  icon: google-drive
 
 - title: Funding Round Report Template
-  type: template
   url: "https://docs.google.com/document/d/1kKfEYixs-sCpdShRN1I_Ee5YgQ23pLQV0ejCwlqiS9A/view"
+  icon: google-drive
 
 
 denied-applicant-feedback:
@@ -197,32 +197,32 @@ reporting-on-successes-challenges: false
 multimedia-documentation:
 
 - title: Editorial Meeting Agenda
-  type: google-drive
-  url: "https://docs.google.com/document/d/1y3muqD9llCkeH1ic7ewlQHvBHaUvZjkhIDoykXghBd0/copy"
+  url: "https://docs.google.com/document/d/1y3muqD9llCkeH1ic7ewlQHvBHaUvZjkhIDoykXghBd0/view"
+  icon: google-drive
 
 - title: Messaging Framework
-  type: google-drive
-  url: "https://docs.google.com/document/d/1DFwyHjUaKBP_e8KOurxxdUvm9dvP1WS9LxgS471c9xE/copy"
+  url: "https://docs.google.com/document/d/1DFwyHjUaKBP_e8KOurxxdUvm9dvP1WS9LxgS471c9xE/view"
+  icon: google-drive
 
 - title: Writing Assignment Specification
-  type: file-word
   url: "https://drive.google.com/open?id=0B1jfYdmazlA-aFNyZXJkM1dhQlk"
+  icon: file-word
 
 - title: Photo Assignment Specification
-  type: file-word
   url: "https://drive.google.com/open?id=0B1jfYdmazlA-TWRraU1BWWI2eTg"
+  icon: file-word
 
 - title: Video Assignment Specification
-  type: file-word
   url: "https://drive.google.com/open?id=0B1jfYdmazlA-RzJLSGlQdGdCdUU"
+  icon: file-word
 
 - title: Publicity Consent and Release
-  type: file-word
   url: "https://drive.google.com/open?id=0B1jfYdmazlA-SFpkZEVkSDI2MGs"
+  icon: file-word
 
 - title: Video Assignment Call Sheet
-  type: file-excel
   url: "https://drive.google.com/open?id=0B1jfYdmazlA-TDZKdUFkd2J3MDQ"
+  icon: file-excel
 
 
 bringing-grantees-together: false

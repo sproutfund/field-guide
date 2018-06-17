@@ -1,7 +1,7 @@
 # page-slug:
 # - title: title of the template/artifact *required*
 #   url: URL *required*
-#   type: template or artifact *required*
+#   icon: Font Awesome (https://fontawesome.com/icons) to use, fa-*
 #   description: additional descriptive text
 
 # don't use any colons without quoting text!
@@ -13,22 +13,22 @@ campaigns:
 
 - title: Campaign Builder
   url: "/downloads/community-building/campaign-builder.pdf"
-  type: pdf
+  icon: file-pdf
   description: "Create a high-level, one-page plan for your campaign"
 
 - title: Experience Cards
   url: "/downloads/community-building/experience-cards.pdf"
-  type: pdf
+  icon: file-pdf
   description: "Brainstorm the kinds of action-oriented experiences you might include in your campaign. Remember, you can use the same experience type more than once"
 
 - title: Campaign Arc
   url: "/downloads/community-building/campaign-arc.pdf"
-  type: pdf
+  icon: file-pdf
   description: "Stitch those experiences together to create your campaign. This will enable you to create a one-page summary of your trajectory"
 
 - title: Experience Builder
   url: "/downloads/community-building/experience-builder.pdf"
-  type: pdf
+  icon: file-pdf
   description: "Plan each experience in your campaign in greater detail"
 
 
@@ -37,94 +37,94 @@ campaigns:
 experience--planning:
 
 - title: "Event Facilitation Manual"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1qhd4I0yQG-7DuaOtkYeNJdv3JlLrIZsW"
+  icon: file-pdf
 
 - title: "Event Slide Deck"
-  type: "pdf"
   url:  "https://drive.google.com/open?id=11J5gUgK9Xov9ffl5OdgFy9zADlKEpuIV"
+  icon: file-pdf
 
 
 experience--fundraising:
 
 - title: "Event Site Map"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1LDFWDpOx9EkINeAkwTvl-eGSQmXZeEZg"
+  icon: file-pdf
 
 
 experience--kick-off:
 
 - title: "Event Agenda"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1QV-gbMHoVj9ZmkTIwVGCgzwC3lr3tsm3"
+  icon: file-pdf
 
 experience--recruitment:
 
 - title: "Event Facilitation Manual"
-  type: "pdf"
   url: "https://drive.google.com/file/d/1uKY6R0xCJ5MBhfH-zw3L9RniQ23esb-z/view"
+  icon: file-pdf
 
 - title: "Event Agenda"
-  type: "pdf"
   url: "https://drive.google.com/file/d/17l_2zpWw_dA_qcvzCMHDwa9Xjjq7UA9K/view"
+  icon: file-pdf
 
 
 experience--ideation:
 
 - title: "Event Facilitation Manual"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1KmR-AcmuO383SZRLYhAA85WCTFcNHd62"
+  icon: file-pdf
 
 
 experience--knowledge-sharing:
 
 - title: "Sample Agenda"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1ANvPfcCt9mZ6_qVdPOctoVhpC2CMVIYJ"
+  icon: file-pdf
 
 
 experience--social:
 
 - title: "Venue Site Visit Questions"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1FWcbBKBaS959SCHPOEEQC2y57IphnjtQ"
+  icon: file-pdf
 
 - title: "Event Poster"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1iCdwYTLS3eZDqkHfNYPyyyQEy0gn0Hsi"
+  icon: file-pdf
 
 
 experience--showcase:
 
 - title: "Event Run-of-Show"
-  type: "pdf"
   url: "https://drive.google.com/file/d/1GwVdDFBxAnhLPe2XiOti8JJ3h2sOv2R2/view"
+  icon: file-pdf
 
 - title: "Event Agenda"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1ixEvsuW3_9nwDMVrCFEZethmGlOo13_r"
+  icon: file-pdf
 
 
 experience--summit:
 
 - title: "Event Facilitation Manual"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1JrJixCYRqe0cmnYoCISXvxOS5eypAV1O"
+  icon: file-pdf
 
 - title: "After-Event Report"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1xOibH_eZdhnXW4FbhqDg8KWdn7Xg6rKh"
+  icon: file-pdf
 
 
 experience--feedback:
 
 - title: "Event Run of Show"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1KXxPPYiPuEFFqyCfwXagx8eIFgbrAtSu "
+  icon: file-pdf
 
 - title: "Event Slide Deck"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1Aa3Xo_-82U3-h96drvb7I5PZcQUup1iN"
+  icon: file-pdf
 
 
 # Techniques to Generate
@@ -132,92 +132,92 @@ experience--feedback:
 technique--co-creation-session:
 
 - title: "Facilitation Manual for	LRNG National Summits"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1baxnMhbSC5z42AJmmr3K4LLKrflPnw5u"
+  icon: file-pdf
 
 
 technique--concept-posters:
 
 - title: "Facilitation Object	for Seed Award for Economic Opportunity"
-  type: "pdf"
   url: "https://drive.google.com/open?id=195k3ZxKQp5zXLUK-CrOLH74Sr6mlQo4G"
+  icon: file-pdf
 
 
 technique--creative-matrix:
 
 - title: "Facilitation Manual	for Summit to Reconnect Learning"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1LTPDaqU48bPJp2WDXSsKohMkhpLxVChG"
+  icon: file-pdf
 
 
 technique--experience-diagramming:
 
 - title: "Facilitation Manual	for Cities of LRNG"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1VykUrSnQ7tfVphZokjxXoJsTlHgO6ET4"
+  icon: file-pdf
 
 
 technique--four-corners:
 
 - title: "Facilitation Manual	for Remake Learning Pathways & Playlists"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1H7Ookpp0M7K3OR8aWIh19DGfu5KUYljp"
+  icon: file-pdf
 
 
 technique--history-future-mapping:
 
 - title: "Facilitation Object	for Ideation Event"
-  type: "pdf"
   url: "https://drive.google.com/open?id=15SRQ5OxJJsjP8IoNGowkAz_KRznZ8yvB"
+  icon: file-pdf
 
 
 technique--personas:
 
 - title: "Facilitation Object	for LRNG"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1LKprmG0gWQQappxfJap3b9m-8SWMj-v3"
+  icon: file-pdf
 
 
 technique--quietstorming:
 
 - title: "Facilitation Manual	for LRNG National Summits"
-  type: "pdf"
   url: "https://drive.google.com/file/d/1MXp2pTJDzsaz17NC2Z1bSO2yO_1izEU4/view?usp=sharing"
+  icon: file-pdf
 
 
 technique--round-robin:
 
 - title: "Facilitation Object	for LRNG National Summits"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1CvxufZMP9xQUbX9S0KQOXJyHgbcWwklE"
+  icon: file-pdf
 
 
 technique--stakeholder-mapping:
 
 - title: "Facilitation Object	for LRNG National Summits"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1gjZrz8U_DOwSUoc1fqjEkRiHmxfOzYTg"
+  icon: file-pdf
 
 
 technique--statement-starters:
 
 - title: "Facilitation Object	for Remake Learning Pathways Summit"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1CVLYP19hvGgLzHVuoTndn9AVQbHGC9rN"
+  icon: file-pdf
 
 
 technique--trading-cards:
 
 - title: "Facilitation Object	for Seed Award for Economic Opportunity"
-  type: "jpg"
   url: "https://drive.google.com/open?id=165pvW4TWjq0Z8eTjbA1xCIjG1hKOFhXX"
+  type: file-image
 
 
 technique--world-cafe:
 
 - title: "Facilitation Manual	Triangle Learning Network"
-  type: "pdf"
   url: "https://drive.google.com/open?id=15eHVhjlqhMJju_PX6gDvByozyd6bPtgo"
+  icon: file-pdf
 
 
 # Techniques to Prioritize
@@ -225,29 +225,29 @@ technique--world-cafe:
 technique--affinity-clustering:
 
 - title: "Facilitation Manual	for Ideation Event"
-  type: "pdf"
   url: "https://drive.google.com/open?id=17QyQLSVzgju6OnP6ow2qsCAKMLCalDzN"
+  icon: file-pdf
 
 
 technique--bullseye:
 
 - title: "Facilitation Object	for Triangle Learning Network"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1zr0LaUfhenLs5QifFv9STTtUNcvm09Rk"
+  icon: file-pdf
 
 
 technique--dot-voting:
 
 - title: "Facilitation Manual	for Rec2Tech"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1a7xmJzSW2SD1H3ZAyCt07psAuF7c8u4Q"
+  icon: file-pdf
 
 
 technique--impact-effort-matrix:
 
 - title: "Facilitation Object	for Remake Learning"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1xxsXRvFfr7etl9CG_9XwMuEZzjZHKRzY"
+  icon: file-pdf
 
 
 # Techniques to Reflect
@@ -255,54 +255,54 @@ technique--impact-effort-matrix:
 technique--i-wish-i-wonder:
 
 - title: "Facilitation Object	for Ideation Event"
-  type: "jpg"
   url: "https://drive.google.com/open?id=1WCq5nwudnA4RdUGJ1a9N_exlg8uttqir"
+  type: file-image
 
 
 technique--ignite-talks:
 
 - title: "Facilitaiton Object	for Remake Learning"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1hIUchz7S3AfxBHwlWLGP1mF9QknKWanj"
+  icon: file-pdf
 
 
 technique--plus-delta:
 
 - title: "Facilitation Object	for Feedback Event"
-  type: "pdf"
   url: "https://drive.google.com/open?id=12MXQ0jbjPXE8Q5HFY7ERJ3uVZyf-ib8Y"
+  icon: file-pdf
 
 
 technique--poems:
 
 - title: "Facilitation Object	for On The Ground"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1FzoRR7KMDlTjRy19OE5u_qgvePlxJzoF"
+  icon: file-pdf
 
 
 technique--pre-mortem:
 
 - title: "Facilitation Manual	for Summit to Reconnect Learning"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1KibASWB7y9-AnIsXKZRbESZOCQucumBW"
+  icon: file-pdf
 
 
 technique--rose-bud-thorn:
 
 - title: "Facilitation Manual	for Seed Award for Economic Opportunity"
-  type: "pdf"
   url: "https://drive.google.com/open?id=17wEqefK76EDjvZQ4cf-gytE1soOFW45s"
+  icon: file-pdf
 
 
 technique--tuning-protocol:
 
 - title: "Facilitation Manual	for Pittsburgh City of Learning"
-  type: "pdf"
   url: "https://drive.google.com/open?id=17_ipS5uracqIQniTP-nGXE1po_z3h65h"
+  icon: file-pdf
 
 
 technique--what-so-what-now-what:
 
 - title: "Facilitation Object	for On The Ground"
-  type: "pdf"
   url: "https://drive.google.com/open?id=1142fNtgkmpu2IVwkyJEMygggQr-5Vtu4"
+  icon: file-pdf
