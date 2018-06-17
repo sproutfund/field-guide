@@ -31,9 +31,9 @@
                   </a>
                 {%- endfor -%}
               </ul>
-              {% include docs/templates-downloads.html section_slug=page_section_slug doc_slug=page_slug heading="Templates & Downloads" hlevel=2 %}
-              {% include docs/related-external-links.html section_slug=page_section_slug doc_slug=page_slug heading="Related External Links" hlevel=2 %}
             {%- endfor -%}
+            {% include docs/templates-downloads.html section_slug="community-building" doc_slug="techniques" heading="Templates & Downloads" hlevel=2 %}
+            {% include docs/related-external-links.html section_slug="community-building" doc_slug="techniques" heading="Related External Links" hlevel=2 %}
           {%- else -%}
             <!-- One Technique -->
             {%- assign technique_group_techniques = site.data.community-building-techniques | where:"purpose",page_slug -%}
@@ -61,8 +61,10 @@
                 {%- endcapture -%}
                 <p><strong>Related Experiences</strong>: {{ technique_experiences_links | split: ',' | array_to_sentence_string: ''  }}</p>
               {%- endif -%}
-              {% include docs/related-external-links.html section_slug="community-building-techniques" doc_slug=technique_slug %}
-              {% include docs/templates-downloads.html section_slug="community-building-techniques" doc_slug=technique_slug %}
+              {%- assign technique_slug_search = technique_slug | prepend: "technique--" -%}
+              <div class="d-block h3">Links &amp; Examples</div>
+              {% include docs/related-external-links.html section_slug="community-building" doc_slug=technique_slug_search %}
+              {% include docs/templates-downloads.html section_slug="community-building" doc_slug=technique_slug_search %}
             {%- endfor -%}
           {%- endif -%}
         {%- endcapture -%}

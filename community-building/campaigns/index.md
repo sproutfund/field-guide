@@ -11,7 +11,7 @@ status: <span class="badge badge-warning">needs review</span>
 
 While all community building campaigns are unique, successful campaigns have some key similarities: a well-defined audience, a focused goal, a clear message, and specific ways for people to get involved during a set period of time.
 
-When you start to develop a community building campaign, we encourage you to think through each of these <a href="http://fieldguide.sproutfund.org/community-building/campaigns/#key-considerations">**key considerations**</a> to guide your planning process. Then, you can use a suite of <a href="http://fieldguide.sproutfund.org/community-building/campaigns/#planning-tools">**planning tools**</a> we created to help you further develop your thinking.
+When you start to develop a community building campaign, we encourage you to think through each of these [key considerations](#key-considerations) to guide your planning process. Then, you can use a set of [templates & downloads](#template-downloads) we created as planning tools to help you further develop your thinking.
 
 ## Key Considerations
 
@@ -27,7 +27,7 @@ We think that the following key considerations can help you develop the strategi
 
 5. 💪 **Organizers**: Who can help you lead the work?
 
-Let’s look at them one by one. Once you've reviewed them,you can jot down ideas and track your progress using the <a href="http://fieldguide.sproutfund.org/community-building/campaigns/#planning-tools">planning tools</a> linked below.  
+Let’s look at them one by one. Once you've reviewed them,you can jot down ideas and track your progress using the planning tools linked below.  
 
 ### 👥 Participants
 
@@ -91,13 +91,3 @@ Let’s look at them one by one. Once you've reviewed them,you can jot down idea
 1. What roles do you need contributors to play to help you achieve your goals?
 2. How might you recruit contributors to join you?  
 3. Are your helpers and vendors representative of your audience and responsive to their needs?
-
-## Planning Tools
-
-Use the <a href="https://drive.google.com/open?id=1gA0d42b4SaC4sWjROwSMpBbQDr9qOH2P">**_Campaign Builder_**</a> to help you create a high-level, one-page plan for your campaign.
-
-Use the <a href="https://drive.google.com/open?id=1nCLW0w_PVVaUa9ue9rFZN4KztROOQ8Ot">**_Experience Cards_**</a> to help you brainstorm the kinds of action-oriented experiences you might include in your campaign. Remember, you can use the same experience type more than once!
-
-Then, use the <a href="https://drive.google.com/open?id=1I3nZ17F4FZw6IYeFXEyrDOlPX9B-kbv8">**_Campaign Arc_**</a> to illustrate how you might stitch those experiences together to create your campaign. This will enable you to create a one-page summary of your trajectory.
-
-Finally, use the <a href="https://drive.google.com/open?id=1iEz99pTPr_ou9apLu1iYkFIg67_t4_9P">**_Experience Builder_**</a> to plan each experience in your campaign in greater detail.

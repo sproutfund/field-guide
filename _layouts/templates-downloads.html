@@ -38,11 +38,11 @@
               {%- if section.pages == nil -%}
                 {%- include docs/templates-downloads.html section_slug=section_slug doc_slug=section_slug heading=section.title hlevel=2 -%}
               {%- else -%}
-                <h2 id="{{ section.title | slugify }}">{{ section.title }}</h2>
+                <h2 id="{{ section_slug }}">{{ section.title }}</h2>
                 {%- for group in section.pages -%}
 
                   {%- assign group_slug = group.title | slugify -%}
-                  {%- assign group_pages = content_pages | where: "group",group_slug -%}
+                  {%- assign group_pages = section_pages | where: "group",group_slug -%}
                   {%- assign group_has_links = false -%}
                   {%- for doc in group_pages -%}
                     {% unless group_has_links == true %}
@@ -57,7 +57,8 @@
                     {%- if group.pages == nil -%}
                       {%- include docs/templates-downloads.html section_slug=section_slug doc_slug=group_slug heading=group.title hlevel=3 -%}
                     {%- else -%}
-                      <h3 id="{{ group.title | slugify }}">{{ group.title }}</h3>
+                      <h3 id="{{ section_slug }}--{{ group_slug }}">{{ group.title }}</h3>
+                      {%- include docs/templates-downloads.html section_slug=section_slug doc_slug=group_slug -%}
                       {%- for doc in group.pages -%}
                         {%- assign doc_slug = doc.title | slugify -%}
                         {%- assign doc_has_links = false -%}

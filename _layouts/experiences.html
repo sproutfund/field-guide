@@ -35,7 +35,7 @@
               <p><strong>Target Size</strong>: {{ experience.size | smartify }} | <strong>Attributes</strong>: {{ experience.adjectives | smartify }} | <strong>Shorthand</strong>: “{{ experience.goal | smartify }}”</p>
               <div class="row">
                 <div class="col-12 col-md-6 col-lg-7 col-xl-8">
-                  <h2>Protips</h2>
+                  <div class="d-block h3">Protips</div>
                   <ul class="fa-ul">
                     {%- for protip in experience.protips -%}
                       <li><span class="fa-li"><i class="far fa-star"></i></span>{{ protip | markdownify }}</li>
@@ -43,7 +43,7 @@
                   </ul>
                 </div>
                 <div class="col-12 col-md-6 col-lg-5 col-xl-4">
-                  <h2>Process Checklist</h2>
+                  <div class="d-block h3">Process Checklist</div>
                   <ul class="fa-ul">
                     {%- assign process_steps = experience.process | split: ' > ' -%}
                     {%- for process_step in process_steps -%}
@@ -52,17 +52,13 @@
                   </ul>
                 </div>
               </div>
-              <h2>Example &amp; Artifacts</h2>
-              <p>{{ experience.example | smartify }}</p>
-              {% include docs/templates-downloads.html section_slug="community-building-experiences" doc_slug=experience_slug %}
-              <h2>Related</h2>
               {%- if experience.companions -%}
                 {%- capture experience_companions_links -%}
                   {%- for companion in experience.companions -%}
                     <a href="/community-building/experiences/{{ companion | slugify }}/">{{ companion | smartify }}</a>,
                   {%- endfor -%}
                 {%- endcapture -%}
-                <p><strong>Experiences</strong>: {{ experience_companions_links | split: ',' | array_to_sentence_string: ''  }}</p>
+                <p><strong>Related Experiences</strong>: {{ experience_companions_links | split: ',' | array_to_sentence_string: ''  }}</p>
               {%- endif -%}
               {%- capture experience_techniques_links -%}
                 {%- assign techniques_sorted = site.data.community-building-techniques | sort: 'technique' -%}
@@ -73,8 +69,12 @@
                 {%- endfor -%}
               {%- endcapture -%}
               {%- if experience_techniques_links -%}
-                <p><strong>Techniques</strong>: {{ experience_techniques_links | split: ',' | array_to_sentence_string: ''  }}</p>
+                <p><strong>Related Techniques</strong>: {{ experience_techniques_links | split: ',' | array_to_sentence_string: ''  }}</p>
               {%- endif -%}
+              <div class="d-block h3">Example &amp; Artifacts</div>
+              <p>{{ experience.example | smartify }}</p>
+              {%- assign experience_slug_search = experience_slug | prepend: "experience--" -%}
+              {% include docs/templates-downloads.html section_slug="community-building" doc_slug=experience_slug_search %}
             {%- endfor -%}
           {%- endif -%}
         {%- endcapture -%}
