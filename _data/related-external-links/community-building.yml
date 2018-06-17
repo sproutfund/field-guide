@@ -1,64 +1,64 @@
 # page-slug:
 # - title: title of the webpage/external resource *required*
-#   description: additional descriptive text
-#   source: short source name
 #   url: URL *required*
+#   source: short source name
+#   description: additional descriptive text
 
 # don't use any colons without quoting text!
 
 techniques:
 
 - title: 101 Design Methods
-  description: A practical set of collaborative tools and methods for planning and defining successful new offerings.
-  source: 101 Design Methods
   url: "http://www.101designmethods.com"
+  source: 101 Design Methods
+  description: A practical set of collaborative tools and methods for planning and defining successful new offerings.
 
 - title: 18F Design Tools
-  description: A collection of tools to bring human-centered design into your project.
-  source: 18F
   url: "https://methods.18f.gov/"
+  source: 18F
+  description: A collection of tools to bring human-centered design into your project.
 
 - title: "AtlassianTeam Playbook"
-  description: A no-bullshit guide to unleashing your team's potential.
-  source: Atlassian
   url: "https://www.atlassian.com/team-playbook"
+  source: Atlassian
+  description: A no-bullshit guide to unleashing your team's potential.
 
 - title: Atomic Object’s Design Thinking Toolkit
-  description: A series of blog posts about design thinking from Atomic Object. 
-  source: Atomic
   url: "https://spin.atomicobject.com/2017/05/18/what-is-design-thinking/"
+  source: Atomic
+  description: A series of blog posts about design thinking from Atomic Object.
 
 - title: Circular Design Guide
-  description: A radical, restorative, regenerative approach to business.
-  source:  Ellen MacArthur Foundation and IDEO
   url: "https://www.circulardesignguide.com/"
+  source:  Ellen MacArthur Foundation and IDEO
+  description: A radical, restorative, regenerative approach to business.
 
 - title: CreativeMornings Skills
-  description: A collection of resources from the global CreativeMornings community. 
-  source: CreativeMornings 
   url: "https://creativemornings.com/skills"
+  source: CreativeMornings
+  description: A collection of resources from the global CreativeMornings community.
 
 - title: The Field Guide to Human-Centered Design
-  description: A collection of books, guides, and  downloads to help people routinely innovate and solve big problems.
-  source: IDEO
   url: "http://www.designkit.org/resources/"
+  source: IDEO
+  description: A collection of books, guides, and  downloads to help people routinely innovate and solve big problems.
 
 - title: "Gamestorming"
-  description: A set of co-creation tools used by innovators around the world.
-  source: Gamestorming
   url: "http://gamestorming.com"
+  source: Gamestorming
+  description: A set of co-creation tools used by innovators around the world.
 
 - title: "Improv Wiki"
-  description: The internet headquarters of improvisational theater. 
-  source: Improv Wiki 
   url: "https://improwiki.com/"
+  source: Improv Wiki
+  description: The internet headquarters of improvisational theater.
 
 - title: "LUMA Institute"
-  description: This handbook equips people in various lines of work to become more innovative.
-  source: LUMA Institute
   url: "https://www.luma-institute.com"
+  source: LUMA Institute
+  description: This handbook equips people in various lines of work to become more innovative.
 
 - title: "This is Service Design Thinking"
-  description: This book outlines a contemporary approach for service innovation. 
-  source: 23 international authors
   url: "http://thisisservicedesignthinking.com"
+  source: 23 international authors
+  description: This book outlines a contemporary approach for service innovation.
