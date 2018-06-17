@@ -10,7 +10,7 @@ toc: false
 
 The Sprout Fund improved Pittsburgh by inspiring and nurturing people with innovative, grassroots ideas to positively impact their communities. From 2001 to 2018, Sprout worked with regional and national philanthropic partners to build strong networks and make more than $7 million of community-decided investments in 1,100+ early-stage projects, organizations, innovators, and activities.
 
-Now, upon our sunset as an organization, we’re sharing the [**philosophy and ideals**](../philosophy-ideals/) that drove our work for almost two decades so others can leverage our unique approach and processes.
+Now, upon our sunset as an organization, we’re sharing the philosophy and ideals that drove our work for almost two decades so others can leverage our unique approach and processes.
 
 Our [**catalytic funding**](/catalytic-funding/) helped major funders reach new audiences of first-time grant seekers and enabled communities to make fair decisions for themselves about which projects should be supported. Assuring that these micro grants were responsive to the interests of both the grassroots community and major regional stakeholders enabled us to build coalitions of support among engaged residents at multiple levels of civic engagement. While many projects yielded individual successes, their cumulative output produced a critical mass of innovative approaches designed by and for the communities we aim to serve.
 
