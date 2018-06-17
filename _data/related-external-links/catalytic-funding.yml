@@ -1,8 +1,8 @@
 # page-slug:
 # - title: title of the webpage/external resource *required*
-#   description: additional descriptive text
-#   source: short source name
 #   url: URL *required*
+#   source: short source name
+#   description: additional descriptive text
 
 # don't use any colons without quoting text!
 
@@ -12,14 +12,14 @@
 program-design:
 
 - title: Top Blogs for Grantmakers
-  description: LearnPhilanthropy staff collected a few resources to help grantmakers develop their skills.
-  source: LearnPhilanthropy
   url: "http://learnphilanthropy.org/15-blogs-enhance-learning-philanthropy/"
+  source: LearnPhilanthropy
+  description: LearnPhilanthropy staff collected a few resources to help grantmakers develop their skills.
 
 - title: Innovations in Open Grantmaking
-  description: This paper seeks to provide inspiration and early proof of concept regarding innovative practices at every stage of the grantmaking process.
-  source: GrantCraft
   url: "http://www.grantcraft.org/guides/innovations-in-open-grantmaking#highlights"
+  source: GrantCraft
+  description: This paper seeks to provide inspiration and early proof of concept regarding innovative practices at every stage of the grantmaking process.
 
 
 fundraising: false
@@ -30,24 +30,24 @@ fundraising: false
 application-design:
 
 - title: Project Streamline
-  description: Project Streamline focuses on helping grantmakers get the information they need, while reducing the burden of application and reporting practices on nonprofit grantseekers.
-  source: PEAK Grantmaking
   url: "https://www.peakgrantmaking.org/projectstreamline/"
+  source: PEAK Grantmaking
+  description: Project Streamline focuses on helping grantmakers get the information they need, while reducing the burden of application and reporting practices on nonprofit grantseekers.
 
 - title: Common Grant Application Form/Common Grant Report Form
-  description: Grantmakers of Western Pennsylvania provides the Common Grant Application Form and the Common Grant Report Form as a service to local nonprofit agencies and funding organizations.
-  source: Grantmakers of Western Pennsylvania
   url: "https://gwpa.org/resources/common-grant-application-formcommon-grant-report-form"
+  source: Grantmakers of Western Pennsylvania
+  description: Grantmakers of Western Pennsylvania provides the Common Grant Application Form and the Common Grant Report Form as a service to local nonprofit agencies and funding organizations.
 
 - title: Grantmaking Application Process Resource Guide - A Grantmaking Primer
-  description: This primer takes a look at streamlining the application process from RFP to grant agreement.
-  source: Council on Foundations
   url: "https://www.cof.org/content/grantmaking-application-process-resource-guide-grantmaking-primer"
+  source: Council on Foundations
+  description: This primer takes a look at streamlining the application process from RFP to grant agreement.
 
 - title: Short + Tweet Grants
-  description: The Deluxe Corporation Foundation awarded 10 grants worth $10,000 each in a Twitter-based competition.
-  source: The Chronicle of Philanthropy
   url: "https://www.philanthropy.com/article/10-Small-Nonprofits-Get-Chance/238039"
+  source: The Chronicle of Philanthropy
+  description: The Deluxe Corporation Foundation awarded 10 grants worth $10,000 each in a Twitter-based competition.
 
 
 program-launch-announcement: false
@@ -56,12 +56,12 @@ program-launch-announcement: false
 applicant-outreach-info-sessions:
 
 - title: Hosting a Community Meeting? Avoid These 5 Mistakes!
-  source: ioby
   url: "https://www.ioby.org/blog/hosting-a-community-meeting-avoid-these-5-mistakes"
+  source: ioby
 
 - title: How to customize and design your event listing
-  source: EventBrite
   url: "https://www.eventbrite.com/support/articles/en_US/How_To/how-to-customize-and-design-your-event-listing?lg=en_US"
+  source: EventBrite
 
 
 prospect-management-draft-review: false
@@ -72,9 +72,9 @@ prospect-management-draft-review: false
 decisionmaker-recruitment:
 
 - title: Which Stakeholders Should We Involve in Our Decisions and How?
-  description: Grantmakers for Effective Organizations and the Interaction Institute for Social Change have identified key tenets grantmakers can use to identify stakeholder interests and determine the right levels of involvement.
-  source: Grantmakers for Effective Organizations
   url: "https://www.geofunders.org/resources/654"
+  source: Grantmakers for Effective Organizations
+  description: Grantmakers for Effective Organizations and the Interaction Institute for Social Change have identified key tenets grantmakers can use to identify stakeholder interests and determine the right levels of involvement.
 
 
 application-intake: false
@@ -85,8 +85,8 @@ committee-review: false
 
 follow-up-due-diligence:
 - title: Small Grant Committee Guidelines & Scoring Tool
-  source: Social Planning & Research Council of Hamilton
   url: "http://www.sprc.hamilton.on.ca/wp-content/uploads/2017/04/Small-Grant-Review-Committee-Guidelines-and-Scoring-Tool.pdf"
+  source: Social Planning & Research Council of Hamilton
 
 
 meeting-facilitation: false
@@ -100,16 +100,16 @@ denied-applicant-feedback: false
 grant-initiation-project-planning:
 
 - title: Tips for Effective Grantee Relations
-  source: Council on Foundations
   url: "https://www.cof.org/content/tips-effective-grantee-relations"
+  source: Council on Foundations
 
 - title: Why Grantee Relationships are a Grantmaker’s Most Critical Resource
-  source: Fluxx
   url: "https://info.fluxx.io/resources-whitepaper-grantee-relationships-grantmaker-critical-resource"
+  source: Fluxx
 
 - title: Tips for Sharing Your News with the Public
-  source: Institute of Museum and Library Services
   url: "https://www.imls.gov/grants/grant-recipients/grantee-communications-kit/tips-sharing-your-news-public"
+  source: Institute of Museum and Library Services
 
 reporting-on-successes-challenges: false
 
@@ -131,13 +131,13 @@ funder-reporting: false
 wrap-up-wind-down:
 
 - title: Exiting Responsibly - Best Donor Practices in Ending Field Support
-  source: Council on Foundations
   url: "https://www.cof.org/content/exiting-responsibly-best-donor-practices-ending-field-support"
+  source: Council on Foundations
 
 - title: Communicating The Lia Fund’s Sunset Plans to Our Grantees
-  source: GrantCraft
   url: "http://www.grantcraft.org/blog/communicating-the-lia-funds-sunset-plans-to-our-grantees"
+  source: GrantCraft
 
 - title: Lessons From a Sunsetting Fund
-  source: Stanford Social Innovation Review
   url: "https://ssir.org/articles/entry/lessons_from_a_sunsetting_fund"
+  source: Stanford Social Innovation Review
