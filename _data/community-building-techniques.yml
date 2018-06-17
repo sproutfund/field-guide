@@ -2,10 +2,6 @@
   tagline: "Lead a hands-on working session and build something new together."
   description: "A broad way to describe a hands-on, in-person session where participants learn something new together. As you plan a co-creation session, consider a mix of large-group and small-group instruction. We find that it's helpful to have an emcee describe a process from the stage and keep time from the front of the room and also have table-based facilitators who can help guide a process and offer help along the way. If possible, offer time at the end of the session to report out on each group's progress. This can feel time consuming, but it can feel rewarding for participants to have something to show and share as a result of their collaborative work."
   purpose: generate
-  instructions:
-    title: "Co-Creation Session Design Kit"
-    url: "http://www.designkit.org/methods/33"
-    source: "IDEO.org"
   companions: false
   experiences:
     - Planning
@@ -18,10 +14,6 @@
   tagline: "Sketch out the details of a new idea."
   description: "A great solo or group activity, concept posters help people develop and flesh out the details of an emerging idea. Use concept posters as one step in an event with multiple activities, especially after you've invited participants to brainstorm approaches for addressing a shared challenge. The best concept posters invite participants to bring the details of a big idea into sharper focus: you might prompt people to consider things like timeline, audience, potential stakeholders, required resources, and potential outcomes."
   purpose: generate
-  instructions:
-    title: "Illustrate the main points of a new idea in a presentation format"
-    url: "https://mural.co/framework/concept-poster/"
-    source: "LUMA Institute"
   companions:
     - Statement Starters
     - Concept Posters
@@ -36,10 +28,6 @@
   tagline: "Organize possible responses to a complex problem."
   description: "A powerful tool for generating many ideas in a very short period of time. Develop a chart that invites people to consider big-picture categories and come up with ideas that address a particular concern for a particular audience. Just make sure your categories are straightforward enough to spark your participants' creativity, not stump them. One good idea is to label the columns by people (like program staff, executive staff, and community members) and label the rows with important elements of a program (like sustainability, accessibility, and relevance); then, invite people to come up with ideas that populate the cells where these people and elements intersect."
   purpose: generate
-  instructions:
-    title: "Spark new ideas at the intersection of categories"
-    url: "https://mural.co/framework/creative-matrix/"
-    source: "LUMA Institute"
   companions:
     - Creative Matrix
     - Dot Voting
@@ -54,10 +42,6 @@
   tagline: "Draw the step-by-step process that brings an idea to fruition."
   description: "Think of this as an on-the-fly approach to user experience design. Once a participant or group has come up with a new idea, invite them to diagram the experiences of a person who might be served or impacted by its implementation. Consider major milestones and important experiences they might encounter, and consider how the program design for the new idea might most effectively facilitate that person's experience."
   purpose: generate
-  instructions:
-    title: "Journey Map Design Kit"
-    url: "http://www.designkit.org/methods/63"
-    source: "IDEO.org"
   companions:
     - Personas
     - Stakeholder Mapping
@@ -73,10 +57,6 @@
   tagline: "Break the ice, shuffle the room as people sort into categories."
   description: "A valuable exercise when a large group of people is meeting for the first time. In advance, organizers should choose a variety of themes—such as sectors, hobbies, ice cream flavors, etc.—and identify four options within each theme—like nonprofit, corporate, government, philanthropy or chocolate, vanilla, blueberry, rocky road. Then, a facilitator should introduce the exercise by asking people to move to the corner of the room that best represents them and their interests. This happens in rounds, start with sectors, then do hobbies, then do ice cream flavors, and so on. During each round, participants pair up with someone new and briefly introduce themesless to each other."
   purpose: generate
-  instructions:
-    title: "Four Corners Instructions"
-    url: "http://dbp.theatredance.utexas.edu/content/four-corners"
-    source: "University of Texas School of Theater and Dance"
   companions: false
   experiences:
     - Planning
@@ -93,10 +73,6 @@
   tagline: "Sketch your personal journey, then extend it into the future."
   description: "Part introspection, part storytelling engine, this activity invites people to draw their personal journey and envision what the future might hold. It may help to limit what you mean by “journey”; perhaps invite people to talk about their career trajectory or their experiences learning something new. Give people time to draw their journey first, marking personal milestones and tracing a pathway that's as linear or serpentine as they like. Then, offer ample time for sharing: invite people to use their diagram to tell their own story to a partner or a small group, and make time for the conversations that result."
   purpose: generate
-  instructions:
-    title: "History Map Instructions"
-    url: "http://gamestorming.com/history-map/"
-    source: "Gamestorming"
   companions: false
   experiences:
     - Planning
@@ -108,10 +84,6 @@
   tagline: "Develop detailed profiles representing people you hope to serve."
   description: "A classic tool for building empathy and thinking deeply about the needs, interests, and goals of critical stakeholders for a project or idea. Personas might represent specific people, or they might represent people working in particular kinds of organizations, like governments, cultural institutions, and nonprofits. The best persona profiles feature “gives and gets”: specifically, what might a person represented by this persona profile contribute to this new effort? How might they benefit in return? If you develop several persona profiles, consider integrating some key features of those organizations into each profile to help you compare the personas to one another."
   purpose: generate
-  instructions:
-    title: "Personas Method Card"
-    url: "https://methods.18f.gov/decide/personas/"
-    source: "18F"
   companions:
     - Personas
     - Stakeholder Mapping
@@ -128,11 +100,7 @@
   tagline: "Generate ideas in silence before sharing them with the group."
   description: "A riff on brainstorming, quietstorming invites participants to work solo before sharing out their ideas with a group. First, give participants a prompt to respond to or a big idea to reflect on. Give them a few moments to jot down ideas and organize their thoughts before you invite them to join in a small-group or large-group discussion. This is a great way to change the pace of an event: instead of letting the loudest, quickest voices in the room dominate the conversation, quietstorming rewards deliberate introspection."
   purpose: generate
-  instructions:
-    title: "How ‘Quietstorming’ Will Make Your Team More Productive"
-    url: "https://www.inc.com/natalie-nixon/productivity-playbook-encouraging-creativity.html"
-    source: "Inc."
-  companions:
+  companions: false
   experiences:
     - Planning
     - Ideation
@@ -143,10 +111,6 @@
   tagline: "Quickly generate, critique, and refine new ideas."
   description: "A feedback exercise in three steps where people propose, critique, then refine a novel approach to a stated challenge. It's always appealing to invite people to confront an idea's flaws: use this tool to develop robust solutions to complex problems. Round Robin works well with a group of three, but it can also work around a larger table or in an auditorium-style seating arrangement, especially if you facilitate a discussion about how ideas improved through critique. Just make sure people get their original sheets back after all the passing!"
   purpose: generate
-  instructions:
-    title: "Evolve your team’s ideas in unexpected ways"
-    url: "https://mural.co/framework/round-robin/"
-    source: "LUMA Institute"
   companions:
     - Statement Starters
     - Round Robin
@@ -163,10 +127,6 @@
   tagline: "Illustrate connections between people, organizations, and communities."
   description: "A helpful way to visualize the individuals and organizations who might be critically interested or involved in a project or initiative -- plus the relationships between them. Be systematic as you draw to make your map more meaningful: perhaps use one color or symbol for people and another for organizations, and use dotted or solid lines to illsutrate connections between stakeholders. Use this method to surface critical gaps on your map: Who's missing? What connections need to be forged? How might you strengthen the connections you already see?"
   purpose: generate
-  instructions:
-    title: "Map the Stakeholders"
-    url: "https://www.interaction-design.org/literature/article/map-the-stakeholders"
-    source: "Interaction Design Foundation"
   companions:
     - Personas
     - Stakeholder Mapping
@@ -184,10 +144,6 @@
   tagline: "Fill-in-the-blank prompts that spark lively conversation."
   description: "A fruitful ice-breaker or starting point for a series of human-centered design activities. Use statement starters as an ice-breaker to invite participants to introduce themselves and offer their response to a prompt. Or, use statement starters as the first step of a multi-step process to generate and refine new ideas."
   purpose: generate
-  instructions:
-    title: "SME interview, statement starters, and empathy mapping"
-    url: "http://design.lienbtran.com/tag/statement-starters/"
-    source: "Designing Interactivity"
   companions:
     - Statement Starters
     - Concept Posters
@@ -207,10 +163,6 @@
   tagline: "Sketch your pic and list your interests as a personal introduction."
   description: "One of our favorite icebreakers, this activity invites people to introduce themselves by sketching a “profile picture” and listing a few of their interests and affiliations. It's a good way to keep introductions quick in a large group by helping people limit their remarks. Consider adding a funny question that goes beyond name, organization, and hometown; we've asked people to name their favorite Thanksgiving side dish and their favorite board game. Feel free to make these questions more serious too: in a gathering at the beginning or end of a multi-day event, consider asking what word people heard most at the event, or ask people to volunteer one word to describe how they feel."
   purpose: generate
-  instructions:
-    title: "Trading Cards Instructions"
-    url: "http://gamestorming.com/trading-cards/"
-    source: "Gamestorming"
   companions: false
   experiences:
     - Planning
@@ -228,10 +180,6 @@
   tagline: "Keep participants moving with dynamic station-based activities."
   description: "More of an experience design tactic than a specific technique, the World Café format invites people to rotate through a series of station-based activities. This format works best when you preface it with detailed instructions from the front of the room. After setting participants free to move among the stations, we often leave those instructions displayed on a slide at the front and also present the instructions on a printed sheet at each station. Several of the techniques described in this chapter work well as world cafe stations; they work best if you can have dedicated facilitators or a team of roving facilitators to monitor participants' progress and help along the way."
   purpose: generate
-  instructions:
-    title: "World Café Design Principles"
-    url: "http://www.theworldcafe.com/key-concepts-resources/design-principles/"
-    source: "The World Café"
   companions:
     - Rose Thorn Bud
     - Pre-Mortem
@@ -254,10 +202,6 @@
   tagline: "Collect ideas and identify common themes."
   description: "A great technique to pair with Rose Thorn Bud, use Affinity Diagramming to organize user-created sticky notes around common themes, questions, and topics. After reshuffling the sticky notes into topical clusters, read out some of the responses and invite participants to elaborate on what they wrote. Going through the clusters one by one helps organize your discussion--and it may help participants coalesce around some key ideas and themes that will propel their shared work forward."
   purpose: prioritize
-  instructions:
-    title: "Affinity Diagramming Method Card"
-    url: "https://methods.18f.gov/decide/affinity-diagramming/"
-    source: "18F"
   companions:
     - Rose Thorn Bud
     - Affinity Diagramming
@@ -271,10 +215,6 @@
   tagline: "Sort key priorities from less-critical ideas."
   description: "A tool for prioritizing how important different ideas are -- or how soon you should take them on. Add ideas by placing sticky notes on the chart in order of importance, and keep in mind that only a few ideas can be at the center. Consider using this as a station-based, heavily facilitated exercise: see how each new group chooses to reshuffle ideas on the diagram to represent their own priorities, and keep track of which ideas tended to remain near the center."
   purpose: prioritize
-  instructions:
-    title: "Carefully consider ideas in order of importance"
-    url: "https://mural.co/framework/bulls-eye-diagramming/"
-    source: "LUMA Institute"
   companions:
     - World Cafe
   experiences:
@@ -290,10 +230,6 @@
   tagline: "Vote for your favorites, move the most promising ideas forward."
   description: "A practical, quantifiable way to help a group narrow their options from many choices to few. First, display the choices on a wall or table, giving ample room for people to gather, read, and reflect. Allow time for participants to do a “gallery walk” and browse their choices, then give each person the same number of dots to place on the items they like best. You can use fancy dot stickers, or just have people can use markers to indicate their choices. Tally the results and repeat as needed."
   purpose: prioritize
-  instructions:
-    title: "Dot Voting Method Card"
-    url: "https://methods.18f.gov/discover/feature-dot-voting/"
-    source: "18F"
   companions:
     - Statement Starters
     - Concept Posters
@@ -314,10 +250,6 @@
   tagline: "Plot ideas based on their practical demands and their potential."
   description: "A systematic way to visualize the potential effort required for a particular task and its expected impact. This technique works best when you have a very specific question in mind; for example, “Who might we engage to join this collective impact project?” Then, plot people or organizations on the grid based on how difficult it might be to engage them and how much of an impact their involvement might have. Once you've placed items on the grid, divide the grid into quadrants and focus on the two high-impact quadrants: high-impact, low-effort ideas are quick wins that are worth pursuing soon, while high-impact, high-effort ideas are more likely long-term strategic projects."
   purpose: prioritize
-  instructions:
-    title: "Impact & Effort Matrix Instructions"
-    url: "http://gamestorming.com/impact-effort-matrix-2/"
-    source: "Gamestorming"
   companions:
     - Personas
     - Stakeholder Mapping
@@ -337,10 +269,6 @@
   tagline: "Inspire people to offer feedback and capture emerging ideas."
   description: "A discussion format that invites people to offer actionable feedback, this technique stands out for its focus on solutions. Use the “I wish” statements to gather the most critical feedback: encourage people to characterize their negative feedback in terms of how they would do something differently or otherwise improve a situation. Similarly, use the “I wonder” statements to identify gaps or focus on ideas that need further investigation."
   purpose: reflect
-  instructions:
-    title: "I Like, I Wish, I Wonder Method"
-    url: "https://dschool-old.stanford.edu/wp-content/themes/dschool/method-cards/i-like-i-wish-what-if.pdf"
-    source: "Stanford D School"
   companions:
     - World Cafe
   experiences:
@@ -353,10 +281,6 @@
   tagline: "Highlight big ideas with short, inspiring talks."
   description: "Some people call this format Pecha Kucha; others refer to these as Ignite Talks. We once called it a Gong Show. No matter what you call them, these punchy, very-brief talks are intended to energize and entertain. Make sure to curate your speakers carefully: prepare your speakers for the format's constraints and consider hosting a rehearsal session to help them practice. Also, consider the audience's experience: make sure the talks hang together by addressing a common theme, answering a common question, or simply sharing a common vision for the future."
   purpose: reflect
-  instructions:
-    title: "How To Give a Great Ignite Talk"
-    url: "http://scottberkun.com/2009/how-to-give-a-great-ignite-talk/"
-    source: "Scott Berukun"
   companions: false
   experiences:
     - Planning
@@ -374,10 +298,6 @@
   tagline: "List critical lessons learned, consider how to do better next time."
   description: "A reflection tool that works well as a solo writing exercise or as a group discussion, especially at the end of a project, event, or initiative. Feel free to focus on the big picture or to call out minor details: The point is to list the most salient take-home messages and lessons learned from an experience so you can draw upon them for your next project."
   purpose: reflect
-  instructions:
-    title: "Driving Accountability to Maximize Results Using the Plus-Delta Tool"
-    url: "https://agileforall.com/bad-standard-plus-minus-delta-agile-retrospectives/"
-    source: "GoLeanSixSigma.com"
   companions:
     - World Cafe
   experiences:
@@ -389,10 +309,6 @@
   tagline: "Reflect on the key components of an experience."
   description: "A riff on a classic observational techinique, we like the way POEMS (People, Objects, Environments, Messages, and Services) invites participants to consider a place and its conditions from multiple perspectives. This technique works equally well at the beginning or the end of a multi-day or day-long event. As a kickoff activity or icebreaker, adapt the prompts into discussion questions that help pairs or small groups describe a place a situation. As a culminating activity, use POEMS as a solo reflection tool, inviting participants to write and reflect on their own before joining others in conversation about a shared experience."
   purpose: reflect
-  instructions:
-    title: "POEMS, from the Design Thinking Toolkit"
-    url: "https://spin.atomicobject.com/2017/09/20/poems-template-user-observation/"
-    source: "Atomic Object"
   companions: false
   experiences:
     - Planning
@@ -404,10 +320,6 @@
   tagline: "Provocative look into how new ideas might fail."
   description: "Sometimes it's fun to imagine how things could go wrong. Invite people to envision pitfalls, obstacles, and mistakes that could doom new ideas before they get off the ground. Then, host a conversation that flips this dynamic on its head: what active steps could people take now to avoid such unhappy endings? Take the opportunity to have a practical conversation about the factors that might undermine a new project's success, then think proactively about how to overcome them. Understandably, this activity can get a little morbid, so be thoughtful about your audience and approach this one with good humor and sensitivity."
   purpose: reflect
-  instructions:
-    title: "Premortem Instructions"
-    url: "https://www.atlassian.com/team-playbook/plays/pre-mortem"
-    source: "Atlassian Team Playbook"
   companions:
     - World Cafe
   experiences:
@@ -420,10 +332,6 @@
   tagline: "Classic approach to identifying strengths, challenges, opportunities."
   description: "A classic tool for identifying positives (roses), negatives (thorns), and new possibilities (buds). Rose Thorn Bud -- or RTB -- is one of our very favorite tools. Invite participants to use colored sticky notes (roses are red, thorns are blue, buds you can guess) to write down ideas as they react to a big-picture idea or a prompt written on a poster. Or, use this framework as a starting point for a reflective conversation: What was one positive from today's presentation? What would you improve? What new ideas came to mind for you as a result?"
   purpose: reflect
-  instructions:
-    title: "Rose Bud Thorn, from the Design Thinking Toolkit"
-    url: "https://spin.atomicobject.com/2017/09/20/poems-template-user-observation/"
-    source: "Atomic Object"
   companions:
     - Rose Thorn Bud
     - Affinity Diagramming
@@ -438,10 +346,6 @@
   tagline: "Structured feedback discussions in small groups."
   description: "One of the most formal tools we use, the tuning protocol is a timed, structured way to invite two people or two small teams to share information and give feedback. This is an especially effective tool to promote active listening: this technique encourages more loquacious participants to focus their comments and it makes space for more reserved participants to express themselves."
   purpose: reflect
-  instructions:
-    title: "Tuning Protocol Instructions"
-    url: "https://www.greatschoolspartnership.org/wp-content/uploads/2016/11/TuningCompetenciesandIndicators_Final-1.pdf"
-    source: "Great Schools Partnership"
   companions: false
   experiences:
     - Planning
@@ -453,10 +357,6 @@
   tagline: "Reflection tool that captures what happened and why it mattered."
   description: "A speedy way to sum up what happened, why it mattered, and what should happen next. Use this as a written reflection exercise or as a way to structure a group discussion. You can also expand these big-picture ideas into smaller, more granular questions that get more specific. In general, think about these top-level questions as ways to help people describe what they saw, evaluate its importance, and think expansively about what it might mean for future action."
   purpose: reflect
-  instructions:
-    title: "Reflection Starters: Basic Discussions"
-    url: "https://www.uvm.edu/~dewey/reflection_manual/activities.html#Starters"
-    source: "John Dewey Project’s Facilitating Reflection"
   companions:
     - POEMS
     - What? So What? Now What?
