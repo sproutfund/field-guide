@@ -194,7 +194,35 @@ grant-initiation-project-planning:
 reporting-on-successes-challenges: false
 
 
-multimedia-documentation: false
+multimedia-documentation:
+
+- title: Editorial Meeting Agenda
+  type: google-drive
+  url: "https://docs.google.com/document/d/1y3muqD9llCkeH1ic7ewlQHvBHaUvZjkhIDoykXghBd0/copy"
+
+- title: Messaging Framework
+  type: google-drive
+  url: "https://docs.google.com/document/d/1DFwyHjUaKBP_e8KOurxxdUvm9dvP1WS9LxgS471c9xE/copy"
+
+- title: Publicity Consent and Release
+  type: file-word
+  url: "https://drive.google.com/open?id=0B1jfYdmazlA-SFpkZEVkSDI2MGs"
+
+- title: Video Assignment Call Sheet
+  type: file-excel
+  url: "https://drive.google.com/open?id=0B1jfYdmazlA-TDZKdUFkd2J3MDQ"
+
+- title: Writing Assignment Specification
+  type: file-word
+  url: "https://drive.google.com/open?id=0B1jfYdmazlA-aFNyZXJkM1dhQlk"
+
+- title: Photo Assignment Specification
+  type: file-word
+  url: "https://drive.google.com/open?id=0B1jfYdmazlA-TWRraU1BWWI2eTg"
+
+- title: Video Assignment Specification
+  type: file-word
+  url: "https://drive.google.com/open?id=0B1jfYdmazlA-RzJLSGlQdGdCdUU"
 
 
 bringing-grantees-together: false
