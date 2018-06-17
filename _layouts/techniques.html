@@ -19,6 +19,7 @@
           {%- assign page_slug = page.url | split: '/' | last -%}
           {%- assign technique_groups = "generate, prioritize, reflect" | split: ', ' -%}
           {%- if page_slug == 'techniques' -%}
+            <!-- All Techniques -->
             {%- for technique_group in technique_groups -%}
               <h2 id="{{ technique_group }}">Techniques to {{ technique_group | capitalize }}</h2>
               <ul class="list-group">
@@ -34,9 +35,11 @@
               {% include docs/related-external-links.html section_slug=page_section_slug doc_slug=page_slug heading="Related External Links" hlevel=2 %}
             {%- endfor -%}
           {%- else -%}
+            <!-- One Technique -->
             {%- assign technique_group_techniques = site.data.community-building-techniques | where:"purpose",page_slug -%}
             {%- for technique in technique_group_techniques -%}
-              <h2 id="{{ technique.technique | slugify }}">{{ technique.technique | smartify }}</h2>
+              {%- assign technique_slug = technique.technique | slugify -%}
+              <h2 id="{{ technique_slug }}">{{ technique.technique | smartify }}</h2>
               <p class="lead">{{ technique.tagline | smartify }}</p>
               <p>{{ technique.description | smartify }}</p>
               {%- if technique.companions -%}
@@ -58,13 +61,8 @@
                 {%- endcapture -%}
                 <p><strong>Related Experiences</strong>: {{ technique_experiences_links | split: ',' | array_to_sentence_string: ''  }}</p>
               {%- endif -%}
-              <ul class="list-group">
-                <li class="list-group-item">
-                  <i class="fas fa-external-link" style="margin-right: .5rem;"></i>
-                  <a href="{{ technique.instructions.url }}" target="_blank" class="font-weight-bold">{{ technique.instructions.title }}</a>
-                  <span class="badge badge-secondary">via {{ technique.instructions.source }}</span>
-                </li>
-              </ul>
+              {% include docs/related-external-links.html section_slug="community-building-techniques" doc_slug=technique_slug %}
+              {% include docs/templates-downloads.html section_slug="community-building-techniques" doc_slug=technique_slug %}
             {%- endfor -%}
           {%- endif -%}
         {%- endcapture -%}
