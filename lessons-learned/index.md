@@ -16,15 +16,15 @@ Yet there is _still_ more work to do. Some of the challenges communities face to
 
 We are proud of Sprout’s successes over the last two decades and mindful of the mistakes we made along the way. As we sunset the organization, it’s with humility that we offer this hard-won wisdom as advice:
 
-- **Be Inclusive**: Put people first. Open doors for new audiences and lower the barriers to participation. Creative solutions often originate from diverse perspectives coming together for a shared purpose.
+- **Be Inclusive.** Put people first. Open doors for new audiences and lower the barriers to participation. Creative solutions often originate from diverse perspectives coming together for a shared purpose.
 
-- **Be Human**: Empower individuals to become change agents. Connect them to each other as well as resources, mentorship, and opportunities for growth.
+- **Be Human.** Empower individuals to become change agents. Connect them to each other as well as resources, mentorship, and opportunities for growth.
 
-- **Be Authentic**: Respect every idea and everyone as worthy of consideration. Put in the time and meet people where they are and build trust. Believe in the importance of deliberate dialogue and honest conversations.
+- **Be Authentic.** Respect every idea and everyone as worthy of consideration. Put in the time and meet people where they are and build trust. Believe in the importance of deliberate dialogue and honest conversations.
 
-- **Be Open**: Share what you learn. Understand that as one idea thrives, its success encourages others to rise. Small ripples can start big waves.
+- **Be Open.** Share what you learn. Understand that as one idea thrives, its success encourages others to rise. Small ripples can start big waves.
 
-- **Dig into the Details.** Sweat the small stuff, whether you’re recruiting applicants, designing an event agenda, or just making nametags. The quality of every interaction with your audience hinges on your attention to detail.  
+- **Dig into the Details.** Sweat the small stuff, whether you’re recruiting applicants, designing an event agenda, or just making nametags. The quality of every interaction with your audience hinges on your attention to detail.
 
 - **Relieve Anxiety.** No one likes being stressed out. Do you best to relieve the anxiety of those around you. Be relentlessly organized and help others tackle their most pressing challenges.
 
