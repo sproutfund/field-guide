@@ -1,14 +1,14 @@
 ---
 layout: voices-from-the-field
 title: Voices from the Field
-subtitle:
+subtitle: 10 case studies of community builders at work worldwide
 description: A showcase of 10 community builders working in a variety of contexts. Features stories of people leading collaborative projects related to education, global engagement, entrepreneurship, and more. Useful to draw inspiration from how people apply similar practices around the world.
 section: community-building
 group: voices-from-the-field
 toc: true
 ---
 
-To illustrate the work of community builders, we curated a set of 10 case studies featuring friends of Sprout who facilitate network-based activity. These case studies are diverse in their scope and focus, and they highlight the critical role that community builders play in leading community change.
+To illustrate the work of community builders, we curated a set of 10 case studies featuring friends of Sprout who facilitate network-based activities. These case studies are diverse in their scope and focus, and they highlight the critical role that community builders play in leading community change.
 
 Community building principles apply to a variety of concerns, from education to global engagement to entrepreneurship, and community builders actively convene people around thorny issues like racism, sexism, and inequality.
 
