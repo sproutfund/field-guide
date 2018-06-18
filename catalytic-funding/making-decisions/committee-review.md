@@ -93,7 +93,7 @@ If there are any questions regarding whether or not an Advisory Committee member
 
 ### Collect Scores & Comments
 
-Committee members can send in their scores and comments via email attachment or using an online system. After all review information have been received, staff can aggregate the data, look for trends, and identify follow-up questions to ask applicants during the [Due Diligence phase](../../making-decisions/due-diligence-follow-up/).
+Committee members can send in their scores and comments via email attachment or using an online system. After all review information have been received, staff can aggregate the data, look for trends, and identify follow-up questions to ask applicants during the [Due Diligence phase](../../making-decisions/follow-up-due-diligence/).
 
 ## Recommendations
 
