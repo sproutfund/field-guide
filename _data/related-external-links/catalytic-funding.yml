@@ -111,7 +111,22 @@ grant-initiation-project-planning:
   url: "https://www.imls.gov/grants/grant-recipients/grantee-communications-kit/tips-sharing-your-news-public"
   source: Institute of Museum and Library Services
 
-reporting-on-successes-challenges: false
+reporting-on-successes-challenges:
+
+- title: "Grant Reporting: The Current State of Practice"
+  url: "http://www.peakinsightjournal.org/grant-reporting-current-state-practice/"
+  source: PEAK Insight Journal
+  description: A summary of current practices and reasoning behind grant reporting.
+
+- title: "When Projects Flounder: Coming to the Rescue When Good Grants Go Astray"
+  url: "http://www.grantcraft.org/guides/when-projects-flounder"
+  source: GrantCraft
+  description: In this guide, grantmakers recount their experiences with troubled projects and tell how they responded - or how they wish they'd responded.
+
+- title: Tools for Grassroots Grantmaking
+  url: "http://www.grassrootsgrantmakers.org/resources/tools-for-grassroots-grantmaking/"
+  source: Grassroots Grantmakers
+  description: Examples of final report templates from funders across the nation
 
 
 multimedia-documentation: false
