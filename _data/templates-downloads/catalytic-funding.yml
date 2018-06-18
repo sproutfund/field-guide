@@ -191,7 +191,48 @@ grant-initiation-project-planning:
 - title: Congratulations Email
 - title: Grant Agreement Template
 
-reporting-on-successes-challenges: false
+
+reporting-on-successes-challenges:
+
+- title: Report reminder email notification
+  url: "https://docs.google.com/document/d/1W8RzhOZ3nXhej5E5VLrflLN2pnbH-Da4uEPoxHkR67c/view"
+  icon: google-drive
+
+- title: Amendment Notification Email
+  url: "https://docs.google.com/document/d/1d0haSY52QWH8yCd-gJaTxljcW9UCMKUhfoRbuQF0Zvo/view"
+  icon: google-drive
+
+- title: Sample Email to Close Grant in Good Standing
+  url: "https://docs.google.com/document/d/1uS0t82j6ZKnu2431MecvsMY-u-km3w7rwraIA-gYkik/view"
+  icon: google-drive
+
+- title: Termination of Grant Notification
+  url: "https://docs.google.com/document/d/1FIOPJn039JiHJxlCSyPju6_Cq9KXsKbSgSMDNZmh26k/view"
+  icon: google-drive
+
+- title: Progress Report Template
+  url: "https://docs.google.com/document/d/1l9USUKiSNnqchnhsRLJvraDCZ0VgvJGVxLUTSEKJ2Nk/view"
+  icon: google-drive
+
+- title: Final Report Template
+  url: "https://docs.google.com/document/d/1MGHYt0-hLvz5ot79lp6MFsn8BD5Sk1g0-T2hi0bKaoY/view"
+  icon: google-drive
+
+- title: Sprout Standard Progress and Final Reports
+  url: "https://drive.google.com/file/d/1stUXaAWnWr7hBDtnBKDMaseTenqGhZ29/view"
+  icon: file-pdf
+
+- title: 100 Days of US Final Report
+  url: "https://drive.google.com/file/d/1G1LzQlkZffia8Y-82J66JPE5AVAkjt6f/view"
+  icon: file-pdf
+
+- title: Change Machine Final Report
+  url: "https://drive.google.com/file/d/1uEVOEn4dbw4_XrUpj_2ZqH2q085Xhcgw/view"
+  icon: file-pdf
+
+- title: Final Financial Report Form
+  url: "https://drive.google.com/file/d/1uEVOEn4dbw4_XrUpj_2ZqH2q085Xhcgw/view"
+  icon: file-pdf
 
 
 multimedia-documentation:
