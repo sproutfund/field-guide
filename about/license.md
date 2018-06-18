@@ -6,7 +6,7 @@ section: about
 toc: false
 ---
 
-This work by The Sprout Fund is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). This license is acceptable for [Free Cultural Works](https://freedomdefined.org/).
+This work by The Sprout Fund is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/){:target="_blank"}. This license is acceptable for [Free Cultural Works](https://freedomdefined.org/){:target="_blank"}.
 
 **You are free to:**
 
@@ -21,4 +21,4 @@ The Sprout Fund cannot revoke these freedoms as long as you follow the license t
 * **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 * **No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
-This is a human-readable summary of (and not a substitute for) the actual [license](http://creativecommons.org/licenses/by-sa/4.0/).
+This is a human-readable summary of (and not a substitute for) the actual [license](http://creativecommons.org/licenses/by-sa/4.0/){:target="_blank"}.

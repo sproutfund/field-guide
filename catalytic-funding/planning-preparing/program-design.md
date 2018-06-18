@@ -55,7 +55,7 @@ A typical funding program requires approximately 3 months to do outreach, collec
 
 ### Alternative Approaches
 
-:bulb: **Replicating a program.** A white label program could be a good solution for when a program that needs to be implemented quickly, if there is not enough program staff capacity or funding to develop a custom program, or if it is meant to address that same issue or opportunity as a model program. While Sprout frequently used other funding programs to help inform aspects of its programs, we have never fully replicated a program. However, we often used bits and pieces of others' work to inform our own custom approach. For example, several key components of the One Northside Neighbor-to-Neighbor program came from the [Neighborhood Connections program in Cleveland](http://www.neighborhoodgrants.org/).
+:bulb: **Replicating a program.** A white label program could be a good solution for when a program that needs to be implemented quickly, if there is not enough program staff capacity or funding to develop a custom program, or if it is meant to address that same issue or opportunity as a model program. While Sprout frequently used other funding programs to help inform aspects of its programs, we have never fully replicated a program. However, we often used bits and pieces of others' work to inform our own custom approach. For example, several key components of the One Northside Neighbor-to-Neighbor program came from the [Neighborhood Connections program in Cleveland](http://www.neighborhoodgrants.org/){:target="_blank"}.
 
 ### Cautionary Tales
 

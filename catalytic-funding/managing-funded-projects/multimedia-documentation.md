@@ -16,7 +16,7 @@ Projects can be documented through a mixture of written stories, images, audio, 
 
 By supporting and documenting catalytic funding project activities, you help write a lasting story detailing the process by which emerging leaders are seeding community change, energizing civic and cultural life, and catalyzing local solutions in a high quality way that helps to expand the reach of the program. The project documentation can be shared with the projects to use on their websites and marketing materials. It is also helpful in creating more dynamic showcase events to highlight outstanding projects and community activities or to seek editorial coverage to market the work of the larger program.
 
-_The content that follows was adapted from an explainer & instructional guidance that was prepared by The Sprout Fund for [Remake Learning](http://remakelearning.org) in September 2017._
+_The content that follows was adapted from an explainer & instructional guidance that was prepared by The Sprout Fund for [Remake Learning](http://remakelearning.org){:target="_blank"} in September 2017._
 
 ## Step-by-Step Process
 
