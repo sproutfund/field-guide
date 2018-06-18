@@ -71,17 +71,13 @@ Once the promotional materials are circulating, it is time to prepare for the up
 
 #### Presentation/Script
 
-The presentation should include highlights of the program prospectus, such as the context and background for the program, overview of the funding opportunity, eligibility criteria, timeline, examples or characteristics of strong proposals, and how to apply. The slides should be fairly light on text, using bulleted lists with key information that the presenter then discusses in detail.
+The [presentation](#template-download--presentation-slide-deck) should include highlights of the program prospectus, such as the context and background for the program, overview of the funding opportunity, eligibility criteria, timeline, examples or characteristics of strong proposals, and how to apply. The slides should be fairly light on text, using bulleted lists with key information that the presenter then discusses in detail.
 
 It is recommended that the presentation only last around 30 minutes in order to take into account any introductions at the beginning and questions at the end. It is also beneficial to develop the slides in a way that is easily shareable, as both attendees and people who can’t make the information session often request that they are shared.
 
-[Information Session Presentation Template >>](#template-download--presentation-slide-deck)
-
 #### Sign In Sheet
 
-At a minimum, the sign in sheet should be used to collect all attendees names, email addresses, and organizational affiliations. It is often not necessary to collect phone numbers or mailing addresses at this phase of the program. If you would like to get an idea of where attendees are coming from, asking for their neighborhood or zip code is usually sufficient.
-
-Sign In Sheet Template >>
+At a minimum, the [sign in sheet](#template-download--sign-in-sheet) should be used to collect all attendees names, email addresses, and organizational affiliations. It is often not necessary to collect phone numbers or mailing addresses at this phase of the program. If you would like to get an idea of where attendees are coming from, asking for their neighborhood or zip code is usually sufficient.
 
 #### Refreshments
 
@@ -109,7 +105,7 @@ If there are more than 10 attendees, it is in the best interest of time to have 
 
 ### Follow-up
 
-In addition to making information at the event easily actionable, it is also helpful to follow up directly after the meeting with any links that were mentioned during the information session and electronic versions of the program materials.
+In addition to making information at the event easily actionable, it is also helpful to send a [follow-up email](info-session-follow-up-message) directly after the meeting with any links that were mentioned during the information session and electronic versions of the program materials.
 
 It is also important to add attendees to a prospect list to help keep track of who is interested in the opportunity along with any helpful notes from conversations you had with them during or after the outreach event.
 
