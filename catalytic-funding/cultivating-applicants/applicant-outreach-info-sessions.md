@@ -51,11 +51,7 @@ In general, it is highly recommended that information sessions are held in publi
 
 ### Promotion
 
-Once you have decided on a time, date, and venue for your information session, use the following templates/resources to get the word out approximately 2-3 weeks before the event:
-
-* Word Document Event Flyer Template
-* Email Language Template
-* Social Media Templates
+Once you have decided on a time, date, and venue for your information session, plan to use tools like paper flyers, social media, and email messages to get the word out approximately 2-3 weeks before the event.
 
 Additionally, consider some of the following recruitment best practices from [smartmeetings.com](https://www.smartmeetings.com/category/tips-tools):
 
