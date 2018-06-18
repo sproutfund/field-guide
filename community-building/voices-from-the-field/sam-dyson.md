@@ -2,11 +2,8 @@
 layout: voices-from-the-field
 title: Sam Dyson
 subtitle: Creating Transformational Learning Experiences
-toc: true
-description:
 section: community-building
 group: voices-from-the-field
-status: <span class="badge badge-success">final draft</span>
 voices-learn-more:
   text: "Learn more about Sam and Hive Chicago"
   email: "sdyson@chicagolx.org"

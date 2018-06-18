@@ -2,11 +2,7 @@
 layout: voices-from-the-field
 title: Josiah Gilliam
 subtitle: Putting Community Insights First
-toc: true
-description:
-section: community-building
 group: voices-from-the-field
-status: <span class="badge badge-success">final draft</span>
 voices-learn-more:
   text: "Learn more about Josiah and My Brother’s Keeper"
   email: "josiah@trucio.com"

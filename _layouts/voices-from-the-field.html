@@ -14,9 +14,31 @@
           {% include sidebar.html %}
         </div>
 
-        {% if page.voices-learn-more %}
+        {%- capture augmented_content -%}
+          {{ content }}
+          {%- assign page_slug = page.url | split: '/' | last -%}
+          {%- if page_slug == 'voices-from-the-field' -%}
+            <!-- All Voices -->
+            {%- assign voices = site.data.voices -%}
+            <ul class="list-group">
+              {%- for voice in voices -%}
+                {%- assign voice_page = site.pages | where: "title",voice.title | first -%}
+                <a class="list-group-item list-group-item-action" href="/community-building/voices-from-the-field/{{ voice.title | slugify }}/">
+                  <h2 id="{{ voice.title | slugify }}" class="h5 mb-1">{{ voice.title | smartify }}</h2>
+                  <p class="mb-0">{{ voice_page.subtitle | smartify }}</p>
+                </a>
+              {%- endfor -%}
+            </ul>
+          {%- endif -%}
+        {%- endcapture -%}
+
+        {% if page_slug != 'voices-from-the-field' and page.voices-learn-more %}
           <div class="{{ site.css_toc }} bd-more-info">
             {% include docs/voices-from-the-field-more-info.html %}
+          </div>
+        {% elsif page.toc %}
+          <div class="{{ site.css_toc }}">
+            {% include toc.html html=augmented_content class="section-nav" item_class="toc-entry toc-h%level%" %}
           </div>
         {% endif %}
 
@@ -24,7 +46,7 @@
           {% include docs/header_print.html %}
           <h1 class="bd-title" id="content">{{ page.title | smartify }}</h1>
           <p class="bd-lead">{{ page.subtitle | smartify }}</p>
-          {{ content }}
+          {{ augmented_content }}
           {% if page.voices-learn-more %}
             <div class="d-lg-none d-xl-none">
               {% include docs/voices-from-the-field-more-info.html %}

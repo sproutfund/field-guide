@@ -41,6 +41,10 @@ techniques:
   source: CreativeMornings
   description: A collection of resources from the global CreativeMornings community.
 
+- title: Design Thinking
+  url: "https://www.ideou.com/pages/design-thinking"
+  source: IDEO
+
 - title: The Field Guide to Human-Centered Design
   url: "http://www.designkit.org/resources/"
   source: IDEO
@@ -60,6 +64,10 @@ techniques:
   url: "https://www.luma-institute.com"
   source: LUMA Institute
   description: This handbook equips people in various lines of work to become more innovative.
+
+- title: "The Principles of Service Design Thinking: Building Better Services"
+  url: "https://www.interaction-design.org/literature/article/the-principles-of-service-design-thinking-building-better-services"
+  source: "Interaction Design Foundation"
 
 - title: "This is Service Design Thinking"
   url: "http://thisisservicedesignthinking.com"

@@ -2,11 +2,8 @@
 layout: voices-from-the-field
 title: Sarah Allen
 subtitle: Leading the Future of the Open Internet
-toc: true
-description:
 section: community-building
 group: voices-from-the-field
-status: <span class="badge badge-success">final draft</span>
 voices-learn-more:
   text: "Learn more about Sarah and MozFest"
   email: "sarah@mozillafoundation.org"

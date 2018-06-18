@@ -2,11 +2,8 @@
 layout: voices-from-the-field
 title: Christine Marty
 subtitle: Powering Inclusive Innovation
-toc: true
-description:
 section: community-building
 group: voices-from-the-field
-status: <span class="badge badge-success">final draft</span>
 voices-learn-more:
   text: "Learn more about Christine and Inclusive Innovation Week"
   email: "christine.marty@pittsburghpa.gov"

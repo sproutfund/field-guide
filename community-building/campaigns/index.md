@@ -1,33 +1,32 @@
 ---
 layout: docs
 title: Campaigns
-subtitle:
+subtitle: Focused, action-oriented activities that mobilize people to achieve shared goals
 description: A guide to creating community building campaigns, which are focused, action-oriented activities that mobilize people to achieve shared goals. Useful to help people organize their thinking about their potential campaigns using a series of key considerations and a suite of planning tools.
 section: community-building
 group: campaigns
 toc: true
-status: <span class="badge badge-warning">needs review</span>
 ---
 
 While all community building campaigns are unique, successful campaigns have some key similarities: a well-defined audience, a focused goal, a clear message, and specific ways for people to get involved during a set period of time.
 
-When you start to develop a community building campaign, we encourage you to think through each of these [key considerations](#key-considerations) to guide your planning process. Then, you can use a set of [templates & downloads](#template-downloads) we created as planning tools to help you further develop your thinking.
+When you start to develop a community building campaign, we encourage you to think through each of these [key considerations](#key-considerations) to guide your planning process. Then, you can use the set of [templates & downloads](#template-downloads) we created as planning tools to help you further develop your thinking.
 
 ## Key Considerations
 
-We think that the following key considerations can help you develop the strategic approach for your community building campaign. We have identified five considerations that each campaign should address:
+The following key considerations can help you develop the strategic approach for your community building campaign. We've identified 5 considerations that each campaign should address:
 
-1. 👥 **Participants**: Who do you want to connect?
+1. 👥 [Participants](#participants): Who do you want to connect?
 
-2. 🏆 **Goals**: What do you want to accomplish?
+2. 🏆 [Goals](#goals): What do you want to accomplish?
 
-3. 📣 **Message**: What do you want to say?
+3. 📣 [Message](#message): What do you want to say?
 
-4. 📅 **Timeline**: When will it happen?
+4. 📅 [Timeline](#timeline): When will it happen?
 
-5. 💪 **Organizers**: Who can help you lead the work?
+5. 💪 [Organizers](#organizers): Who can help you lead the work?
 
-Let’s look at them one by one. Once you've reviewed them,you can jot down ideas and track your progress using the planning tools linked below.  
+Let’s look at them one by one. Once you've reviewed them, you can jot down ideas and track your progress using the planning tools linked below.  
 
 ### 👥 Participants
 
@@ -78,7 +77,7 @@ Let’s look at them one by one. Once you've reviewed them,you can jot down idea
 1. How soon do you want things to happen?
 2. How often do your activities need to take place?
 3. What useful milestones might you set?
-4. What external milestones might influence or impact your activities?
+4. What external milestones might accelerate or inhibit your activities?
 
 ### 💪 Organizers
 

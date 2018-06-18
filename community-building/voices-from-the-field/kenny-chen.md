@@ -2,11 +2,8 @@
 layout: voices-from-the-field
 title: Kenny Chen
 subtitle: Bridging Sectors, Building Relationships
-toc: true
-description:
 section: community-building
 group: voices-from-the-field
-status: <span class="badge badge-success">final draft</span>
 voices-learn-more:
   text: "Learn more about Kenny, Ascender, and Thrival"
   email: "kenny@ascenderpgh.com"

@@ -2,11 +2,8 @@
 layout: voices-from-the-field
 title: Cricket Fuller
 subtitle: Breaking Down Silos
-toc: true
-description:
 section: community-building
 group: voices-from-the-field
-status: <span class="badge badge-success">final draft</span>
 voices-learn-more:
   text: "Learn more about Cricket and the Digital Promise"
   email: "cricket@digitalpromise.org"

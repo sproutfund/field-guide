@@ -2,11 +2,8 @@
 layout: voices-from-the-field
 title: Sunanna Chand
 subtitle: Making Learning Engaging, Relevant, and Equitable
-toc: true
-description:
 section: community-building
 group: voices-from-the-field
-status: <span class="badge badge-success">final draft</span>
 voices-learn-more:
   text: "Learn more about Sunanna and Remake Learning"
   email: "sunanna@remakelearning.org"

@@ -2,11 +2,8 @@
 layout: voices-from-the-field
 title: Adam Kenney
 subtitle: Crafting Businesses, Supporting Makers
-toc: true
-description:
 section: community-building
 group: voices-from-the-field
-status: <span class="badge badge-success">final draft</span>
 voices-learn-more:
   text: "Learn more about Adam and Monmade"
   email: "Akenney@bridgewaycapital.org"
