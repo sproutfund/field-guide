@@ -2,7 +2,7 @@
 layout: docs
 title: Lessons Learned
 subtitle: Take chances on people and their ideas. Support today’s thought-provoking change makers and tomorrow’s inventive visionaries.
-description:
+description: A collection of hard-won wisdom from 17 years of deep work together with innovative people and amazing communities in Pittsburgh and beyond. Useful as a summation of all that we've learned.
 section: lessons-learned
 toc: true
 status: <span class="badge badge-success">final draft</span>
@@ -35,7 +35,6 @@ We are proud of Sprout’s successes over the last two decades and mindful of th
 - **Keep Your Eyes on What's Next.** Nothing happens in a vacuum, and context matters. Think about what project leaders or event participants might have experienced before and how they may have worked together in the past, and design accordingly. Then, make sure that each program activity ends with a clear call to action and specific next steps.
 
 - **Think Big**: We need bold action and courageous risk-taking. We gain strength and resilience when we test, try, fail, succeed, and learn. We must harness the creativity and ingenuity of the entire community to meet our civic challenges—both old and new.
-
 
 We were driven by a desire to empower grassroots innovators by providing them with the resources and connections they needed to cultivate their ideas and create stronger communities. We wrote this Field Guide as a free and open resource to encourage people to invest in community-driven innovation and collaboration.
 
