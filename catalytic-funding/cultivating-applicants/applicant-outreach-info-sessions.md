@@ -75,7 +75,7 @@ The presentation should include highlights of the program prospectus, such as th
 
 It is recommended that the presentation only last around 30 minutes in order to take into account any introductions at the beginning and questions at the end. It is also beneficial to develop the slides in a way that is easily shareable, as both attendees and people who can’t make the information session often request that they are shared.
 
-Information Session Presentation Template >>
+[Information Session Presentation Template >>](#template-download--presentation-slide-deck)
 
 #### Sign In Sheet
 
