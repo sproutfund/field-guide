@@ -31,6 +31,7 @@ exclude:
   - twbsconfig.yml
   - storytelling/
   - book/
+  - resources/job-descriptions.md
 
 plugins:
   - github-pages
