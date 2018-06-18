@@ -30,6 +30,7 @@ exclude:
   - sache.json
   - twbsconfig.yml
   - storytelling/
+  - book/
 
 plugins:
   - github-pages
