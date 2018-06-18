@@ -32,8 +32,8 @@ Additionally, by adding to the projects’ network of support, they play a criti
 ### Getting Started
 
 * Create a spreadsheet to keep track of potential advisors, their status (e.g., asked/confirmed/declined), and their contact information.
-* Revisit your [program design](../../planning-preparation/program-design/) notes and add community leaders you identified then as important then the process to your prospect list.
-* Review your [application design](../../planning-preparation/application-design/) and brainstorm subject-matter experts and audience advocates knowledgeable about questions you ask applicants.
+* Revisit your [program design](../../planning-preparing/program-design/) notes and add community leaders you identified then as important then the process to your prospect list.
+* Review your [application design](../../planning-preparing/application-design/) and brainstorm subject-matter experts and audience advocates knowledgeable about questions you ask applicants.
 
 ## Step-by-Step Process
 
