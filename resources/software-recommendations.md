@@ -1,8 +1,8 @@
 ---
 layout: docs
 title: Software Recommendations
-subtitle: These are some of our favorite free and almost-free web tools that we've used to support our work over the years.
-description: This section provides a list of our favorite free and almost-free web tools that we've used to support Sprout's work over the years. It is intended to be useful for people who are similarly won over by elegant web-based solutions to practical challenges.
+subtitle: Some of our favorite free and almost-free web tools that we've used to support our work over the years.
+description: A list of our favorite free and almost-free web tools used to support Sprout's work over the years. Useful for people who are similarly won over by elegant web-based solutions to practical challenges.
 section: resources
 toc: true
 ---
