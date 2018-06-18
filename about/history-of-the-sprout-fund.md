@@ -5,7 +5,6 @@ subtitle: For nearly two decades, Sprout’s partnerships with regional and nati
 description:
 section: about
 toc: true
-status: <span class="badge badge-success">final draft</span>
 ---
 
 ## Beginnings & Early Success
