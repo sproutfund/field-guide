@@ -185,7 +185,7 @@ denied-applicant-feedback:
 
 grant-initiation-project-planning:
 
-- title: First Project Meeting Email
+- title: First Project Meeting Email Template
   url: "https://docs.google.com/document/d/1hq-bOhDfK5OwhUj1XI3g1bAVDjUJsZZc2u916eaI_QU/view"
   icon: google-drive
 - title: First Project Meeting Agenda Template
@@ -197,14 +197,14 @@ grant-initiation-project-planning:
 - title: Project Plan Template
   url: "https://docs.google.com/document/d/1_3vk-PUQ9J-itisc9_OINcgEr9Z4I8P96A9yt8PrzDQ/view"
   icon: google-drive
-- title: Invitation Letter Template
-  url: ""
+- title: Invitation Letter Email Template
+  url: "https://docs.google.com/document/d/1NkK4OIJiJBEsoLZsduHyNNyN9J9UhinwA-9sIjHZ3_w/view"
   icon: google-drive
-- title: Congratulations Email
-  url: ""
+- title: Board Approval Notification Template
+  url: "https://docs.google.com/document/d/1fRkjoXOvhyAHYLJwWodUzlvZtnB-7OacFWKtHVJQMr4/view"
   icon: google-drive
-- title: Grant Agreement Template
-  url: ""
+- title: Sample Grant Agreement Template
+  url: "https://drive.google.com/file/d/1QU3iWDAovATR4VdjW6EJdTmt6_LRIp31/view?usp=sharing"
   icon: file-word
 
 reporting-on-successes-challenges: false
