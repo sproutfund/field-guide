@@ -5,7 +5,6 @@ subtitle: These are some of our favorite free and almost-free web tools that we'
 description: This section provides a list of our favorite free and almost-free web tools that we've used to support Sprout's work over the years. It is intended to be useful for people who are similarly won over by elegant web-based solutions to practical challenges.
 section: resources
 toc: true
-status: <span class="badge badge-success">final draft</span>
 ---
 
 ## Audio/Visual & Design
