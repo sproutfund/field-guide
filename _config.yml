@@ -32,6 +32,7 @@ exclude:
   - storytelling/
   - book/
   - resources/job-descriptions.md
+  - catalytic-funding/sustaining-sunsetting/funder-reporting.md
 
 plugins:
   - github-pages
