@@ -102,7 +102,7 @@ decisionmaker-recruitment:
 
 - title: Invitation Email
   url: "https://drive.google.com/file/d/1ebZdduX3eZI7vgsr-Wljzj4xx3xwlGbQ/view"
-  icon: google-drive
+  icon: file-pdf
 
 - title: Advisory Committee Training Agenda
   url: "https://drive.google.com/file/d/1LUID2VXCqEKDSc3EF7LauHggnB6MbXa5/view"
@@ -206,7 +206,47 @@ grant-initiation-project-planning:
   url: "https://drive.google.com/file/d/1QU3iWDAovATR4VdjW6EJdTmt6_LRIp31/view?usp=sharing"
   icon: file-word
 
-reporting-on-successes-challenges: false
+reporting-on-successes-challenges:
+
+- title: Progress Report Template
+  url: "https://docs.google.com/document/d/1l9USUKiSNnqchnhsRLJvraDCZ0VgvJGVxLUTSEKJ2Nk/view"
+  icon: google-drive
+  
+- title: Final Report Template
+  url: "https://docs.google.com/document/d/1MGHYt0-hLvz5ot79lp6MFsn8BD5Sk1g0-T2hi0bKaoY/view"
+  icon: google-drive
+  
+- title: Final Financial Report Template
+  url: ""
+  icon: google-drive
+  
+- title: Sprout Standard Report Template Examples
+  url: "https://drive.google.com/open?id=1stUXaAWnWr7hBDtnBKDMaseTenqGhZ29"
+  icon: file-pdf
+  
+- title: Sprout Final Report Example - 100 Days
+  url: "https://drive.google.com/file/d/1G1LzQlkZffia8Y-82J66JPE5AVAkjt6f/view?usp=sharing"
+  icon: file-pdf
+  
+- title: Sprout Final Report Example - Change Machine
+  url: "https://drive.google.com/file/d/16a_XAr_gGoT7qCq1_HZhQiNQDslEso0_/view?usp=sharing"
+  icon: file-pdf
+  
+- title: Report Reminder Notification Template
+  url: "https://docs.google.com/document/d/1W8RzhOZ3nXhej5E5VLrflLN2pnbH-Da4uEPoxHkR67c/view"
+  icon: google-drive
+  
+- title: Grant Amendment Email Template
+  url: "https://docs.google.com/document/d/1d0haSY52QWH8yCd-gJaTxljcW9UCMKUhfoRbuQF0Zvo/view"
+  icon: google-drive
+  
+- title: Grant Closed in Good Standing Notification Template
+  url: "https://docs.google.com/document/d/1uS0t82j6ZKnu2431MecvsMY-u-km3w7rwraIA-gYkik/view"
+  icon: google-drive
+  
+- title: Grant Termination Notification Template
+  url: "https://docs.google.com/document/d/1FIOPJn039JiHJxlCSyPju6_Cq9KXsKbSgSMDNZmh26k/view"
+  icon: google-drive
 
 
 multimedia-documentation:
