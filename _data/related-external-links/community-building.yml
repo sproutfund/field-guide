@@ -65,16 +65,6 @@ techniques:
   source: LUMA Institute
   description: This handbook equips people in various lines of work to become more innovative.
 
-- title: "The Principles of Service Design Thinking: Building Better Services"
-  url: "https://www.interaction-design.org/literature/article/the-principles-of-service-design-thinking-building-better-services"
-  source: "Interaction Design Foundation"
-
-- title: "This is Service Design Thinking"
-  url: "http://thisisservicedesignthinking.com"
-  source: 23 international authors
-  description: This book outlines a contemporary approach for service innovation.
-
-
 # Techniques to Generate
 
 technique--co-creation-session:
