@@ -16,7 +16,7 @@ Significant updates are often made between when the application is submitted and
 
 It is recommended to set up a First Project Meeting after the applicant has been notified that their project has been recommended for funding. By going through this extra step between being recommended for funding and receiving the funding, project leaders can ensure that any updates from the project team or from the funder are agreed upon and incorporated into the project plans before signing any paperwork.
 
-This shows flexibility from the funder by being open to changes that strengthen the project and helps to ensure that the details are worked out as much as possible before the grantee receives the funding. While it is not the intention to take away the project’s funding during this step, does also give the grantee the opportunity to decline the grant if things are not going as planned before any paperwork is signed or funding is disbursed.
+This shows flexibility from the funder by being open to changes that strengthen the project and helps to ensure that the details are worked out as much as possible before the grantee receives the funding. While it is not the intention to take away the project’s funding during this step, it does also give the grantee the opportunity to decline the grant if things are not going as planned before any paperwork is signed or funding is disbursed.
 
 {% capture thinking-questions %}
 ### Thinking Questions
@@ -25,7 +25,7 @@ This shows flexibility from the funder by being open to changes that strengthen 
 * What information is needed for the grant paperwork that was not included in the application?
 * Is the program/grant fairly straightforward or are there nuances and that need to be discussed?
 * Are the grantees veterans to the process or fairly unknown by the funder?
-* Are you able to speed up the process by collection information and signatures electronically?
+* Are you able to speed up the process by collecting information and signatures electronically?
 {% endcapture %}
 {% include docs/thinking-questions.html content=thinking-questions %}
 
@@ -69,17 +69,17 @@ Following the meeting or call, have the project leader provide an Updated Projec
 
 ### Formal Invitation to Request Support
 
-Once the Scope of Work (Updated Project Plan) has been approved, the organization or individual receiving the grant will be formally invited by The Sprout Fund to request a specific amount for a specific purpose and submit all required Tax Forms.
+Once the Scope of Work (Updated Project Plan) has been approved, the organization or individual receiving the grant will be formally invited by to request a specific amount for a specific purpose and submit all required Tax Forms. This request ensures that the grantee organization is willing to accept the grant based on the Updated Project Plan. This is an especially important step if the grantee organization's leadership has not been involved in the application or project planning process, which is typical in large organizations or fiscally sponsored projects.
 
 ### Board Authorization
 Although the staff or a decisionmaking committee made funding recommendations, the grants will still need to be authorized by the funder’s board of directors.
 
-Upon receiving a Letter of Request and tax paperwork from the grantee, the grant is ready to be authorized by the Board. Board authorizations typically take place at the end of each month but off-cycle authorizations can be done in special circumstances.
+Upon receiving a Letter of Request and tax paperwork from the grantee, the grant is ready to be authorized by the Board. Board authorizations typically take place on a regular basis, such as at the end of each month, but off-cycle authorizations can be done in special circumstances.
 
-Once the grant has been authorized, Sprout will send a formal congratulations email that notifies the grantees that a grant agreement is being sent.
+Once the grant has been authorized, program staff will send a formal congratulations email that notifies the grantees that a grant agreement is being sent.
 
 ### Grant Agreement
-Sprout’s Grant Agreement is a contract for managing the Grantee-Organization (Project) relationship, and serves as a goal-setting tool that sets parameters for the project timeline and use of funds.  Data collected to support due diligence when creating the Grant Agreement include required IRS tax information and/or fiscal sponsorship documentation, an approved project budget, and any details related to partnering organizations, project managers, and measurable project deliverables.
+The Grant Agreement is a contract for managing the Grantee-Organization (Project) relationship, and serves as a goal-setting tool that sets parameters for the project timeline and use of funds.  Data collected to support due diligence when creating the Grant Agreement include required IRS tax information and/or fiscal sponsorship documentation, an approved project budget, and any details related to partnering organizations, project managers, and measurable project deliverables.
 
 
 ## Recommendations
@@ -92,10 +92,10 @@ Sprout’s Grant Agreement is a contract for managing the Grantee-Organization (
 
 ### Alternative Approaches
 
-:bulb: **Signing party.** If you have a fast-paced program timeline, consider meeting with all of the project managers on the same afternoon. The projects can could be divided up into smaller groups based on their target audiences. These could rotate through stations to go over topics such as grant paperwork and logistics, how to make their project activities welcoming to everyone, communications/storytelling/documentation, etc.
+:bulb: **Signing party.** If you have a fast-paced program timeline, consider meeting with all of the project managers on the same afternoon. The projects can be divided up into smaller groups based on their target audiences. This allows them to rotate through stations to go over topics such as grant paperwork and logistics, how to make their project activities welcoming to everyone, communications/storytelling/documentation, etc.
 
 :bulb: **Create a video tutorial.** If the grantmaking process is extremely consistent across programs, or there are more grantees than there is time to meet with, you can create a video tutorial as a way to answer commonly asked questions and go over the next steps in the funding process.
 
 ### Cautionary Tales
 
-:warning: **Assuming that the information in the application is still accurate.** A lot can change between when an application is submitted and actually implementing the project. Once it is confirmed that the project has been recommended for funding, ask if there are any updates to budget, timeline, and project plan from the grantee so that the information associated with the grant agreement is as accurate as possible. If nothing has changed, then no additional work is required, but having the project manager confirm key details about the project prior to signing the agreement benefits everyone involved.
+:warning: **Assuming that the information in the application is still accurate.** A lot can change between when an application is submitted and actually implementing the project. Once it is confirmed that the project has been recommended for funding, ask if there are any updates to the budget, timeline, and implementation plan from the grantee so that the information associated with the grant agreement is as accurate as possible. If nothing has changed, then no additional work is required, but having the project manager confirm key details about the project prior to signing the agreement benefits everyone involved.
