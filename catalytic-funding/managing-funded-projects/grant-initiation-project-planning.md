@@ -14,7 +14,7 @@ status: <span class="badge badge-warning">needs review</span>
 
 Significant updates are often made between when the application is submitted and when funding is provided. Updated project plans that mirror the original application and report questions along with informal updates from project managers are helpful ways to incorporate unanticipated changes to the project. This flexible project management approach also helps identify additional opportunities to support grantees and stay engaged with the project as it is implemented.
 
-By going through this extra step between being recommended for funding and receiving the funding, project leaders can ensure that any updates from the project team or from the funder are agreed upon and incorporated into the project plans before signing any paperwork.
+It is recommended to set up a First Project Meeting after the applicant has been notified that their project has been recommended for funding. By going through this extra step between being recommended for funding and receiving the funding, project leaders can ensure that any updates from the project team or from the funder are agreed upon and incorporated into the project plans before signing any paperwork.
 
 This shows flexibility from the funder by being open to changes that strengthen the project and helps to ensure that the details are worked out as much as possible before the grantee receives the funding. While it is not the intention to take away the project’s funding during this step, does also give the grantee the opportunity to decline the grant if things are not going as planned before any paperwork is signed or funding is disbursed.
 
