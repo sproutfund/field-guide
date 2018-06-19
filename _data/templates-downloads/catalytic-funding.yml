@@ -27,6 +27,14 @@ fundraising: false
 
 application-design:
 
+- title: Program Prospectus Template
+  url: "https://docs.google.com/document/d/17Z8XLan83hLqoCr--bRfJ1pj9oYtUoVy8l6rLW_xJZg/view"
+  icon: google-drive
+
+- title: Application Template
+  url: "https://docs.google.com/document/d/1VH5Fwt3ggmaEVIg8QGFGE65TrjLseGYnapv01bRdAoA/view"
+  icon: google-drive
+  
 - title: Funding Opportunity and Application Form Example
   url: "https://drive.google.com/file/d/0BzCiN-PkZ98fSm9udm9sRTVXRzg/view"
   icon: file-pdf
@@ -45,6 +53,18 @@ application-design:
 
 - title: References Template for Funding Application
   url: "https://docs.google.com/document/d/17Z0lcz9KKsnt31GNF-CjlhhVkScgqF-5uXcDl7ERaw0/view"
+  icon: google-drive
+  
+- title: Letter of Support Template
+  url: "https://docs.google.com/document/d/1ASStTbRnU8tJcJcBKk1dPZXvvj8jQIo1SDkPwmqoFdc/view"
+  icon: google-drive
+  
+- title: Petition Form Template
+  url: "https://docs.google.com/document/d/1AIXF6Z2-keesSEMtQmxy197lI1A_3FKBUeJLSBTOO5s/view"
+  icon: google-drive
+  
+- title: Pledge Form Template
+  url: "https://docs.google.com/document/d/1ZMnrFapuBQm-DVjIzECACWMqBekXpupGR1yOp_230_k/view"
   icon: google-drive
 
 
