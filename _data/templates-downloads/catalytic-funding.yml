@@ -109,8 +109,15 @@ applicant-outreach-info-sessions:
   url: "https://drive.google.com/open?id=1t4DQDyum-Tn-sszQ57mTN8-MDafI2nN1"
   icon: file-pdf
 
-prospect-management-draft-review: false
+prospect-management-draft-review:
 
+- title: Draft Feedback Email Template
+  url: "https://docs.google.com/document/d/1Z9Tfvqj0ckAZrXBfUyFD8P33Ar0P4vzadNPv5oAQWTk/view"
+  icon: google-drive
+  
+- title: Draft Feedback Email Example
+  url: "https://docs.google.com/document/d/1f7hFlUchylmFKx1zhSJNk6glIM_Qf8zyEbfWahCgpCc/view"
+  icon: google-drive
 
 # Making Decisions
 
