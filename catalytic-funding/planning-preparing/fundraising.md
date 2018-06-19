@@ -6,7 +6,6 @@ description: An overview for seeking funding for funding programs. Provides help
 section: catalytic-funding
 group: planning-preparing
 toc: true
-status: <span class="badge badge-warning">needs review</span>
 ---
 
 ## Overview

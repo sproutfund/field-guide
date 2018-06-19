@@ -6,7 +6,6 @@ description: An overview for providing feedback to applicants that have not been
 section: catalytic-funding
 group: making-decisions
 toc: true
-status: <span class="badge badge-warning">needs review</span>
 ---
 
 ## Overview

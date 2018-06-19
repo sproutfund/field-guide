@@ -6,7 +6,6 @@ description: A guide for building consensus around a set of funding recommendati
 section: catalytic-funding
 group: making-decisions
 toc: true
-status: <span class="badge badge-warning">needs review</span>
 ---
 
 ## Overview
@@ -75,7 +74,7 @@ Feedback and questions that come up during the decisionmaking meeting along with
 
 By the end of the meeting, all high and medium priority applications should have been discussed in detail and a general consensus reached about which awardees to recommend for funding. This information will then be summarized in the funding round report and presented to the board for approval before applicants are notified of the funding decisions.
 
-It is important to communicate that all application review and decision-making discussions are strictly confidential and privileged, and may not be shared or appropriated with others outside of the Advisory Committee or staff, even after the funding recommendations have been made public.  
+It is important to communicate that all application review and decision-making discussions are strictly confidential and privileged, and may not be shared or appropriated with others outside of the Advisory Committee or staff, even after the funding recommendations have been made public.
 
 ## Recommendations
 

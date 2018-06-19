@@ -6,7 +6,6 @@ description: An overview of best practices for ending a funding program. Provide
 section: catalytic-funding
 group: sustaining-sunsetting
 toc: true
-status: <span class="badge badge-warning">needs review</span>
 ---
 
 ## Overview

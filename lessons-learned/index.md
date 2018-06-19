@@ -5,7 +5,6 @@ subtitle: Take chances on people and their ideas. Support today’s thought-prov
 description: A collection of hard-won wisdom from 17 years of deep work together with innovative people and amazing communities in Pittsburgh and beyond. Useful as a summation of all that we've learned.
 section: lessons-learned
 toc: true
-status: <span class="badge badge-success">final draft</span>
 ---
 
 The Sprout Fund pioneered a new mechanism for community-driven, community-advised philanthropy. Working out of neighborhood storefronts, we were open and accessible to anyone with an idea. Our investments amplified diverse voices and created space in Pittsburgh for new approaches. We built strong networks to help ideas take hold. From 2001 to 2018, we showed that even the small-scale stuff can yield big results.

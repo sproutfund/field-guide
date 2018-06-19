@@ -5,7 +5,6 @@ subtitle:
 description:
 section: about
 toc: true
-status: <span class="badge badge-success">final draft</span>
 ---
 
 ## Diana Avart

@@ -6,7 +6,6 @@ description: A guide for working one-on-one with prospective applicants. Provide
 section: catalytic-funding
 group: cultivating-applicants
 toc: true
-status: <span class="badge badge-warning">needs review</span>
 ---
 
 ## Overview

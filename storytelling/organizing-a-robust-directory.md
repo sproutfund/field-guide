@@ -5,14 +5,13 @@ subtitle: Remake Learning’s directory helps members, partners, and supporters 
 description: A guide for creating and maintaining a directory to help members, partners, and supporters see themselves as part of a larger whole. Provides a description of the value of a directory of people, projects, and organizations, a historical account of the content strategy used to date, and instructional guidance for creating high-quality directory entries and maintaining those entries over time. Useful for anyone who is managing and adding content to a directory.
 section: storytelling
 toc: true
-status: <span class="badge badge-warning">needs review</span>
 ---
 
 By collecting the basic information and contact details for the people, projects, and organizations that make up Remake Learning community, site visitors can easily see who is participating in the network and contact them directly to learn more about their work.
 
 As such, the directory serves a dual purpose: facilitating connection and collaboration among members of the network and showcasing the network to external audiences. On the directory, site visitors can read short biographies network members, learn how organizations are involved in Remake Learning, and see example projects that have emerged from the network.
 
-In many cases, directory entries include internal links showing how individual directory entries are connected to other network members listed in the directory, as well as external links for site users to learn more and/or contact members directly.  
+In many cases, directory entries include internal links showing how individual directory entries are connected to other network members listed in the directory, as well as external links for site users to learn more and/or contact members directly.
 
 ## Best Practices
 

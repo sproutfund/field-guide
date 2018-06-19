@@ -6,7 +6,6 @@ description: An overview of cohort-based approaches to grantee support. Provides
 section: catalytic-funding
 group: managing-funded-projects
 toc: true
-status: <span class="badge badge-info">stub</span>
 ---
 
 ## Overview

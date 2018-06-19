@@ -6,7 +6,6 @@ description:
 section: about
 redirect_from: /about/
 toc: true
-status: <span class="badge badge-success">final draft</span>
 ---
 
 First, we’re grateful for the support of the [John D. and Catherine T. MacArthur Foundation](https://www.macfound.org/){:target="_blank"}, which provided for the staff time and expenses necessary to develop and complete this project.

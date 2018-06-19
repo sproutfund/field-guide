@@ -7,7 +7,6 @@ section: catalytic-funding
 group: making-decisions
 redirect_from: /catalytic-funding/making-decisions/
 toc: true
-status: <span class="badge badge-warning">needs review</span>
 ---
 
 ## Overview

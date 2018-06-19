@@ -6,7 +6,6 @@ description: A guide to having grantees meet reporting requirements without undu
 section: catalytic-funding
 group: managing-funded-projects
 toc: true
-status: <span class="badge badge-warning">needs review</span>
 ---
 
 ## Overview

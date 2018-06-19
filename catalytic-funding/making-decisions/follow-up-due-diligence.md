@@ -6,7 +6,6 @@ description: A guide for collecting additional information about proposals. Prov
 section: catalytic-funding
 group: making-decisions
 toc: true
-status: <span class="badge badge-warning">needs review</span>
 ---
 
 ## Overview

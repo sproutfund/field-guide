@@ -5,7 +5,6 @@ subtitle: Remake Learning’s social media presence speaks on behalf of the netw
 description: A guide to creating a social media presence to speaks on behalf of the funder and shares news and opportunities with local partners (and the world). Provides instructional guidance for creating high-quality social media content. Useful for anyone who is tweeting or posting through an organization's official social media channels.
 section: storytelling
 toc: true
-status: <span class="badge badge-warning">needs review</span>
 ---
 
 On social media, Remake Learning uses shared hashtags, engages directly with network members and national influencers, contributes to conversations, rallies around special opportunities, participates in scheduled social media chats, joins the social media backchannel happening at local and national events, and showcases the work of individual members as well as the network as a whole.

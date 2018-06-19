@@ -5,7 +5,6 @@ subtitle: Remake Learning’s email marketing creates a regular drumbeat of info
 description: A guide to creating a regular drumbeat of information and knowledge exchange. Provides instructional guidance for creating high-quality email marketing messages. Useful for people managing the distribution of email newsletters, event alerts, and other e-blasts to subscribers.
 section: storytelling
 toc: true
-status: <span class="badge badge-warning">needs review</span>
 ---
 
 Sent on alternating Fridays, the Remake Learning newsletter shares a mix of information to draw attention to important items, share stories and resources, and promote events and opportunities. Sent every Tuesday, the Remake Learning e-blast is a single-subject message that attracts subscribers’ attention to particularly important news or information, alerts them to timely events and opportunities, and makes specific calls to action.
@@ -46,7 +45,7 @@ The Remake Learning newsletter includes four distinct sections, each focusing on
 * The **Featured Item** is the top-most piece of content in the newsletter and is the item subscribers see first when they open the message. Content for this section is typically an important Remake Learning blog post from the previous two weeks or an important call to action.
 * The **Learning Innovation News** section includes 6-8 items for subscribers to read, such as education news stories, research reports relevant to teaching and learning, blog posts and opinion pieces by thought leaders, or other info that subscribers need to know. Content appropriate for this section can be gathered from a variety of sources, including the websites listed in the Email Newsletter Content Sources document.
 * The **Featured Opportunity** callout focuses on an important event or opportunity that is coming up soon. Content for the featured opportunity typically comes from the Remake Learning calendar and is selected for its high level of priority relative to other calendar entries.
-* The **Upcoming Events & Opportunities** section lists events, conferences, workshops, grants, job openings, and other deadline-driven items occurring in the next 6 weeks according to the Remake Learning calendar.  
+* The **Upcoming Events & Opportunities** section lists events, conferences, workshops, grants, job openings, and other deadline-driven items occurring in the next 6 weeks according to the Remake Learning calendar.
 
 As Remake Learning e-blasts focus on just one item at a time, the most common source for content is the Remake Learning calendar, in particular the tentpole network events that occur throughout the year.
 

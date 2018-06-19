@@ -6,7 +6,6 @@ description: An overview of ways to announce a new (or new round) of a funding p
 section: catalytic-funding
 group: cultivating-applicants
 toc: true
-status: <span class="badge badge-warning">needs review</span>
 ---
 
 ## Overview

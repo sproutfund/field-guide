@@ -7,7 +7,6 @@ section: catalytic-funding
 group: sustaining-sunsetting
 redirect_from: /catalytic-funding/sustaining-sunsetting/
 toc: true
-status: <span class="badge badge-info">stub</span>
 ---
 
 ## Overview

@@ -5,7 +5,6 @@ subtitle: Remake Learning’s documentation activities capture and share what le
 description: A guide to creating photo, video, and written content to share with the public. Provides a description of the value of storytelling and documentation and instructional guidance for creating high-quality content. Useful for anyone who is producing media by or on behalf of a funder.
 section: storytelling
 toc: true
-status: <span class="badge badge-warning">needs review</span>
 ---
 
 Remake Learning commissions writers, photographers, videographers, and designers to produce original stories and images that capture the network in action, shine a spotlight on network success stories, and amplify the voice of individual network members. By documenting the activities of network members, Remake Learning generates source material for telling compelling stories that lift up network members and position the network as a whole within the broader context of learning innovation. These efforts create a rich archive of examples and evidence of learning remade, and enable Remake Learning to speak with its own “voice” in the national conversation on education.
@@ -170,7 +169,7 @@ The Sprout Fund began producing original media about learning innovation in 2009
 
 Over the period of its stewardship, Sprout maintained the following ongoing storytelling and documentation activities:
 
-* **Blog posts** relate local stories to big ideas with resonance beyond our region, profile people, projects, and organizations active in the network, share stories and reports from the field, and amplify local voices. Since 2012, Sprout published more than 750 blog posts to remakelearning.org and its predecessor website, averaging approximately 10 posts per month.   
+* **Blog posts** relate local stories to big ideas with resonance beyond our region, profile people, projects, and organizations active in the network, share stories and reports from the field, and amplify local voices. Since 2012, Sprout published more than 750 blog posts to remakelearning.org and its predecessor website, averaging approximately 10 posts per month.
 
 * **Photography** provides coverage of ongoing activities, creates visual support for other messages, and builds an archive of imagery for all network members to use. Since 2009, Sprout has commissioned more than 520 photoshoots of people, projects, and events, averaging 4-5 photo shoots per month.
 

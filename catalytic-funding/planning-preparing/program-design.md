@@ -7,7 +7,6 @@ section: catalytic-funding
 group: planning-preparing
 redirect_from: /catalytic-funding/planning-preparing/
 toc: true
-status: <span class="badge badge-success">final draft</span>
 ---
 
 ## Overview

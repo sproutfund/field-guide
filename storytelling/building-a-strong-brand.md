@@ -5,7 +5,6 @@ subtitle: Remake Learning’s brand is integral to its identity and recognition 
 description: An overview of brand management. Provides guidance on the adaption of that brand for various extensions and public-facing uses. Useful for people designing, adapting, or using a defined brand for their programs.
 section: storytelling
 toc: true
-status: <span class="badge badge-warning">needs review</span>
 ---
 
 The brand logo, colors, font, and style permeates everything created by Remake Learning and indicates that material on which it appears represents the vision and values of Remake Learning. Furthermore, the brand is used by members, partners, and other affiliates to signify their participation in and support of Remake Learning.

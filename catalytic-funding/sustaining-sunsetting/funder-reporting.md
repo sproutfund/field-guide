@@ -6,7 +6,6 @@ description: An overview for meeting reporting requirements for program funding.
 section: catalytic-funding
 group: sustaining-sunsetting
 toc: true
-status: <span class="badge badge-danger">missing</span>
 ---
 
 <!--

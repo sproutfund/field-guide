@@ -5,12 +5,11 @@ subtitle: Remake Learning’s calendar provides a public listing of ways for peo
 description: A guide for creating and maintaining a public listing of ways for people to get involved. Provides a description of the value of a calendar of events and opportunities, a historical account of the content strategy used to date, and instructional guidance for creating high-quality calendar posts. Useful for anyone who is managing and adding events to a calendar.
 section: storytelling
 toc: true
-status: <span class="badge badge-warning">needs review</span>
 ---
 
 As the most popular page on Remake Learning’s website, the calendar is one of the services that Network members use most. On the calendar, Network members can find ways to improve their teaching practice, opportunities to connect with other innovators, and grants to help them try something new.
 
-The calendar also serves as a showcase of the innovative professional development and community involvement in the Pittsburgh region, and a way for Network members to promote their events and activities to the wider community of practice.  
+The calendar also serves as a showcase of the innovative professional development and community involvement in the Pittsburgh region, and a way for Network members to promote their events and activities to the wider community of practice.
 
 ## Best Practices
 

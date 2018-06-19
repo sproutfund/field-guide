@@ -6,7 +6,6 @@ description: A guide for administering the review process using a scorecard and 
 section: catalytic-funding
 group: making-decisions
 toc: true
-status: <span class="badge badge-warning">needs review</span>
 ---
 
 ## Overview
@@ -109,6 +108,6 @@ Committee members can send in their scores and comments via email attachment or 
 
 ### Cautionary Tales
 
-:warning: **Public Voting.** While public voting is a great way to engage the general public, it often turns into a popularity contest instead of a thoughtful review of the proposals. People with networks that have less access to technology or are not savvy with social media are also at a distinct disadvantage if votes are collected through an online platform. Also, you need to be conscious of the possibility that robots can be used to manipulate the results.  
+:warning: **Public Voting.** While public voting is a great way to engage the general public, it often turns into a popularity contest instead of a thoughtful review of the proposals. People with networks that have less access to technology or are not savvy with social media are also at a distinct disadvantage if votes are collected through an online platform. Also, you need to be conscious of the possibility that robots can be used to manipulate the results.
 
 :warning: **Donor advised funds.** When the reviewers for the program are also the individuals who had donated a certain level of funding to make the program possible, it is less likely that the committee will be as diverse or representative as a community-based committee.

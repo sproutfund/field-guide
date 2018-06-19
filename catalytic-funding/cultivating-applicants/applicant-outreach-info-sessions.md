@@ -6,7 +6,6 @@ description: A guide for sharing information about the funding program with grou
 section: catalytic-funding
 group: cultivating-applicants
 toc: true
-status: <span class="badge badge-warning">needs review</span>
 ---
 
 ## Overview
