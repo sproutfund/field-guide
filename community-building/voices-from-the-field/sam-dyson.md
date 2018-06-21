@@ -8,7 +8,7 @@ voices-learn-more:
   text: "Learn more about Sam and Hive Chicago"
   email: "sdyson@chicagolx.org"
   twitter: "samueledyson"
-  website: "https://hivechicago.org/"
+  website: "https://chicagolx.org"
 ---
 
 Sam Dyson believes powerful experiences are the core of transformational learning for youth. So when youth don’t have equitable access to those experiences, there’s a problem.
