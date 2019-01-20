@@ -8,7 +8,7 @@ redirect_from: /introduction/
 toc: false
 ---
 
-The Sprout Fund improved Pittsburgh by inspiring and nurturing people with innovative, grassroots ideas to positively impact their communities. From 2001 to 2018, Sprout worked with regional and national philanthropic partners to build strong networks and make more than $7 million of community-decided investments in 1,100+ early-stage projects, organizations, innovators, and activities.
+The Sprout Fund improved Pittsburgh by inspiring and nurturing people with innovative, grassroots ideas to positively impact their communities. From 2001 to 2018, Sprout worked with regional and national philanthropic partners to build strong networks and make nearly $8 million of community-decided investments in 1,500+ early-stage projects, organizations, innovators, and activities.
 
 Now, upon our sunset as an organization, we’re sharing the philosophy and ideals that drove our work for almost two decades so others can leverage our unique approach and processes.
 
