@@ -100,7 +100,7 @@ If there are more than 10 attendees, it is in the best interest of time to have 
 
 ### Follow-up
 
-In addition to making information at the event easily actionable, it is also helpful to send a [follow-up email](info-session-follow-up-message) directly after the meeting with any links that were mentioned during the information session and electronic versions of the program materials.
+In addition to making information at the event easily actionable, it is also helpful to send a [follow-up email](#template-download--info-session-follow-up-message) directly after the meeting with any links that were mentioned during the information session and electronic versions of the program materials.
 
 It is also important to add attendees to a prospect list to help keep track of who is interested in the opportunity along with any helpful notes from conversations you had with them during or after the outreach event.
 
