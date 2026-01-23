@@ -35,7 +35,7 @@ The recommended development approach uses VS Code with devcontainers, which prov
 The project includes a comprehensive Dockerfile:
 - **Base**: Ubuntu 24.04 LTS
 - **Ruby**: 3.3.4 (matches GitHub Pages exactly)
-- **Node.js/npm**: Included for potential future Lunr.js search functionality
+- **Node.js/npm**: Included for Pagefind search indexing
 - **Jekyll**: 3.10.0
 - **GitHub Pages gem**: 232
 
@@ -77,7 +77,7 @@ bundle exec jekyll build --config "_config.yml,_config_dev.yml"
 bundle exec jekyll build
 ```
 
-**Note:** Only `bundle install` is currently required. Node.js/npm support is available for future enhancements (e.g., Lunr.js search).
+**Note:** Both `bundle install` and Node.js/npm are required. Node.js is used to run Pagefind for search indexing.
 
 ## Architecture
 
@@ -241,7 +241,7 @@ bundle exec jekyll build --config "_config.yml,_config_export.yml"
 - **Navigation hierarchy**: Controlled by `_data/nav.yml` - changes here affect the entire site navigation
 - **Reading time**: Automatically calculated and displayed on documentation pages via custom plugin
 - **Development workflow**: Preferred approach is VS Code devcontainer + command-line `claude` on host machine for seamless file sharing and live reload
-- **Future enhancements**: Node.js/npm are installed in the Docker environment to support potential Lunr.js search implementation
+- **Search**: Site uses Pagefind for static search. The search index must be generated after building the site (see Search section below)
 
 ## URL Structure
 
@@ -250,3 +250,52 @@ The site uses Jekyll's default pretty permalinks:
 - Development: `http://localhost:4000/field-guide/section/group/page-name/`
 
 Redirects from legacy URLs are managed via `jekyll-redirect-from` plugin using `redirect_from:` frontmatter.
+
+## Search
+
+The site uses [Pagefind](https://pagefind.app/) for static search. Pagefind generates a search index from the built HTML files and provides a drop-in search UI.
+
+### Building the Search Index
+
+After building the Jekyll site, run Pagefind to generate the search index:
+
+```bash
+# Build site first
+bundle exec jekyll build --config "_config.yml,_config_dev.yml"
+
+# Generate search index
+npx pagefind --site _site
+```
+
+This creates a `_site/pagefind/` directory containing:
+- `pagefind-ui.js` - Search UI script
+- `pagefind-ui.css` - Search UI styles
+- Index files (fragments, metadata)
+
+### Development Workflow with Search
+
+For development with working search:
+
+```bash
+# Build site
+bundle exec jekyll build --config "_config.yml,_config_dev.yml"
+
+# Generate search index
+npx pagefind --site _site
+
+# Serve without rebuilding (search index preserved)
+bundle exec jekyll serve --config "_config.yml,_config_dev.yml" --skip-initial-build
+```
+
+**Note:** When using `--livereload` without `--skip-initial-build`, Jekyll will rebuild the site and clear the Pagefind index. For iterative development, either:
+1. Re-run `npx pagefind --site _site` after changes
+2. Use `--skip-initial-build` to preserve the index while serving
+
+### Production Build
+
+```bash
+bundle exec jekyll build
+npx pagefind --site _site
+```
+
+The generated `pagefind/` directory is deployed as part of the static site.

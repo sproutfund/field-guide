@@ -2,7 +2,7 @@
 # Dockerfile to build a GitHub Pages Jekyll site
 #   - Ubuntu 24.04
 #   - Ruby 3.3.4
-#   - Node.js & npm (for potential future Lunr.js search)
+#   - Node.js & npm (for Pagefind search indexing)
 #   - Jekyll 3.10.0
 #   - GitHub Pages 232
 #

@@ -230,38 +230,38 @@ div.card[id^=example-] {
 }
 
 .bd-search {
-  position: relative; // To contain the Algolia search
+  position: relative;
   padding: 1rem 15px;
   margin-right: -15px;
   margin-left: -15px;
   border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
 
-  .form-control:focus {
+// Pagefind UI overrides
+.pagefind-ui {
+  --pagefind-ui-primary: #{$primary};
+  --pagefind-ui-text: #333;
+  --pagefind-ui-background: #fff;
+  --pagefind-ui-border: #ced4da;
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: 4px;
+  --pagefind-ui-font: inherit;
+}
+
+.pagefind-ui .pagefind-ui__search-input {
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  height: auto;
+
+  &:focus {
     border-color: $primary;
     box-shadow: 0 0 0 3px rgba($primary, .25);
+    outline: none;
   }
 }
 
-// Docsearch overrides
-//
-// `!important` indicates overridden properties.
-.algolia-autocomplete {
-
-  .algolia-docsearch-suggestion--category-header {
-    color: $primary !important;
-  }
-
-  .algolia-docsearch-suggestion--highlight {
-    background-color: rgba($primary, .12);
-  }
-
-  .algolia-docsearch-suggestion--text .algolia-docsearch-suggestion--highlight {
-    box-shadow: inset 0 -2px 0 0 rgba($primary, .5) !important;
-  }
-
-  .ds-suggestion.ds-cursor .algolia-docsearch-suggestion--content {
-    background-color: rgba($primary, .15) !important;
-  }
+.pagefind-ui .pagefind-ui__search-clear {
+  right: 0.5rem;
 }
 
 #content.bd-content strong,
