@@ -1,0 +1,13 @@
+# Development configuration overrides
+# This file is used in addition to _config.yml during local development
+# Usage: bundle exec jekyll serve --config "_config.yml,_config_dev.yml"
+
+# Override the base URL for local development
+url: "http://localhost:4000"
+baseurl: "/field-guide"
+
+# Enable verbose output for debugging
+# verbose: true
+
+# Optionally enable incremental builds for faster development
+# incremental: true

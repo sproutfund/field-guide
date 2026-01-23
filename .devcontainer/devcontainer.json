@@ -1,0 +1,45 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/docker-existing-dockerfile
+{
+	"name": "Field Guide Jekyll Dev",
+	"build": {
+		// Sets the run context to one level up instead of the .devcontainer folder.
+		"context": "..",
+		// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
+		"dockerfile": "../Dockerfile"
+	},
+
+	// Forward Jekyll's default port to localhost
+	"forwardPorts": [4000, 35729],
+	"portsAttributes": {
+		"4000": {
+			"label": "Jekyll Server",
+			"onAutoForward": "notify"
+		},
+		"35729": {
+			"label": "LiveReload",
+			"onAutoForward": "silent"
+		}
+	},
+
+	// Install dependencies after container is created
+	"postCreateCommand": "bundle install",
+
+	// VS Code customizations
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"sissel.shopify-liquid",
+				"redhat.vscode-yaml",
+				"yzhang.markdown-all-in-one"
+			],
+			"settings": {
+				"terminal.integrated.defaultProfile.linux": "bash"
+			}
+		}
+	},
+
+	// Set the workspace folder inside the container
+	"workspaceFolder": "/srv/jekyll",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/srv/jekyll,type=bind,consistency=cached"
+}

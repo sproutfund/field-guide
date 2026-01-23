@@ -1,0 +1,68 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Serve Jekyll (Dev)",
+            "type": "shell",
+            "command": "bundle exec jekyll serve --config '_config.yml,_config_dev.yml' --host 0.0.0.0 --livereload",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "isBackground": true,
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "Serve Jekyll (Dev + Incremental)",
+            "type": "shell",
+            "command": "bundle exec jekyll serve --config '_config.yml,_config_dev.yml' --host 0.0.0.0 --livereload --incremental",
+            "group": "build",
+            "isBackground": true,
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "Build Jekyll (Dev)",
+            "type": "shell",
+            "command": "bundle exec jekyll build --config '_config.yml,_config_dev.yml'",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Build Jekyll (Production)",
+            "type": "shell",
+            "command": "bundle exec jekyll build",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Export Field Guide to Markdown (Ruby Script)",
+            "type": "shell",
+            "command": "ruby export_fieldguide.rb",
+            "group": "build",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Export Field Guide to Markdown (Jekyll)",
+            "type": "shell",
+            "command": "bundle exec jekyll build --config '_config.yml,_config_export.yml' && mkdir -p exports && cp _site/FIELDGUIDE_all.md _site/FIELDGUIDE_catalytic-funding.md _site/FIELDGUIDE_community-building.md exports/",
+            "group": "build",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        }
+    ]
+}
