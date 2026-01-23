@@ -1,0 +1,71 @@
+# Export configuration for generating FIELDGUIDE_*.md files
+# Usage: bundle exec jekyll build --config "_config.yml,_config_export.yml"
+# Exports all field guide pages to filtered markdown files for LLM ingestion
+
+# Dependencies
+markdown:       kramdown
+highlighter:    rouge
+
+kramdown:
+  auto_ids:           true
+  syntax_highlighter: rouge
+
+# Permalinks
+permalink:      pretty
+
+# Use clean URLs for the export
+url:            "https://fieldguide.sproutfund.org"
+baseurl:        ""
+encoding:       UTF-8
+
+exclude:
+  - .bundle/
+  - .git/
+  - .github/
+  - .devcontainer/
+  - .vscode/
+  - _vendor/
+  - docs/
+  - node_modules/
+  - CLAUDE.md
+  - CODE_OF_CONDUCT.md
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - package.js
+  - package.json
+  - package-lock.json
+  - exports/
+  - README.md
+  - LICENSE.md
+  - sache.json
+  - twbsconfig.yml
+  - "*.bak"
+  - "*.sh"
+  - storytelling/
+  - book/
+
+plugins:
+  - github-pages
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+
+# Github
+repository: sproutfund/field-guide
+
+# Social
+title:              "Field Guide for Philanthropy & Civic Action"
+description:        "Ideas and resources to seed innovation, make community-advised decisions, host participatory events, communicate effectively, and catalyze local change."
+
+# Custom variables
+repo:               "https://github.com/sproutfund/field-guide"
+
+relative_links:
+  enabled:     true
+  collections: false
+
+sass:
+  sass_dir: _sass
+  style: compressed

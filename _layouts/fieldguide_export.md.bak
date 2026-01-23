@@ -1,0 +1,289 @@
+---
+layout: null
+---
+{%- comment -%}
+This layout exports field guide content to a single Markdown file following the nav.yml hierarchy.
+It includes full page content, renders data file content for experiences/techniques,
+and attempts to inline special includes like thinking-questions and checklists.
+
+Parameters (set in page frontmatter):
+- filter_section: String to filter by section (e.g., "catalytic-funding", "community-building"), or null for all
+{%- endcomment -%}
+
+{%- comment -%}{{ content }}{%- endcomment -%}
+
+{%- comment -%} Helper: Convert page title to slug for matching {%- endcomment -%}
+{%- comment -%} This needs to match Jekyll's slugify behavior {%- endcomment -%}
+
+{%- comment -%} Load navigation structure {%- endcomment -%}
+{%- assign nav_sections = site.data.nav -%}
+
+{%- comment -%} Filter sections if requested {%- endcomment -%}
+{%- if page.filter_section -%}
+  {%- assign filtered_sections = "" | split: "" -%}
+  {%- for section in nav_sections -%}
+    {%- assign section_slug = section.title | slugify -%}
+    {%- if section_slug == page.filter_section -%}
+      {%- assign filtered_sections = filtered_sections | push: section -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign nav_sections = filtered_sections -%}
+{%- endif -%}
+
+{%- comment -%} Iterate through navigation hierarchy - using flat structure {%- endcomment -%}
+{%- comment -%} Pages will use # headings so their content (which uses ## and lower) creates a natural hierarchy {%- endcomment -%}
+{%- for section in nav_sections -%}
+
+{{ "" }}
+---
+{{ "" }}
+**{{ section.title | smartify | upcase }}**
+{{ "" }}
+
+{%- if section.pages -%}
+{%- for page_or_group in section.pages -%}
+
+{%- comment -%} Check if this is a group (has nested pages) or a page {%- endcomment -%}
+{%- if page_or_group.pages -%}
+{%- comment -%} This is a group - output note about the group but use flat page structure {%- endcomment -%}
+{{ "" }}
+_**{{ page_or_group.title | smartify }}**_
+{{ "" }}
+
+{%- for subpage in page_or_group.pages -%}
+{%- comment -%} Find the actual Jekyll page matching this title {%- endcomment -%}
+{%- assign page_slug = subpage.title | slugify -%}
+{%- assign matching_page = null -%}
+{%- for jekyll_page in site.pages -%}
+  {%- if jekyll_page.title == subpage.title and jekyll_page.layout != null -%}
+    {%- assign matching_page = jekyll_page -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if matching_page -%}
+
+# {{ matching_page.title | smartify }}
+
+{%- if matching_page.subtitle -%}
+
+**{{ matching_page.subtitle | smartify }}**
+{%- endif %}
+
+{%- comment -%} Render based on layout type {%- endcomment -%}
+{%- if matching_page.layout == "experiences" -%}
+{%- comment -%} Pull content from community-building-experiences.yml {%- endcomment -%}
+{%- assign experience_name = matching_page.experience -%}
+{%- for exp_data in site.data.community-building-experiences -%}
+  {%- if exp_data.experience == experience_name -%}
+
+**Goal:** {{ exp_data.goal | smartify }}
+
+**Icon:** {{ exp_data.icon }}
+
+**Adjectives:** {{ exp_data.adjectives | smartify }}
+
+**Tagline:** {{ exp_data.tagline | smartify }}
+
+**Typical Size:** {{ exp_data.size | smartify }}
+
+**Process:** {{ exp_data.process | smartify }}
+
+{%- if exp_data.protips -%}
+
+**Pro Tips:**
+{%- for tip in exp_data.protips %}
+- {{ tip | smartify }}
+{%- endfor -%}
+{%- endif -%}
+
+{%- if exp_data.example -%}
+
+**Example:** {{ exp_data.example | smartify }}
+{%- endif -%}
+
+{%- if exp_data.companions -%}
+
+**Related Experiences:** {{ exp_data.companions | join: ", " }}
+{%- endif -%}
+
+  {%- endif -%}
+{%- endfor -%}
+
+{%- elsif matching_page.layout == "techniques" -%}
+{%- comment -%} Pull content from community-building-techniques.yml {%- endcomment -%}
+{%- assign technique_name = matching_page.technique -%}
+{%- for tech_data in site.data.community-building-techniques -%}
+  {%- if tech_data.technique == technique_name -%}
+
+**Goal:** {{ tech_data.goal | smartify }}
+
+**Icon:** {{ tech_data.icon }}
+
+{%- if tech_data.adjectives -%}
+**Adjectives:** {{ tech_data.adjectives | smartify }}
+{%- endif -%}
+
+**Tagline:** {{ tech_data.tagline | smartify }}
+
+{%- if tech_data.description -%}
+
+{{ tech_data.description | smartify }}
+{%- endif -%}
+
+{%- if tech_data.process -%}
+
+**Process:** {{ tech_data.process | smartify }}
+{%- endif -%}
+
+{%- if tech_data.protips -%}
+
+**Pro Tips:**
+{%- for tip in tech_data.protips %}
+- {{ tip | smartify }}
+{%- endfor -%}
+{%- endif -%}
+
+{%- if tech_data.example -%}
+
+**Example:** {{ tech_data.example | smartify }}
+{%- endif -%}
+
+{%- if tech_data.companions -%}
+
+**Related Techniques:** {{ tech_data.companions | join: ", " }}
+{%- endif -%}
+
+  {%- endif -%}
+{%- endfor -%}
+
+{%- else -%}
+{%- comment -%} Regular docs, voices, or other layouts - render content as-is {%- endcomment -%}
+
+{{ matching_page.content | strip }}
+
+{%- endif -%}
+
+{{ "" }}
+{%- endif -%}
+{%- endfor -%}
+
+{%- else -%}
+{%- comment -%} This is a direct page under the section {%- endcomment -%}
+{%- assign page_slug = page_or_group.title | slugify -%}
+{%- assign matching_page = null -%}
+{%- for jekyll_page in site.pages -%}
+  {%- if jekyll_page.title == page_or_group.title and jekyll_page.layout != null -%}
+    {%- assign matching_page = jekyll_page -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if matching_page -%}
+
+# {{ matching_page.title | smartify }}
+
+{%- if matching_page.subtitle -%}
+**{{ matching_page.subtitle | smartify }}**
+{%- endif %}
+
+{%- comment -%} Render based on layout type (same logic as above) {%- endcomment -%}
+{%- if matching_page.layout == "experiences" -%}
+{%- assign experience_name = matching_page.experience -%}
+{%- for exp_data in site.data.community-building-experiences -%}
+  {%- if exp_data.experience == experience_name -%}
+
+**Goal:** {{ exp_data.goal | smartify }}
+
+**Icon:** {{ exp_data.icon }}
+
+**Adjectives:** {{ exp_data.adjectives | smartify }}
+
+**Tagline:** {{ exp_data.tagline | smartify }}
+
+**Typical Size:** {{ exp_data.size | smartify }}
+
+**Process:** {{ exp_data.process | smartify }}
+
+{%- if exp_data.protips -%}
+
+**Pro Tips:**
+{%- for tip in exp_data.protips %}
+- {{ tip | smartify }}
+{%- endfor -%}
+{%- endif -%}
+
+{%- if exp_data.example -%}
+
+**Example:** {{ exp_data.example | smartify }}
+{%- endif -%}
+
+{%- if exp_data.companions -%}
+
+**Related Experiences:** {{ exp_data.companions | join: ", " }}
+{%- endif -%}
+
+  {%- endif -%}
+{%- endfor -%}
+
+{%- elsif matching_page.layout == "techniques" -%}
+{%- assign technique_name = matching_page.technique -%}
+{%- for tech_data in site.data.community-building-techniques -%}
+  {%- if tech_data.technique == technique_name -%}
+
+**Goal:** {{ tech_data.goal | smartify }}
+
+**Icon:** {{ tech_data.icon }}
+
+{%- if tech_data.adjectives -%}
+**Adjectives:** {{ tech_data.adjectives | smartify }}
+{%- endif -%}
+
+**Tagline:** {{ tech_data.tagline | smartify }}
+
+{%- if tech_data.description -%}
+
+{{ tech_data.description | smartify }}
+{%- endif -%}
+
+{%- if tech_data.process -%}
+
+**Process:** {{ tech_data.process | smartify }}
+{%- endif -%}
+
+{%- if tech_data.protips -%}
+
+**Pro Tips:**
+{%- for tip in tech_data.protips %}
+- {{ tip | smartify }}
+{%- endfor -%}
+{%- endif -%}
+
+{%- if tech_data.example -%}
+
+**Example:** {{ tech_data.example | smartify }}
+{%- endif -%}
+
+{%- if tech_data.companions -%}
+
+**Related Techniques:** {{ tech_data.companions | join: ", " }}
+{%- endif -%}
+
+  {%- endif -%}
+{%- endfor -%}
+
+{%- else -%}
+{%- comment -%} Regular content - render as-is {%- endcomment -%}
+
+{{ matching_page.content | strip }}
+
+{%- endif -%}
+
+{{ "" }}
+{%- endif -%}
+{%- endif -%}
+
+{%- endfor -%}
+{%- endif -%}
+
+{%- endfor -%}
