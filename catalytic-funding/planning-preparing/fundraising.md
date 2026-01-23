@@ -44,9 +44,6 @@ Maintaining healthy relationships with your funder builds stronger ties to the w
 {% endcapture %}
 {% include docs/thinking-questions.html content=thinking-questions %}
 
-<!--### Getting Started
-asdf-->
-
 ## Step-by-Step Process
 
 ### One Pager
