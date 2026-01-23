@@ -1,3 +1,8 @@
+---
+description: 
+alwaysApply: true
+---
+
 # AGENTS.md / CLAUDE.md
 
 This file provides guidance to coding assistants and agents (such as Claude Code) when working with files in this repository.
@@ -19,7 +24,7 @@ The recommended development approach uses VS Code with devcontainers, which prov
 1. Open folder in VS Code
 2. Click "Reopen in Container" (or F1 → "Dev Containers: Reopen in Container")
 3. Press `Cmd+Shift+B` / `Ctrl+Shift+B` to start Jekyll server
-4. Access site at `http://localhost:4000/field-guide/`
+4. Access site at `http://localhost:4000/`
 
 **Configuration files:**
 - `.devcontainer/devcontainer.json`: Devcontainer configuration with auto port forwarding (4000, 35729)
@@ -110,7 +115,7 @@ The site uses a **hierarchical content structure** organized around two main pro
 ### Configuration
 
 - **_config.yml**: Production configuration (baseurl: empty string for root)
-- **_config_dev.yml**: Development overrides (baseurl: `/field-guide`)
+- **_config_dev.yml**: Development overrides (baseurl: empty, same as production)
 - **Gemfile**: Uses `github-pages` gem (pinned to version 232) for consistency with GitHub Pages deployment
 
 ### Layouts and Their Purpose
@@ -236,7 +241,7 @@ bundle exec jekyll build --config "_config.yml,_config_export.yml"
 
 ## Important Notes
 
-- **Baseurl difference**: Production uses empty baseurl (root `/`) while development uses `/field-guide`
+- **Baseurl**: Both production and development use empty baseurl (root `/`)
 - **Asset paths**: Always use `{{ site.baseurl }}/path` in templates for proper URL generation
 - **Navigation hierarchy**: Controlled by `_data/nav.yml` - changes here affect the entire site navigation
 - **Reading time**: Automatically calculated and displayed on documentation pages via custom plugin
@@ -247,7 +252,7 @@ bundle exec jekyll build --config "_config.yml,_config_export.yml"
 
 The site uses Jekyll's default pretty permalinks:
 - Production: `https://fieldguide.sproutfund.org/section/group/page-name/`
-- Development: `http://localhost:4000/field-guide/section/group/page-name/`
+- Development: `http://localhost:4000/section/group/page-name/`
 
 Redirects from legacy URLs are managed via `jekyll-redirect-from` plugin using `redirect_from:` frontmatter.
 

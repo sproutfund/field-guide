@@ -2,13 +2,49 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Serve Jekyll (Dev)",
+            "label": "Serve Jekyll with Search",
+            "dependsOn": ["Build Jekyll (Dev)", "Index Search (Pagefind)"],
+            "dependsOrder": "sequence",
+            "command": "bundle exec jekyll serve --config '_config.yml,_config_dev.yml' --host 0.0.0.0 --livereload --skip-initial-build",
             "type": "shell",
-            "command": "bundle exec jekyll serve --config '_config.yml,_config_dev.yml' --host 0.0.0.0 --livereload",
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
+            "isBackground": true,
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "Build Jekyll (Dev)",
+            "type": "shell",
+            "command": "bundle exec jekyll build --config '_config.yml,_config_dev.yml'",
+            "group": "build",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Index Search (Pagefind)",
+            "type": "shell",
+            "command": "npx pagefind --site _site",
+            "group": "build",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Serve Jekyll (Dev)",
+            "type": "shell",
+            "command": "bundle exec jekyll serve --config '_config.yml,_config_dev.yml' --host 0.0.0.0 --livereload",
+            "group": "build",
             "isBackground": true,
             "problemMatcher": [],
             "presentation": {
@@ -29,16 +65,16 @@
             }
         },
         {
-            "label": "Build Jekyll (Dev)",
+            "label": "Build Jekyll (Production)",
             "type": "shell",
-            "command": "bundle exec jekyll build --config '_config.yml,_config_dev.yml'",
+            "command": "bundle exec jekyll build",
             "group": "build",
             "problemMatcher": []
         },
         {
-            "label": "Build Jekyll (Production)",
+            "label": "Build Jekyll (Production) with Search",
             "type": "shell",
-            "command": "bundle exec jekyll build",
+            "command": "bundle exec jekyll build && npx pagefind --site _site",
             "group": "build",
             "problemMatcher": []
         },

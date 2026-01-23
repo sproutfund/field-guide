@@ -9,6 +9,10 @@ kramdown:
 # Permalinks
 permalink:      pretty
 
+# Keep Pagefind search index during rebuilds
+keep_files:
+  - pagefind
+
 # Server
 source:         "."
 url:            "https://fieldguide.sproutfund.org"

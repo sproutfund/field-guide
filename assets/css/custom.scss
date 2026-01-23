@@ -246,22 +246,150 @@ div.card[id^=example-] {
   --pagefind-ui-border-width: 1px;
   --pagefind-ui-border-radius: 4px;
   --pagefind-ui-font: inherit;
+  --pagefind-ui-scale: 0.9;
 }
 
+// Search form container
+.pagefind-ui .pagefind-ui__form {
+  position: relative;
+}
+
+// Search input field
 .pagefind-ui .pagefind-ui__search-input {
-  padding: .375rem .75rem;
-  font-size: 1rem;
-  height: auto;
+  padding: .5rem .75rem;
+  font-size: 0.9rem;
+  height: 2.5rem;
+  width: 100%;
+  line-height: 1.5;
+  background-image: none !important;  // Remove any background image icon
+  background-position: 0 0 !important;
 
   &:focus {
     border-color: $primary;
     box-shadow: 0 0 0 3px rgba($primary, .25);
     outline: none;
   }
+
+  &::placeholder {
+    color: #999;
+  }
 }
 
+// Hide the default Pagefind search icon completely - multiple approaches
+.pagefind-ui .pagefind-ui__search-btn {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  visibility: hidden !important;
+  position: absolute !important;
+  pointer-events: none !important;
+  opacity: 0 !important;
+  
+  // Hide any pseudo-elements too
+  &::before,
+  &::after {
+    display: none !important;
+    content: none !important;
+  }
+  
+  // Hide any SVG or image inside
+  svg, img {
+    display: none !important;
+    opacity: 0 !important;
+  }
+}
+
+// Remove any padding added for the search icon
+.pagefind-ui .pagefind-ui__search-input {
+  padding-left: 0.75rem !important;
+  padding-right: 2.5rem !important;  // Space for clear button only
+}
+
+// Target the form's before/after pseudo-elements that might contain the icon
+.pagefind-ui .pagefind-ui__form {
+  &::before,
+  &::after {
+    display: none !important;
+    content: none !important;
+  }
+}
+
+// Clear button - position inside input on the right
 .pagefind-ui .pagefind-ui__search-clear {
+  position: absolute;
   right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  padding: 0.25rem;
+  cursor: pointer;
+  color: #666;
+  font-size: 0;  // Hide text, show only via pseudo-element or icon
+  z-index: 10;  // Ensure it's above input
+
+  &::before {
+    content: "\00d7";  // × symbol
+    font-size: 1.25rem;
+  }
+}
+
+// Results dropdown
+.pagefind-ui .pagefind-ui__drawer {
+  position: absolute;
+  left: 0;
+  z-index: 1000;
+  background: #fff;
+  border: 1px solid #ced4da;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  max-height: 70vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  // Wider results on desktop
+  @include media-breakpoint-up(md) {
+    min-width: 450px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    min-width: 550px;
+  }
+}
+
+// Result items
+.pagefind-ui .pagefind-ui__result {
+  padding: 0.75rem;
+  border-bottom: 1px solid #eee;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.pagefind-ui .pagefind-ui__result-link {
+  color: $primary;
+  font-weight: 600;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.pagefind-ui .pagefind-ui__result-excerpt {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.25rem;
+}
+
+// Highlighted search terms
+.pagefind-ui mark {
+  background-color: rgba($primary, 0.2);
+  color: inherit;
+  padding: 0 2px;
 }
 
 #content.bd-content strong,
